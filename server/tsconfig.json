@@ -5,6 +5,7 @@
     "outDir": "./lib",
     "rootDir": "./src",
     // "rootDirs": ["./src", "./test"],
+    "rootDirs": ["./src", "./test"],
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",

@@ -1,0 +1,5 @@
+
+
+### GET USERS
+GET http://localhost:3030/results
+Content-Type: application/json

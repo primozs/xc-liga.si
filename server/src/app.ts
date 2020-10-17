@@ -3,6 +3,7 @@ import favicon from 'serve-favicon';
 import compress from 'compression';
 import helmet from 'helmet';
 import cors from 'cors';
+import { HookContext as FeathersHookContext } from '@feathersjs/feathers';
 
 import feathers from '@feathersjs/feathers';
 import configuration from '@feathersjs/configuration';
@@ -19,9 +20,17 @@ import authentication from './authentication';
 
 const app: Application = express(feathers());
 
+export type HookContext<T = any> = { app: Application } & FeathersHookContext<
+  T
+>;
+
 app.configure(configuration());
 
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: false
+  })
+);
 app.use(cors());
 app.use(compress());
 app.use(express.json());
