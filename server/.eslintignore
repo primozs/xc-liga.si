@@ -1,0 +1,14 @@
+node_modules/*
+**/node_modules/**
+**/generated/*.js
+**/AOTHER/*
+src/locales/_build/
+src/locales/**/*.js
+logs/
+jmeter/
+data/
+build/
+.cache/
+src/static/*
+hint-lighthouse
+hint-report

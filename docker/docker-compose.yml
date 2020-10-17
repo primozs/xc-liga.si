@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  web:
+    user: node
+    image: "xcliga:${IMAGE_TAG}"
+    restart: unless-stopped
+    ports:
+      - 3000:3030
+    volumes:
+      - ./config:/app/config:delegated
+      - ./data:/app/data:delegated
+      - ./logs:/app/logs:delegated
+    env_file:
+      - .env
