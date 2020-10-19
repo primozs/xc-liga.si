@@ -29,11 +29,11 @@ export const set1MinJob = <T>(fn: () => Promise<void>) => {
   return job;
 };
 
-export const set10minJob = (fn: () => Promise<void>) => {
+export const set5minAfterHJob = (fn: () => Promise<void>) => {
   let isRunning = false;
 
   const job = new CronJob({
-    cronTime: '0 */10 * * * *',
+    cronTime: '5 */1 * * *',
     onTick: function () {
       if (!isRunning) {
         isRunning = true;
@@ -48,7 +48,8 @@ export const set10minJob = (fn: () => Promise<void>) => {
           });
       }
     },
-    timeZone: 'UTC'
+    timeZone: 'UTC',
+    runOnInit: true
   });
 
   return job;

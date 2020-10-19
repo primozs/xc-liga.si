@@ -3,7 +3,9 @@ import { CronJob } from 'cron';
 import { Application } from '../../declarations';
 import logger from '../../logger';
 import { Moment } from 'moment';
-import { set1MinJob } from './jobs/jobs';
+import { set5minAfterHJob } from './jobs/jobs';
+import { getResultsApiJob, transformResults } from '../results/getResults';
+import testResults from '../results/results.json';
 
 type Status = {
   name: string;
@@ -28,10 +30,50 @@ process.once('SIGTERM', () => {
 
 const GET_RESULTS_JOB = 'GET_RESULTS_JOB';
 
+const getSeason = (date: Date) => {
+  const dateTime = date.getTime();
+  const year = new Date().getFullYear();
+  const seasonEnd = new Date(`${year}-09-30T23:59:59Z`).getTime();
+  if (dateTime < seasonEnd) {
+    return `${year - 1}-${year}`;
+  } else {
+    return `${year}-${year + 1}`;
+  }
+};
+
 const getResultsJob = (app: Application) => async (): Promise<void> => {
-  // const data = await scrapeArsoStations();
-  // await storeStationsData(app)(data || []);
-  console.log('JOB');
+  const apiConf = app.get('api');
+  const apiResultsUrl = apiConf.results || '';
+  const results = await getResultsApiJob(apiResultsUrl);
+  let season = getSeason(new Date());
+
+  const resultsDb = await app.service('results').find({
+    query: { season },
+    paginate: false
+  });
+
+  // 2019-2020
+  const results2019Db = await app.service('results').find({
+    query: { season: '2019-2020' },
+    paginate: false
+  });
+
+  if (results2019Db.length === 0) {
+    const results = transformResults(testResults);
+    await app
+      .service('results')
+      .create({ season: '2019-2020', results: results });
+  }
+
+  // new data
+  if (resultsDb.length !== 0 && resultsDb[0] && results.length > 0) {
+    const resultDb = resultsDb[0];
+    const id = resultDb._id;
+    await app.service('results').update(id, { _id: id, season, results });
+  }
+  if (resultsDb.length === 0) {
+    await app.service('results').create({ season, results });
+  }
 };
 
 const startJobs = (key?: string): Status[] => {
@@ -94,7 +136,7 @@ export default class Scheduler {
 
     try {
       jobFns[GET_RESULTS_JOB] = getResultsJob(app);
-      const arsoWSJob = set1MinJob(jobFns[GET_RESULTS_JOB]);
+      const arsoWSJob = set5minAfterHJob(jobFns[GET_RESULTS_JOB]);
       jobs[GET_RESULTS_JOB] = arsoWSJob;
 
       startJobs();

@@ -8,7 +8,7 @@ import hooks from './results.hooks';
 // Add this service to the service type index
 declare module '../../declarations' {
   interface ServiceTypes {
-    'results': Results & ServiceAddons<any>;
+    results: Results & ServiceAddons<DbResult>;
   }
 }
 
