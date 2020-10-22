@@ -1,72 +1,35 @@
-.cache
-.DS_Store
-.idea
-.etmp
-logs
-*.log
-pids
-*.pid
-*.seed
-npm-debug.log
-lib-cov
-coverage
-data
-node_modules
-dist
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
 /build
-.npm
-.eslintcache
-.env
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-yarn-debug.log*
-yarn-error.log*
-material
-*.tgz
-.yarn-integrity
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
-*~
-.fuse_hidden*
-.directory
-.Trash-*
-.nfs*
-.AppleDouble
-.LSOverride
-._*
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
-*.lnk
-lib/
-pkg
-tmp
-artifacts
-docs
-firebase-debug.log
-.firebaserc
-firestore.indexes.json
-firestore.rules
-firebase.json
-storage.rules
-**/secrets.json
-.firebase
+# vercel
+.vercel
+material

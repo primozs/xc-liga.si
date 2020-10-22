@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
-type LinkProps = PropsType<typeof Link>;
+type LinkProps = {
+  children: React.ReactNode;
+} & PropsType<typeof Link>;
 
-const AnchorLink = ({ ...rest }: LinkProps) => {
+const AnchorLink = ({ children, ...rest }: LinkProps) => {
   // const history = useHistory();
   // const handleClick = useCallback(
   //   (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -14,7 +16,11 @@ const AnchorLink = ({ ...rest }: LinkProps) => {
   // );
   // onClick={handleClick}
 
-  return <Link {...rest} />;
+  return (
+    <Link {...rest}>
+      <a>{children}</a>
+    </Link>
+  );
 };
 
 export default AnchorLink;

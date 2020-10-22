@@ -9,10 +9,8 @@ const Header = ({ title }: Props) => {
   return (
     <header>
       <h3>{title}</h3>
-      <AnchorLink to="/">Domov</AnchorLink>
-      <AnchorLink to="/miting">XC miting</AnchorLink>
-      <AnchorLink to="/tekmovanje">Tekmovanje</AnchorLink>
-      <AnchorLink to="/todos">Todos</AnchorLink>
+      <AnchorLink href="/">Domov</AnchorLink>
+      <AnchorLink href="/tekmovanje">Tekmovanje</AnchorLink>
     </header>
   );
 };
