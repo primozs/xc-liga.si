@@ -27,21 +27,45 @@ const transformFlight = (flight: ApiFlight): Flight => {
   }
 };
 
-export const transformResults = (results: ApiResult[]): Result[] => {
-  return results.map(result => {
-    return {
-      ...result,
-      flights: result.flights.map(transformFlight)
-    };
-  });
+type TransformedResults = {
+  results: Result[];
+  noPilots: number;
+  totalNoFlights: number;
 };
 
-export const getResultsApiJob = async (url: string): Promise<Result[]> => {
+export const transformResults = (results: ApiResult[]): TransformedResults => {
+  let totalNoFlights = 0;
+  let noPilots = results.length;
+  const nResults = results.map((result, index) => {
+    const rank = index + 1;
+    const nFlights = result.flights.map(transformFlight);
+    const noFlights = nFlights.length;
+    totalNoFlights += noFlights;
+
+    const totalDist = nFlights.reduce((acc, curr) => {
+      return acc + curr.dist;
+    }, 0);
+
+    return {
+      ...result,
+      rank,
+      noFlights,
+      totalDist,
+      flights: nFlights
+    };
+  });
+
+  return { results: nResults, totalNoFlights, noPilots };
+};
+
+export const getResultsApiJob = async (
+  url: string
+): Promise<TransformedResults | null> => {
   try {
     const { data } = await axios.get<ApiResult[]>(url);
     // const data = testResults;
     return transformResults(data);
   } catch {
-    return [];
+    return null;
   }
 };

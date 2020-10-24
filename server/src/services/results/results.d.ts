@@ -25,6 +25,9 @@ type Flight = {
 };
 
 type Result = {
+  rank: number;
+  totalDist: number;
+  noFlights: number;
   pilot: number;
   score: number;
   name: string;
@@ -35,4 +38,7 @@ type DbResult = {
   _id: string;
   season: string;
   results: Result[];
+  totalNoFlights: number;
+  noPilots: number;
+  lastUpdate: number;
 };

@@ -5,7 +5,7 @@ import logger from '../../logger';
 import { Moment } from 'moment';
 import { set5minAfterHJob } from './jobs/jobs';
 import { getResultsApiJob, transformResults } from '../results/getResults';
-import testResults from '../results/results.json';
+import results2020 from '../results/lzs2019-2020.json';
 
 type Status = {
   name: string;
@@ -44,7 +44,29 @@ const getSeason = (date: Date) => {
 const getResultsJob = (app: Application) => async (): Promise<void> => {
   const apiConf = app.get('api');
   const apiResultsUrl = apiConf.results || '';
-  const results = await getResultsApiJob(apiResultsUrl);
+
+  // 2019-2020
+  const results2020Db = await app.service('results').find({
+    query: { season: '2019-2020' },
+    paginate: false
+  });
+
+  if (results2020Db.length === 0) {
+    const resultsData = transformResults(results2020);
+    const { results, noPilots, totalNoFlights } = resultsData;
+    if (resultsData) {
+      const lastUpdate = new Date('2020-09-30T23:59:59Z').getTime();
+      await app.service('results').create({
+        season: '2019-2020',
+        results: results,
+        noPilots,
+        totalNoFlights,
+        lastUpdate
+      });
+    }
+  }
+
+  const resultsData = await getResultsApiJob(apiResultsUrl);
   let season = getSeason(new Date());
 
   const resultsDb = await app.service('results').find({
@@ -52,27 +74,28 @@ const getResultsJob = (app: Application) => async (): Promise<void> => {
     paginate: false
   });
 
-  // 2019-2020
-  const results2019Db = await app.service('results').find({
-    query: { season: '2019-2020' },
-    paginate: false
-  });
-
-  if (results2019Db.length === 0) {
-    const results = transformResults(testResults);
-    await app
-      .service('results')
-      .create({ season: '2019-2020', results: results });
-  }
+  const lastUpdate = new Date().getTime();
 
   // new data
-  if (resultsDb.length !== 0 && resultsDb[0] && results.length > 0) {
+  if (resultsDb.length !== 0 && resultsDb[0] && resultsData) {
+    const { results, noPilots, totalNoFlights } = resultsData;
     const resultDb = resultsDb[0];
     const id = resultDb._id;
-    await app.service('results').update(id, { _id: id, season, results });
+    await app.service('results').update(id, {
+      _id: id,
+      season,
+      results,
+      noPilots,
+      totalNoFlights,
+      lastUpdate
+    });
   }
-  if (resultsDb.length === 0) {
-    await app.service('results').create({ season, results });
+
+  if (resultsDb.length === 0 && resultsData) {
+    const { results, noPilots, totalNoFlights } = resultsData;
+    await app
+      .service('results')
+      .create({ season, results, noPilots, totalNoFlights, lastUpdate });
   }
 };
 

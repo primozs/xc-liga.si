@@ -6,7 +6,7 @@ import pilots from './pilots/pilots.service';
 
 export default function (app: Application): void {
   app.configure(users);
-  app.configure(scheduler);
   app.configure(results);
   app.configure(pilots);
+  app.configure(scheduler);
 }
