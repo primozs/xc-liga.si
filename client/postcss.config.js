@@ -3,6 +3,12 @@ module.exports = {
     'tailwindcss',
     'postcss-flexbugs-fixes',
     [
+      'cssnano',
+      {
+        preset: 'default',
+      },
+    ],
+    [
       'postcss-preset-env',
       {
         autoprefixer: {
@@ -15,4 +21,4 @@ module.exports = {
       },
     ],
   ],
-}
+};

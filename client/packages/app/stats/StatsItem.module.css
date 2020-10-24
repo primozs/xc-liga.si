@@ -1,0 +1,9 @@
+.headerBox {
+  min-height: 53px;
+}
+
+.headerLabel {
+  position: absolute;
+  left: -1px;
+  bottom: -17px;
+}

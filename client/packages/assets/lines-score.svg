@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219.18 508.95">
+  <defs>
+    <style>
+      .cls-1{fill:url(#linear-gradient)}.cls-2{fill:url(#linear-gradient-2)}.cls-3{fill:url(#linear-gradient-3)}
+    </style>
+    <linearGradient id="linear-gradient" x1="139.03" y1="769.16" x2="139.03" y2="768.23" gradientTransform="matrix(41.5 0 0 -376.27 -5668.27 289437.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a7a6a6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="139.03" y1="769.13" x2="139.03" y2="768.2" gradientTransform="matrix(41.51 0 0 -437.72 -5729.87 336698.01)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ad8a56" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ad8a56"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="139.24" y1="769.19" x2="139.24" y2="768.26" gradientTransform="matrix(42.44 0 0 -315.76 -5746.09 242906.95)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#af9610" stop-opacity="0"/>
+      <stop offset="1" stop-color="#af9610"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_83" data-name="Path 83" class="cls-1" d="M 122.9 29 v 334.8 l -41.5 41.5 V 29 z"/>
+  <path id="Path_84" data-name="Path 84" class="cls-2" d="M 61.5 29 v 396.2 L 20 466.8 V 29 z"/>
+  <path id="Path_85" data-name="Path 85" class="cls-3" d="M 184.3 29 v 273.4 l -42.4 42.4 V 29 z"/>
+</svg>

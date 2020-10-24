@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 219.18 508.95">
+  <defs>
+    <style>
+      .cls-1{fill:url(#linear-gradient)}.cls-2{fill:url(#linear-gradient-2)}.cls-3{fill:url(#linear-gradient-3)}
+    </style>
+    <linearGradient id="linear-gradient" x1="-116.34" y1="769.16" x2="-116.34" y2="768.23" gradientTransform="matrix(41.5 0 0 -376.27 4930.67 289437.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a7a6a6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-116.34" y1="769.13" x2="-116.34" y2="768.2" gradientTransform="matrix(41.51 0 0 -437.72 4869.34 336698.01)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-116.27" y1="769.19" x2="-116.27" y2="768.26" gradientTransform="matrix(42.44 0 0 -315.76 5097.51 242906.95)" xlink:href="#linear-gradient"/>
+  </defs>
+  <path id="Path_83" data-name="Path 83" class="cls-1" d="M122.92 29v334.77l-41.51 41.52V29z"/>
+  <path id="Path_84" data-name="Path 84" class="cls-2" d="M61.47 29v396.24L20 466.75V29z"/>
+  <path id="Path_85" data-name="Path 85" class="cls-3" d="M184.35 29v273.36l-42.44 42.42V29z"/>
+</svg>

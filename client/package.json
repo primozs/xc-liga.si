@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint '{src,test}/**'",
-    "format": "prettier --write '**/*.{ts,md,yml}' '!pkg/**'"
+    "format": "prettier --write '**/*.{ts,md,yml}' '!pkg/**'",
+    "generate-css-types": "tailwindcss-classnames --config tailwind.config.js --output packages/common/tailwindcss-classnames.ts"
   },
   "dependencies": {
     "axios": "^0.20.0",
@@ -17,14 +18,18 @@
     "next": "9.5.5",
     "react": "16.14.0",
     "react-dom": "16.14.0",
+    "react-transition-group": "^4.4.1",
     "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "remark-html": "^13.0.1",
+    "tailwindcss-classnames": "^1.9.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@svgr/webpack": "^5.4.0",
+    "@tailwindcss/typography": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.8",
+    "@testing-library/user-event": "^12.1.10",
     "@types/classnames": "^2.2.10",
     "@types/node": "^14.14.0",
     "@types/react": "^16.9.53",
@@ -34,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "babel-eslint": "^10.1.0",
+    "cssnano": "^4.1.10",
     "eslint": "^7.11.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "^5.2.0",
@@ -41,6 +47,7 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-react-hooks": "^4.1.2",
+    "next-images": "^1.6.0",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "react-hot-loader": "^4.13.0",

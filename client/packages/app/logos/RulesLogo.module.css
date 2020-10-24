@@ -1,0 +1,12 @@
+.title {
+  position: absolute;
+
+  color: #004a69 !important;
+}
+
+@media (min-width: 640px) {
+  .title {
+    left: -60px;
+    font-size: 120px !important;
+  }
+}

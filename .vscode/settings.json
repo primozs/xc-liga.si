@@ -1,8 +1,4 @@
 {
-  "cSpell.words": [
-    "liga",
-    "nocache",
-    "socketio",
-    "xcliga"
-  ]
+  "cSpell.words": ["liga", "nocache", "socketio", "xcliga"],
+  "css.customData": [".vscode/css_custom_data.json"]
 }
