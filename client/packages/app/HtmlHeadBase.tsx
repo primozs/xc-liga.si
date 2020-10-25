@@ -53,7 +53,7 @@ const HeadBase = (props: Props) => {
         rel="stylesheet"
       />
       <title>{title}</title>
-      <meta name="description" content={description} />
+      <meta name="description" content={description} key="description" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
   );

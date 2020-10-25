@@ -1255,6 +1255,11 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.1.0.tgz#6c9eafc78c1529248f8f4d92b0799a712b6052c6"
   integrity sha512-i9YbZPN3QgfighY/1X1Pu118VUz2Fmmhd6b2n0/O8YVgGGfw0FbUYoA97k7FkpGJ+pLCFEDLUmAPPV4D1kpeFw==
 
+"@headlessui/react@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-0.2.0.tgz#a31f90892d736243ba91c1474f534b3256d0c538"
+  integrity sha512-YV+vF+QhTRcspydPdHF3ZXe+FkOiJpRdqMjjFIIX9bSdT2O2T7GurgKQdGgamNUM+B99MZBOTRqxS8Dlh485eg==
+
 "@jest/types@^26.6.0":
   version "26.6.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-26.6.0.tgz#2c045f231bfd79d52514cda3fbc93ef46157fa6a"
@@ -3465,11 +3470,6 @@ dot-prop@^5.2.0:
   integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
   dependencies:
     is-obj "^2.0.0"
-
-dotenv@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
-  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
@@ -6999,6 +6999,13 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-query@^2.25.2:
+  version "2.25.2"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-2.25.2.tgz#afefdf57a166bcbf08c93a26522a8c6cb1bdf849"
+  integrity sha512-GIz75WlRAzJ+wKos9VPw6PMAB3FqGmB2lHtRZlvKKByurlMNHa5rOFPz4WCYGWsPBSk7m6FHWrkK9aItDrP2mw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+
 react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
@@ -7077,6 +7084,11 @@ readdirp@~3.5.0:
   integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
+
+recoil@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/recoil/-/recoil-0.0.13.tgz#23e6d63135c07d8defbd91aaa35dca94ec5c15a6"
+  integrity sha512-2OToaQ8GR//KsdKdaEhMi04QKStLGRpk3qjC58iBpZpUtsByZ4dUy2UJtRcYuhnVlltGZ8HNwcEQRdFOS864SQ==
 
 redent@^3.0.0:
   version "3.0.0"

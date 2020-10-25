@@ -31,10 +31,12 @@ type TransformedResults = {
   results: Result[];
   noPilots: number;
   totalNoFlights: number;
+  totalSeasonDist: number;
 };
 
 export const transformResults = (results: ApiResult[]): TransformedResults => {
   let totalNoFlights = 0;
+  let totalSeasonDist = 0;
   let noPilots = results.length;
   const nResults = results.map((result, index) => {
     const rank = index + 1;
@@ -45,6 +47,7 @@ export const transformResults = (results: ApiResult[]): TransformedResults => {
     const totalDist = nFlights.reduce((acc, curr) => {
       return acc + curr.dist;
     }, 0);
+    totalSeasonDist += totalDist;
 
     return {
       ...result,
@@ -55,7 +58,7 @@ export const transformResults = (results: ApiResult[]): TransformedResults => {
     };
   });
 
-  return { results: nResults, totalNoFlights, noPilots };
+  return { results: nResults, totalNoFlights, noPilots, totalSeasonDist };
 };
 
 export const getResultsApiJob = async (

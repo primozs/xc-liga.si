@@ -53,7 +53,7 @@ const getResultsJob = (app: Application) => async (): Promise<void> => {
 
   if (results2020Db.length === 0) {
     const resultsData = transformResults(results2020);
-    const { results, noPilots, totalNoFlights } = resultsData;
+    const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
     if (resultsData) {
       const lastUpdate = new Date('2020-09-30T23:59:59Z').getTime();
       await app.service('results').create({
@@ -61,6 +61,7 @@ const getResultsJob = (app: Application) => async (): Promise<void> => {
         results: results,
         noPilots,
         totalNoFlights,
+        totalSeasonDist,
         lastUpdate
       });
     }
@@ -78,7 +79,7 @@ const getResultsJob = (app: Application) => async (): Promise<void> => {
 
   // new data
   if (resultsDb.length !== 0 && resultsDb[0] && resultsData) {
-    const { results, noPilots, totalNoFlights } = resultsData;
+    const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
     const resultDb = resultsDb[0];
     const id = resultDb._id;
     await app.service('results').update(id, {
@@ -87,15 +88,21 @@ const getResultsJob = (app: Application) => async (): Promise<void> => {
       results,
       noPilots,
       totalNoFlights,
+      totalSeasonDist,
       lastUpdate
     });
   }
 
   if (resultsDb.length === 0 && resultsData) {
-    const { results, noPilots, totalNoFlights } = resultsData;
-    await app
-      .service('results')
-      .create({ season, results, noPilots, totalNoFlights, lastUpdate });
+    const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
+    await app.service('results').create({
+      season,
+      results,
+      noPilots,
+      totalNoFlights,
+      totalSeasonDist,
+      lastUpdate
+    });
   }
 };
 

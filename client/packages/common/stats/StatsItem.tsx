@@ -21,6 +21,7 @@ const StatsItem = ({
   const boxNormal = tcx(
     'justify-between',
     'px-6',
+    'sm:px-3',
     'py-4',
     'bg-gray-50',
     'mb-2',
@@ -33,6 +34,7 @@ const StatsItem = ({
     'justify-end',
     'relative',
     'px-6',
+    'sm:px-3',
     'py-3',
     'bg-primary1',
     'font-normal',

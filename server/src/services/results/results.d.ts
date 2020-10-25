@@ -39,6 +39,7 @@ type DbResult = {
   season: string;
   results: Result[];
   totalNoFlights: number;
+  totalSeasonDist: number;
   noPilots: number;
   lastUpdate: number;
 };
