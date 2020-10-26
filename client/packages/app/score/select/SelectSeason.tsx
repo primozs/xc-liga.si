@@ -1,20 +1,30 @@
 import React, { useCallback } from 'react';
 import { Listbox, Transition } from '@headlessui/react';
 import { useRouter } from 'next/router';
+import dynamic from 'next/dynamic';
 import { useRecoilState } from 'recoil';
 import Box from 'common/Box';
 import tcx from 'common/tailwindcss-classnames';
 import cx from 'classnames';
 import styles from './SelectSeason.module.css';
 import { selectedSeason } from 'app/score/state/scoreState';
-import { useApiGetSeasons } from 'app/score/state/service';
 import { getSeasonYear } from 'app/score/state/utils';
+
+const SelectOptions = dynamic(() => import('./SelectOptions'), {
+  ssr: false,
+  loading: () => (
+    <Listbox.Options
+      static
+      className="max-h-60 py-1 text-base font-bold leading-6 shadow-xs overflow-auto focus:outline-none text-white"
+    >
+      Loading
+    </Listbox.Options>
+  ),
+});
 
 function SelectSeason() {
   const router = useRouter();
   let [selected, setSelected] = useRecoilState(selectedSeason);
-  let { data: seasons } = useApiGetSeasons();
-  let options = seasons || [];
 
   const handleSelect = useCallback(
     (val: string) => {
@@ -85,35 +95,7 @@ function SelectSeason() {
                 leaveTo="opacity-0"
                 className="absolute mt-1 w-full bg-primary border-primary1 border shadow-lg z-10"
               >
-                <Listbox.Options
-                  static
-                  className="max-h-60 py-1 text-base font-bold leading-6 shadow-xs overflow-auto focus:outline-none"
-                >
-                  {options.map((option) => (
-                    <Listbox.Option
-                      key={option.season}
-                      value={option.season}
-                      className="focus:outline-none"
-                    >
-                      {({ selected, active }) => (
-                        <div
-                          className={`${
-                            active ? 'text-white bg-primary1' : 'text-primary2'
-                          } text-2xl cursor-default select-none relative, text-center
-                          py-2 px-4 focus:outline-none border-b border-primary1`}
-                        >
-                          <span
-                            className={`${
-                              selected ? 'text-white' : ''
-                            } block truncate`}
-                          >
-                            {getSeasonYear(option.season)}
-                          </span>
-                        </div>
-                      )}
-                    </Listbox.Option>
-                  ))}
-                </Listbox.Options>
+                {open && <SelectOptions />}
               </Transition>
             </div>
           </>
