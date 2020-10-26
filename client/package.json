@@ -16,6 +16,7 @@
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "next": "9.5.5",
+    "next-google-fonts": "^1.2.1",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-query": "^2.25.2",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@moxy/next-pre-compression": "^3.0.1",
     "@svgr/webpack": "^5.4.0",
     "@tailwindcss/typography": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.4",

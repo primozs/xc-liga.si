@@ -26,7 +26,7 @@ function AppHeader() {
     <header className={classes}>
       <nav className="flex-1 flex max-w-6-5xl justify-between items-center">
         <Box className="p-2">
-          <Anchor href="/">
+          <Anchor href="/" anchorProps={{ title: 'XC - Liga' }}>
             <XCDpNoTextLogo className={styles.logo} />
           </Anchor>
         </Box>

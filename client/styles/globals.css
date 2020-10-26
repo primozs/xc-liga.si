@@ -2,18 +2,18 @@
 
 /* Write your own custom base styles here */
 
-/* Start purging... */
+/*! Start purging... */
 @tailwind components;
-/* Stop purging. */
+/*! Stop purging. */
 
 /* Write your own custom component styles here */
 /* .btn-blue {
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
 } */
 
-/* Start purging... */
+/*! Start purging... */
 @tailwind utilities;
-/* Stop purging. */
+/*! Stop purging. */
 
 /* Your own custom utilities */
 

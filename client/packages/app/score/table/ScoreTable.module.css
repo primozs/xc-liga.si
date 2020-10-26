@@ -2,4 +2,7 @@
   display: block;
   overflow-x: auto;
   white-space: nowrap;
+
+  /* content-visibility: auto;
+  contain-intrinsic-size: 1px 1000px; */
 }

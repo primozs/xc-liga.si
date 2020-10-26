@@ -18,7 +18,7 @@ function AppFooter() {
           </Box>
         </Box>
       </div>
-      <div className="flex justify-center items-center py-2 bg-gray-100 px-4 sm:px-6 text-xs text-cool-gray-400">
+      <div className="flex justify-center items-center py-2 bg-gray-100 px-4 sm:px-6 text-xs text-gray-600">
         Design Veronika Štampfl © 2020
       </div>
     </>

@@ -2,7 +2,7 @@ import React from 'react';
 import Box from 'common/Box';
 import Anchor from 'common/Anchor';
 
-export default () => {
+const NotFound = () => {
   return (
     <div className="container mx-auto py-8 px-0 sm:px-4">
       <Box
@@ -20,3 +20,5 @@ export default () => {
     </div>
   );
 };
+
+export default NotFound;

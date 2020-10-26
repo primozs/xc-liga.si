@@ -10,6 +10,10 @@ type AnchorProps = {
   type?: 'normal' | 'primary' | 'outline' | 'secondary' | 'header';
   onClick?: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
   href?: LinkProps['href'];
+  anchorProps?: React.DetailedHTMLProps<
+    React.AnchorHTMLAttributes<HTMLAnchorElement>,
+    HTMLAnchorElement
+  >;
 } & Omit<LinkProps, 'href'>;
 
 const Anchor = ({
@@ -18,6 +22,7 @@ const Anchor = ({
   type = 'normal',
   onClick,
   href,
+  anchorProps,
   ...rest
 }: AnchorProps) => {
   const primary = cx(
@@ -71,7 +76,11 @@ const Anchor = ({
   if (!href) {
     return (
       // eslint-disable-next-line jsx-a11y/anchor-is-valid
-      <a onClick={onClick} className={`${classes} ${className}`}>
+      <a
+        onClick={onClick}
+        className={`${classes} ${className}`}
+        {...anchorProps}
+      >
         {children}
       </a>
     );
@@ -80,7 +89,9 @@ const Anchor = ({
   return (
     <Link href={href} {...rest}>
       {/*  eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-      <a className={`${classes} ${className}`}>{children}</a>
+      <a className={`${classes} ${className}`} {...rest} {...anchorProps}>
+        {children}
+      </a>
     </Link>
   );
 };
