@@ -63,11 +63,7 @@ const StatsItem = ({
   return (
     <Box direction="row" align="center" className={classessBox} {...rest}>
       <span className={classessLabel}>{label}</span>
-      <span
-      // className="bg-primary1"
-      >
-        {value}
-      </span>
+      <span className="text-right">{value}</span>
     </Box>
   );
 };
