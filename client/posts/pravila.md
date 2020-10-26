@@ -1,19 +1,47 @@
 ---
-title: "When to Use Static Generation v.s. Server-side Rendering"
-date: "2020-01-02"
+title: 'TEKMOVALNI PRAVILNIK ZA DRŽAVNO PRVENSTVO V PROSTIH PRELETIH'
+date: '2020-10-26'
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+# TEKMOVALNI PRAVILNIK ZA DRŽAVNO PRVENSTVO V PROSTIH PRELETIH
 
-You can use Static Generation for many types of pages, including:
+## Uvod
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
+Državno prvenstvo v jadralnem padalstvu v prostih preletih je
+tekmovanje, ki se odvija na področju Evropske unije. Štejejo najboljši
+trije leti. Državno prvenstvo je pod okriljem Komisije za jadralno
+padalstvo in zmajarstvo pri LZS.
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
+Tekmovalci lahko v sezoni tekmujejo samo za eno društvo. V kolikor
+tekmovalec med sezono zamenja društvo, se rezultati pred menjavo
+brišejo.
 
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
+## Pogoji za udeležbo
 
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+- Pilot mora biti član društva, ki je član LZS,
+- Pilot mora objaviti let na spletni strežnik, ki je za to tekmovanje določen s strani komisije za jadralno padalstvo in zmajarstvo pri LZS in se mora strinjati in upoštevati vse varnostne ukrepe, ki jih zadaja uredba za prosto letenje z jadralnimi padali,
+- Društvo oziroma pilot mora posredovati vse podatke, ki so potrebni za obdelavo osebnih podatkov za namene tega tekmovanja.
+
+## Obveznosti tekmovalcev
+
+- obvezna uporaba standardizirane čelade po EN 966, sedeža po EN 1651, jadralnega padala po EN 926/2 ter reševalnega padala,
+- tekmovalci mlajši od 18 in starejši od 16 let potrebujejo pisno privolitev vsaj enega starša ali zakonitega zastopnika,
+- dovoljenje pilota jadralnega padala.
+
+## Izvedba tekmovanja
+
+Tekmovanje se začne 1. 10. in traja do 30. 9. naslednjega leta. Državno
+prvenstvo v prostih preletih poteka na spletu, kjer se beležijo leti
+tekmovalcev in trenutni rezultati. Udeleženec tekmovanja je vsak član
+LZSja, ki naloži vsaj en let znotraj Evropske unije na spletni strežnik,
+ki je določen s strani LZSja. Štejejo trije najbolje točkovani leti na
+območju Evropske unije.
+
+Let tekmovalec naloži na spletno stran [xcglobe.com](http://xcglobe.com/)
+
+## Točkovanje
+
+Leti preko treh točk se vrednotijo s faktorjem 1.0, leti v trikotniku s
+1.2 in leti v FAI trikotniku s 1.4. Štejejo samo leti s veljavno
+G-record oznako. Leti, pri nalaganju na strežnik, ne smejo biti starejši
+od desetih dni.
