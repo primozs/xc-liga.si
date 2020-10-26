@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import { Td } from 'common/table';
 import tcx from 'common/tailwindcss-classnames';
 import cx from 'classnames';
