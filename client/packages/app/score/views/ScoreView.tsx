@@ -1,7 +1,6 @@
 import React from 'react';
 import { useRecoilValue } from 'recoil';
 import ScoreTable from 'app/score/table/ScoreTable';
-import Box from 'common/Box';
 import {
   useApiGetResultsData,
   formatSeasonData,
@@ -29,10 +28,10 @@ const ScoreView = ({ season }: Props) => {
   }
 
   return (
-    <Box className="flex-grow">
+    <>
       {status === 'loading' && <Spinner />}
       <ScoreTable data={filteredResults} />
-    </Box>
+    </>
   );
 };
 
