@@ -28,8 +28,10 @@ function SelectSeason() {
 
   const handleSelect = useCallback(
     (val: string) => {
-      router.push(`/season/${val}`);
-      setSelected(val);
+      if (val) {
+        router.push(`/season/${val}`);
+        setSelected(val);
+      }
     },
     [setSelected, router]
   );

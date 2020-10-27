@@ -1,6 +1,7 @@
 import { usePaginatedQuery, useQuery } from 'react-query';
 import { useRecoilState } from 'recoil';
 import format from 'date-fns/format';
+import getConfig from 'next/config';
 import axios from 'axios';
 import {
   getSeasonYear,
@@ -9,11 +10,19 @@ import {
 } from 'app/score/state/utils';
 import { selectedSeason } from './scoreState';
 
+const { publicRuntimeConfig, serverRuntimeConfig } = getConfig();
+
+const getApiHost = () => {
+  const host =
+    serverRuntimeConfig.PRIVATE_API_HOST || publicRuntimeConfig.PUBLIC_API_HOST;
+  return host;
+};
+
 export const apiGetSeasonData = async (
   season: string
 ): Promise<SeasonData | null> => {
   try {
-    const host = process.env.NEXT_PUBLIC_API_HOST;
+    const host = getApiHost();
     const url = `${host}/results?season=${season}`;
 
     const res = await axios.get<SeasonData[]>(url);
@@ -25,7 +34,7 @@ export const apiGetSeasonData = async (
 
 const getAvailableSeasonsData = async (): Promise<SeasonInfo[]> => {
   try {
-    const host = process.env.NEXT_PUBLIC_API_HOST;
+    const host = getApiHost();
     const url = `${host}/results?$select[]=season&$select[]=_id&$select[]=lastUpdate`;
 
     const res = await axios.get<SeasonData[]>(url);
@@ -67,9 +76,9 @@ export const formatSeasonData = (data?: SeasonData | null): FSeasonData => {
   const updated = data?.lastUpdate
     ? format(data.lastUpdate, 'dd.MM.yyyy HH:mm')
     : '';
-  const first = results[0] ? results[0].name : '1. mesto';
-  const second = results[1] ? results[1].name : '2. mesto';
-  const third = results[2] ? results[2].name : '3. mesto';
+  const first = results[0] ? results[0].name : 'mesto';
+  const second = results[1] ? results[1].name : 'mesto';
+  const third = results[2] ? results[2].name : 'mesto';
   return {
     season,
     year,

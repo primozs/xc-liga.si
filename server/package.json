@@ -1,5 +1,5 @@
 {
-  "name": "scrappers",
+  "name": "xcliga-server",
   "description": "",
   "version": "0.0.0",
   "homepage": "",
@@ -32,8 +32,7 @@
     "start": "yarn run compile && node lib/",
     "jest": "jest  --forceExit",
     "compile": "shx rm -rf lib/ && tsc",
-    "docker:build": "docker build --target release --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') -t xcliga:1.0 .",
-    "docker:build:nocache": "docker build --no-cache --target release --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') -t xcliga:1.0 .",
+    "docker:build": "docker build --no-cache --target release -t naviter/xcliga-api:0.0.1 .",
     "docker:prod:setup": "rsync -rtvuc --delete config/ ../docker/config/"
   },
   "standard": {

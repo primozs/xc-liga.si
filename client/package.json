@@ -4,19 +4,26 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -rf public/sw.js && next build",
     "start": "next start",
     "lint": "eslint '{src,test}/**'",
     "format": "prettier --write '**/*.{ts,md,yml}' '!pkg/**'",
-    "generate-css-types": "tailwindcss-classnames --config tailwind.config.js --output packages/common/tailwindcss-classnames.ts"
+    "docker:build": "docker build --no-cache --target release -t naviter/xcliga-client:0.0.1 .",
+    "generate-css-types": "tailwindcss-classnames --config tailwind.config.js --output packages/common/tailwindcss-classnames.ts",
+    "test:build1": "mkdir build && yarn install && yarn build && rm -rf node_modules && yarn install --production",
+    "test:build2": "rm -rf build && mkdir build && cp -r .next build/.next && cp -r node_modules build/node_modules && cp -r public build/public && cp .env build/.env",
+    "test:build": "yarn test:build2 && cd build && node_modules/next/dist/bin/next start"
   },
   "dependencies": {
     "@headlessui/react": "^0.2.0",
+    "@moxy/next-pre-compression": "^3.0.1",
     "axios": "^0.21.0",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "next": "9.5.5",
     "next-google-fonts": "^1.2.1",
+    "next-images": "^1.6.0",
+    "next-pwa": "^3.1.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-query": "^2.25.2",
@@ -27,7 +34,6 @@
     "tailwindcss-classnames": "^1.9.0"
   },
   "devDependencies": {
-    "@moxy/next-pre-compression": "^3.0.1",
     "@svgr/webpack": "^5.4.0",
     "@tailwindcss/typography": "^0.2.0",
     "@types/classnames": "^2.2.10",
@@ -46,8 +52,6 @@
     "eslint-plugin-jsx-a11y": "^6.4.0",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "next-images": "^1.6.0",
-    "next-pwa": "^3.1.5",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.9.6",

@@ -1,23 +1,21 @@
 import React from 'react';
 import Head from 'next/head';
 import GoogleFonts from 'next-google-fonts';
+import getConfig from 'next/config';
+const { publicRuntimeConfig, serverRuntimeConfig } = getConfig();
 
-type Props = {};
+const host =
+  serverRuntimeConfig.PRIVATE_API_HOST || publicRuntimeConfig.PUBLIC_API_HOST;
 
-const HeadBase = (props: Props) => {
+const HeadBase = () => {
   const title = 'XC DP PG';
   const description = 'XC DRŽAVNO PRVENSTVO, JADRALNO PADALSTVO';
   return (
     <>
-      {/* <GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" /> */}
       <GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
       <Head>
         <meta charSet="utf-8" />
-        <link
-          href={process.env.NEXT_PUBLIC_API_HOST}
-          rel="preconnect"
-          crossOrigin=""
-        ></link>
+        <link href={host} rel="preconnect" crossOrigin=""></link>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -27,7 +25,7 @@ const HeadBase = (props: Props) => {
         <meta name="application-name" content="XC-Liga" />
         <meta name="apple-mobile-web-app-title" content="XC-Liga" />
         <meta name="theme-color" content="#ffffff"></meta>
-        <link rel="manifest" href="/manifest.webmanifest" />
+        <link rel="manifest" href="/manifest.json" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -45,7 +43,6 @@ const HeadBase = (props: Props) => {
           sizes="16x16"
           href="/images/favicon-16x16.png"
         />
-        <link rel="manifest" href="/images/site.webmanifest" />
         <link
           rel="mask-icon"
           href="/images/safari-pinned-tab.svg"

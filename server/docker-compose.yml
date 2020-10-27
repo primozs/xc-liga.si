@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  xcliga-api:
+    user: node
+    image: "naviter/xcliga-api:${IMAGE_TAG}"
+    restart: unless-stopped
+    ports:
+      - 3030:3030
+      # outside:container
+    volumes:
+      - ./config:/app/config:delegated
+      - ./data:/app/data:delegated
+      - ./logs:/app/logs:delegated
+    env_file:
+      - .env

@@ -7,9 +7,16 @@ const isProd = process.env.NODE_ENV === 'production';
 module.exports = withPWA(
   withPreCompression(
     withImages({
+      serverRuntimeConfig: {
+        PRIVATE_API_HOST: process.env.PRIVATE_API_HOST,
+      },
+      publicRuntimeConfig: {
+        PUBLIC_API_HOST: process.env.PUBLIC_API_HOST,
+      },
       pwa: {
         disable: !isProd,
         dest: 'public',
+        swSrc: 'service-worker.ts',
       },
       compress: isProd,
       fileExtensions: ['jpg', 'jpeg', 'png', 'gif'],
