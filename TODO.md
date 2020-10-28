@@ -1,0 +1,3 @@
+- fix safari style
+- fix table name width prevent jump on season change
+- fix and confirm text
