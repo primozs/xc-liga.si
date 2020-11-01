@@ -1,13 +1,52 @@
+.heroContent {
+  padding-bottom: 44.25%;
+}
+
+@media (min-width: 460px) {
+  .heroContent {
+    padding-bottom: 36.25%;
+  }
+}
+
+@media (min-width: 640px) {
+  .heroContent {
+    padding-bottom: 36.25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroContent {
+    padding-bottom: 26.25%;
+  }
+}
+
+.logo {
+  width: 45%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.lines {
+  width: 20%;
+  position: absolute;
+  bottom: 0%;
+  left: -10px;
+}
+
 .title {
   position: absolute;
-
+  font-size: 30px !important;
+  left: 19%;
+  top: 30%;
   color: #e8e8e8 !important;
 }
 
 @media (min-width: 640px) {
   .title {
-    left: -60px;
-    font-size: 120px !important;
+    left: 19%;
+    top: 19%;
+    font-size: 70px !important;
   }
 }
 
@@ -17,25 +56,24 @@
   text-transform: uppercase;
   position: absolute;
   white-space: nowrap;
-  bottom: 0;
 }
 
 .first {
   color: #b49c11 !important;
-  bottom: 23%;
-  left: 83%;
+  bottom: 30%;
+  left: 16%;
 }
 
 .second {
   color: #b5b5b5 !important;
-  bottom: 12%;
-  left: 55%;
+  bottom: 15%;
+  left: 9%;
 }
 
 .third {
   color: #ad8a56 !important;
-  bottom: 0%;
-  left: 29%;
+  bottom: 0;
+  left: 3%;
 }
 
 @media (min-width: 768px) {

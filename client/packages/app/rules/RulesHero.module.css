@@ -1,12 +1,51 @@
+.heroContent {
+  padding-bottom: 44.25%;
+}
+
+@media (min-width: 460px) {
+  .heroContent {
+    padding-bottom: 36.25%;
+  }
+}
+
+@media (min-width: 640px) {
+  .heroContent {
+    padding-bottom: 36.25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroContent {
+    padding-bottom: 26.25%;
+  }
+}
+
+.logo {
+  width: 45%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.lines {
+  width: 20%;
+  position: absolute;
+  bottom: 0%;
+  left: -10px;
+}
+
 .title {
   position: absolute;
-
+  font-size: 30px !important;
+  left: 19%;
+  top: 30%;
   color: #004a69 !important;
 }
 
 @media (min-width: 640px) {
   .title {
-    left: -60px;
-    font-size: 120px !important;
+    left: 19%;
+    top: 19%;
+    font-size: 70px !important;
   }
 }

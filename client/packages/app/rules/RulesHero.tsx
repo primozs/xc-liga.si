@@ -2,22 +2,17 @@ import React from 'react';
 import XcDpLogo from 'app/logos/XcDpLogo';
 import Lines from 'assets/lines-gray.svg';
 import styles from './RulesHero.module.css';
+import cx from 'classnames';
 
 const RulesHero = () => {
   return (
     <div className="flex justify-center items-center bg-gray-50">
-      <div className="flex-1 flex max-w-5xl justify-between items-center pb-5 sm:pb-8">
-        <div className="flex flex-1 relative prose prose-sm sm:prose-lg lg:prose-2xl xl:prose-2xl">
-          <div className="relative flex flex-1 z-10">
-            {/* @ts-ignore */}
-            <Lines width="100%" />
-          </div>
-          <div className="relative flex flex-1 flex-col justify-center">
-            <h1 className={styles.title}>PRAVILA</h1>
-          </div>
-        </div>
-        <div className="flex flex-col self-end px-5 flex-1">
-          <XcDpLogo width="100%" />
+      <div className="container mx-auto p-4">
+        <div className={cx('relative p-4 sm:pb-8', styles.heroContent)}>
+          {/* @ts-ignore */}
+          <Lines className={styles.lines} />
+          <h1 className={styles.title}>PRAVILA</h1>
+          <XcDpLogo className={styles.logo} />
         </div>
       </div>
     </div>

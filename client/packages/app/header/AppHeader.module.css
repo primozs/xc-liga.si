@@ -3,11 +3,11 @@
 }
 
 .logo {
-  width: 150px;
+  width: 110px;
 }
 
-@media (max-width: 460px) {
+@media (min-width: 768px) {
   .logo {
-    width: 110px;
+    width: 150px;
   }
 }
