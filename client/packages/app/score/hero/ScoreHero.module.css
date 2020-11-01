@@ -39,7 +39,9 @@
   font-size: 30px !important;
   left: 19%;
   top: 30%;
-  color: #e8e8e8 !important;
+  /* color: #e8e8e8 !important; */
+  /* accessibility */
+  color: #004a69 !important;
 }
 
 @media (min-width: 640px) {
