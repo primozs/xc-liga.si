@@ -1,0 +1,9 @@
+@media (min-width: 640px) {
+  .td {
+    min-width: 200px;
+  }
+}
+
+.link {
+  white-space: normal;
+}

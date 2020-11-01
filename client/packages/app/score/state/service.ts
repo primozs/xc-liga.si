@@ -61,7 +61,7 @@ export const useApiGetSeasons = () => {
 };
 
 export const formatSeasonData = (data?: SeasonData | null): FSeasonData => {
-  const language = 'si';
+  const language = 'sl';
   const season = data?.season || '';
   const year = getSeasonYear(data?.season);
   const duration = getDuration(data?.season);

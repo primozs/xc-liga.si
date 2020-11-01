@@ -22,7 +22,7 @@ export default function ScorePageView({ season }: Props) {
 
       <ScoreHeroView season={season} />
 
-      <div className="container mx-auto py-8 px-0 sm:px-4">
+      <div className="container mx-auto py-4 px-0">
         <div className="flex flex-1 space-x-0 sm:space-x-4 flex-col sm:flex-row overflow-hidden">
           <ScoreInfoView season={season} />
           <ScoreView season={season} />

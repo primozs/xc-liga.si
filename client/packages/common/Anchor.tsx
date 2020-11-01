@@ -10,6 +10,8 @@ type AnchorProps = {
   type?: 'normal' | 'primary' | 'outline' | 'secondary' | 'header';
   onClick?: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
   href?: LinkProps['href'];
+  target?: string;
+  rel?: string;
   anchorProps?: React.DetailedHTMLProps<
     React.AnchorHTMLAttributes<HTMLAnchorElement>,
     HTMLAnchorElement

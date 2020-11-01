@@ -19,7 +19,7 @@ const TableHeader = (props: TableHeaderProps) => {
       <tr>
         <Th className={pilotClasses}>Pilot</Th>
         <Th className={thClasses}>Točke</Th>
-        <Th className={thClasses}>Sku. razd.</Th>
+        <Th className={thClasses}>Σ km</Th>
         <Th className={thClasses}>1.</Th>
         <Th className={thClasses}>2.</Th>
         <Th className={thClasses}>3.</Th>

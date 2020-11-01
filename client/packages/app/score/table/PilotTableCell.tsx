@@ -1,6 +1,8 @@
 import React from 'react';
 import tcx from 'common/tailwindcss-classnames';
+import cx from 'classnames';
 import TableCell from './TableCell';
+import styles from './PilotTableCell.module.css';
 
 type Props = {
   rank: number;
@@ -9,7 +11,7 @@ type Props = {
 };
 
 const PilotTableCell = ({ rank, name, id }: Props) => {
-  const classesPilot = tcx(
+  const td = tcx(
     'sticky',
     'left-0',
     'text-left',
@@ -21,13 +23,15 @@ const PilotTableCell = ({ rank, name, id }: Props) => {
     }
   );
 
+  const classesPilot = cx(td, styles.td);
+
   return (
     <TableCell className={classesPilot}>
       <a
         href={`http://xcglobe.com/pilots#pilot/${id}/`}
         target="_blank"
         rel="noopener noreferrer nofollow"
-        className="cursor-pointer"
+        className={cx('cursor-pointer', styles.link)}
       >
         {`${rank}. ${name}`}
       </a>

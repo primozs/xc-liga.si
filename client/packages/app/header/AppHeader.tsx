@@ -37,6 +37,15 @@ function AppHeader() {
           <Anchor href="/pravila" type="header" className="uppercase">
             Pravila
           </Anchor>
+          <Anchor
+            href="http://xcglobe.com/"
+            type="header"
+            className="uppercase"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            Naloži
+          </Anchor>
         </div>
       </nav>
     </header>
