@@ -23,7 +23,7 @@
 .logo {
   width: 45%;
   position: absolute;
-  bottom: 0;
+  bottom: -1rem;
   right: 0;
 }
 
