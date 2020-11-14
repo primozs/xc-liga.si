@@ -203,7 +203,7 @@ module.exports = {
     'no-this-before-super': 1,
     'no-throw-literal': 1,
     'no-trailing-spaces': 1,
-    'no-undef': 1,
+    'no-undef': 0,
     'no-undef-init': 1,
     'no-unexpected-multiline': 1,
     'no-unneeded-ternary': [

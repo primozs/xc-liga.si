@@ -8,13 +8,8 @@ type ApiResult = {
   pilot: number;
   score: number;
   name: string;
+  junior: 0 | 1;
   flights: ApiFlight[];
-};
-
-type ApiPilot = {
-  id: number;
-  lzs: string;
-  name: string;
 };
 
 type Flight = {
@@ -31,15 +26,34 @@ type Result = {
   pilot: number;
   score: number;
   name: string;
+  junior: string; // 'T' | 'F';
+  gender: 'F' | 'M';
   flights: Flight[];
 };
 
-type DbResult = {
+type ApiPilot = {
+  id: number;
+  lsz: string; // id
+  birth: string; // YYYYMMDD
+  gender: 'F' | 'M';
+  name: string;
+};
+
+type DbPilot = Omit<ApiPilot, 'id'> & {
+  _id: number;
+};
+
+type DbSeason = {
   _id: string;
   season: string;
-  results: Result[];
+  noPilots: number;
   totalNoFlights: number;
   totalSeasonDist: number;
-  noPilots: number;
   lastUpdate: number;
+};
+
+type DbScore = Omit<Result, 'pilot'> & {
+  _id: number;
+  season: string;
+  pilotId: number;
 };

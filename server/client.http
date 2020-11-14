@@ -1,5 +1,5 @@
 
 
 ### GET USERS
-GET http://localhost:3030/results
+GET http://localhost:3030/scores
 Content-Type: application/json

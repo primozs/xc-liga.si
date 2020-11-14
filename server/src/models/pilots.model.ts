@@ -2,9 +2,9 @@ import NeDB from 'nedb';
 import path from 'path';
 import { Application } from '../declarations';
 
-export default function (app: Application): NeDB<any>  {
+export default function (app: Application): NeDB<DbPilot> {
   const dbPath = app.get('nedb');
-  const Model = new NeDB({
+  const Model = new NeDB<DbPilot>({
     filename: path.join(dbPath, 'pilots.db'),
     autoload: true
   });

@@ -4,8 +4,7 @@ import { Application } from '../../declarations';
 import logger from '../../logger';
 import { Moment } from 'moment';
 import { set5minAfterHJob } from './jobs/jobs';
-import { getResultsApiJob, transformResults } from '../results/getResults';
-import results2020 from '../results/lzs2019-2020.json';
+import { apiGetResults, apiGetPilots, getResults2020 } from './getResults';
 
 type Status = {
   name: string;
@@ -28,7 +27,7 @@ process.once('SIGTERM', () => {
   });
 });
 
-const GET_RESULTS_JOB = 'GET_RESULTS_JOB';
+const GET_DATA_JOB = 'GET_DATA_JOB';
 
 const getSeason = (date: Date) => {
   const dateTime = date.getTime();
@@ -41,69 +40,77 @@ const getSeason = (date: Date) => {
   }
 };
 
-const getResultsJob = (app: Application) => async (): Promise<void> => {
+const updatePilots = async (app: Application) => {
+  const apiConf = app.get('api');
+  const apiPilotsUrl = apiConf.pilots || '';
+  if (!apiPilotsUrl) return;
+
+  const pilots = await apiGetPilots(apiPilotsUrl);
+  if (!pilots) return;
+
+  for (const { id, ...rest } of pilots) {
+    app.service('pilots').create({ _id: id, ...rest });
+  }
+};
+
+const updateScore2020 = async (app: Application) => {
+  const pilots = await app.service('pilots').find({ paginate: false });
+  const lastUpdate = new Date('2020-09-30T23:59:59Z').getTime();
+  const resultsData = getResults2020(pilots);
+  const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
+
+  await app.service('seasons').create({
+    _id: '2019-2020',
+    season: '2019-2020',
+    noPilots,
+    totalNoFlights,
+    totalSeasonDist,
+    lastUpdate
+  });
+
+  for (const { pilot, ...rest } of results) {
+    await app.service('scores').create({
+      season: '2019-2020',
+      pilotId: pilot,
+      ...rest
+    });
+  }
+};
+
+const updateScore = async (app: Application) => {
   const apiConf = app.get('api');
   const apiResultsUrl = apiConf.results || '';
+  const pilots = await app.service('pilots').find({ paginate: false });
 
-  // 2019-2020
-  const results2020Db = await app.service('results').find({
-    query: { season: '2019-2020' },
-    paginate: false
-  });
+  const resultsData = await apiGetResults(apiResultsUrl, pilots);
+  if (!resultsData) return;
 
-  if (results2020Db.length === 0) {
-    const resultsData = transformResults(results2020);
-    const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
-    if (resultsData) {
-      const lastUpdate = new Date('2020-09-30T23:59:59Z').getTime();
-      await app.service('results').create({
-        season: '2019-2020',
-        results: results,
-        noPilots,
-        totalNoFlights,
-        totalSeasonDist,
-        lastUpdate
-      });
-    }
-  }
-
-  const resultsData = await getResultsApiJob(apiResultsUrl);
-  let season = getSeason(new Date());
-
-  const resultsDb = await app.service('results').find({
-    query: { season },
-    paginate: false
-  });
-
+  const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
+  const season = getSeason(new Date());
   const lastUpdate = new Date().getTime();
 
-  // new data
-  if (resultsDb.length !== 0 && resultsDb[0] && resultsData) {
-    const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
-    const resultDb = resultsDb[0];
-    const id = resultDb._id;
-    await app.service('results').update(id, {
-      _id: id,
-      season,
-      results,
-      noPilots,
-      totalNoFlights,
-      totalSeasonDist,
-      lastUpdate
-    });
-  }
+  await app.service('seasons').create({
+    _id: season,
+    season,
+    noPilots,
+    totalNoFlights,
+    totalSeasonDist,
+    lastUpdate
+  });
 
-  if (resultsDb.length === 0 && resultsData) {
-    const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
-    await app.service('results').create({
+  for (const { pilot, ...rest } of results) {
+    await app.service('scores').create({
       season,
-      results,
-      noPilots,
-      totalNoFlights,
-      totalSeasonDist,
-      lastUpdate
+      pilotId: pilot,
+      ...rest
     });
   }
+};
+
+const getDataJob = (app: Application) => async (): Promise<void> => {
+  await updatePilots(app);
+  await updateScore2020(app);
+  await updateScore(app);
 };
 
 const startJobs = (key?: string): Status[] => {
@@ -165,9 +172,9 @@ export default class Scheduler {
     this.app = app;
 
     try {
-      jobFns[GET_RESULTS_JOB] = getResultsJob(app);
-      const arsoWSJob = set5minAfterHJob(jobFns[GET_RESULTS_JOB]);
-      jobs[GET_RESULTS_JOB] = arsoWSJob;
+      jobFns[GET_DATA_JOB] = getDataJob(app);
+      const arsoWSJob = set5minAfterHJob(jobFns[GET_DATA_JOB]);
+      jobs[GET_DATA_JOB] = arsoWSJob;
 
       startJobs();
     } catch (err) {

@@ -1,3 +1,10 @@
+type Paginated<T> = {
+  total: number;
+  limit: number;
+  skip: number;
+  data: T[];
+};
+
 type Flight = {
   id: number;
   type: number;
@@ -12,17 +19,28 @@ type Result = {
   pilot: number;
   score: number;
   name: string;
+  junior: string; // 'T' | 'F';
+  gender: 'F' | 'M';
   flights: Flight[];
 };
 
-type SeasonData = {
+type DbSeason = {
   _id: string;
   season: string;
-  results: Result[];
+  noPilots: number;
   totalNoFlights: number;
   totalSeasonDist: number;
-  noPilots: number;
   lastUpdate: number;
+};
+
+type DbScore = Omit<Result, 'pilot'> & {
+  _id: number;
+  season: string;
+  pilotId: number;
+};
+
+type PaginatedDbScore = Paginated<DbScore> & {
+  seasonData: DbSeason;
 };
 
 type SeasonInfo = {
@@ -36,7 +54,7 @@ type FSeasonData = {
   season: string;
   year: string;
   duration: string;
-  results: Result[];
+  results: DbScore[];
   noPilots: number;
   totalNoFlights: number;
   totalSeasonDist: string;
@@ -46,4 +64,7 @@ type FSeasonData = {
   first: string;
   second: string;
   third: string;
+  total: number;
+  limit: number;
+  skip: number;
 };

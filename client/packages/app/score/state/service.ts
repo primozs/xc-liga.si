@@ -1,4 +1,4 @@
-import { usePaginatedQuery, useQuery } from 'react-query';
+import { useInfiniteQuery, useQuery, QueryCache } from 'react-query';
 import { useRecoilState } from 'recoil';
 import format from 'date-fns/format';
 import getConfig from 'next/config';
@@ -18,26 +18,12 @@ const getApiHost = () => {
   return host;
 };
 
-export const apiGetSeasonData = async (
-  season: string
-): Promise<SeasonData | null> => {
-  try {
-    const host = getApiHost();
-    const url = `${host}/results?season=${season}`;
-
-    const res = await axios.get<SeasonData[]>(url);
-    return res.data[0] || null;
-  } catch {
-    return null;
-  }
-};
-
 const getAvailableSeasonsData = async (): Promise<SeasonInfo[]> => {
   try {
     const host = getApiHost();
-    const url = `${host}/results?$select[]=season&$select[]=_id&$select[]=lastUpdate`;
+    const url = `${host}/seasons?$select[]=season&$select[]=_id&$select[]=lastUpdate`;
 
-    const res = await axios.get<SeasonData[]>(url);
+    const res = await axios.get<DbSeason[]>(url);
     return res.data.map((item) => {
       return {
         season: item.season,
@@ -60,25 +46,30 @@ export const useApiGetSeasons = () => {
   });
 };
 
-export const formatSeasonData = (data?: SeasonData | null): FSeasonData => {
+export const formatSeasonData = (
+  pData?: PaginatedDbScore | null
+): FSeasonData => {
   const language = 'sl';
-  const season = data?.season || '';
-  const year = getSeasonYear(data?.season);
-  const duration = getDuration(data?.season);
-  const results = data?.results || [];
-  const noPilots = data?.noPilots || 0;
-  const totalNoFlights = data?.totalNoFlights || 0;
-  const totalSeasonDist = data?.totalSeasonDist
-    ? Math.round(data.totalSeasonDist).toLocaleString(language) + ' km'
+  const season = pData?.seasonData.season || '';
+  const year = getSeasonYear(season);
+  const duration = getDuration(season);
+  const results = pData?.data || [];
+  const noPilots = pData?.seasonData.noPilots || 0;
+  const totalNoFlights = pData?.seasonData.totalNoFlights || 0;
+  const totalSeasonDist = pData?.seasonData.totalSeasonDist
+    ? Math.round(pData?.seasonData.totalSeasonDist).toLocaleString(language) +
+      ' km'
     : '';
   const sex = 'M/Ž';
   const gliders = 'EN-A, EN-B, EN-C, EN-D, CCC';
-  const updated = data?.lastUpdate
-    ? format(data.lastUpdate, 'dd.MM.yyyy HH:mm')
-    : '';
+  const lastUpdate = pData?.seasonData.lastUpdate;
+  const updated = lastUpdate ? format(lastUpdate, 'dd.MM.yyyy HH:mm') : '';
   const first = results[0] ? results[0].name : 'mesto';
   const second = results[1] ? results[1].name : 'mesto';
   const third = results[2] ? results[2].name : 'mesto';
+  const total = pData?.total || 0;
+  const limit = pData?.limit || 0;
+  const skip = pData?.skip || 0;
   return {
     season,
     year,
@@ -93,18 +84,65 @@ export const formatSeasonData = (data?: SeasonData | null): FSeasonData => {
     first,
     second,
     third,
+    total,
+    limit,
+    skip,
   };
 };
 
-export const useApiGetResultsData = (initSeason?: string) => {
+const apiGetSeasonData = async (
+  season: string,
+  skip?: number,
+  options: ApiGetDataOptions = {}
+): Promise<PaginatedDbScore | null> => {
+  try {
+    const search = options.search;
+    const searchQ = search ? `&$search=${search}` : '';
+    const skipQ = skip !== undefined ? `&$skip=${skip}` : '';
+    const host = getApiHost();
+    const url = `${host}/scores?season=${season}&$sort[score]=-1${skipQ}${searchQ}`;
+
+    const res = await axios.get<PaginatedDbScore>(url);
+    return res.data || null;
+  } catch {
+    return null;
+  }
+};
+
+type ApiGetDataOptions = {
+  search?: string;
+};
+
+export const prefetchResultsData = async (
+  queryCache: QueryCache,
+  season: string
+) => {
+  const defaultOptions = {
+    search: '',
+  };
+  await queryCache.prefetchQuery(
+    ['season-data', season, defaultOptions],
+    async () => {
+      const data = await apiGetSeasonData(season);
+      const formated = formatSeasonData(data);
+      return [formated];
+    }
+  );
+};
+
+export const useApiGetResultsData = (
+  initSeason?: string,
+  options: ApiGetDataOptions = {}
+) => {
   let [season, setSeason] = useRecoilState(selectedSeason);
   if (!season && initSeason) season = initSeason;
   if (!season) season = getCurrentSeason();
 
-  return usePaginatedQuery(
-    ['season-data', season],
-    async () => {
-      const data = await apiGetSeasonData(season);
+  return useInfiniteQuery(
+    ['season-data', season, options],
+    async (key, se, op, skip: number = 0) => {
+      const data = await apiGetSeasonData(season, skip, options);
+
       if (data) {
         setSeason(season);
       }
@@ -114,6 +152,11 @@ export const useApiGetResultsData = (initSeason?: string) => {
     },
     {
       enabled: !!season,
+      getFetchMore: (lastGroup, allGroups) => {
+        const loadedCount = allGroups.length;
+        const skip = lastGroup.limit * loadedCount;
+        return skip;
+      },
     }
   );
 };

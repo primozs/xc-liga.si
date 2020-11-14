@@ -2,8 +2,8 @@ import React from 'react';
 import { GetServerSideProps } from 'next';
 import { QueryCache } from 'react-query';
 import { dehydrate } from 'react-query/hydration';
-import { apiGetSeasonData, formatSeasonData } from 'app/score/state/service';
 import ScorePageView from 'app/score/views/ScorePageView';
+import { prefetchResultsData } from 'app/score/state/service';
 
 type Props = {
   season: string;
@@ -17,11 +17,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const queryCache = new QueryCache();
   const season = (params?.id as string) || '';
 
-  await queryCache.prefetchQuery(['season-data', season], async () => {
-    const data = await apiGetSeasonData(season);
-    const formated = formatSeasonData(data);
-    return formated;
-  });
+  await prefetchResultsData(queryCache, season);
 
   return {
     props: {

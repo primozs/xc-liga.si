@@ -12,8 +12,13 @@ type Props = {
 const ScoreHeroView = ({ season }: Props) => {
   const { data } = useApiGetResultsData(season);
 
-  let fData = data;
-  if (!fData) fData = formatSeasonData(undefined);
+  let fData: FSeasonData;
+  if (!data) {
+    fData = formatSeasonData(undefined);
+  } else {
+    fData = data[0];
+  }
+
   const { year, first, second, third } = fData;
 
   return (

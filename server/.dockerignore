@@ -114,3 +114,4 @@ data/
 .devcontainer
 docker-compose.yml
 docker-compose.override.yml
+scripts/

@@ -61,6 +61,7 @@
     "feathers-authentication-hooks": "^1.0.2",
     "feathers-hooks-common": "^5.0.3",
     "feathers-nedb": "^5.1.0",
+    "feathers-nedb-fuzzy-search": "^1.4.0",
     "fs-jetpack": "^3.1.0",
     "helmet": "^4.1.1",
     "nedb": "^1.8.0",
