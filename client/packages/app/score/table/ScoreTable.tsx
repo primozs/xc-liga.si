@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useRef } from 'react';
 import { useRecoilValue } from 'recoil';
 import { resultsFilter } from 'app/score/state/scoreState';
 import tcx from 'common/tailwindcss-classnames';
@@ -26,7 +26,14 @@ const ScoreTable = ({ data = [], bottom }: TableProps) => {
         {data.map((group, gIndex) => (
           <Fragment key={gIndex}>
             {group.results.map((pilot, pilotIndex) => {
-              const rank = isFilter ? pilot.rank : pilotIndex + 1;
+              // because of infinite scroll we need to track previous index rank
+              const paginationSkip = gIndex * group.limit;
+
+              // when searching (using filter) use overall rank else use index
+              const rank = isFilter
+                ? pilot.rank
+                : paginationSkip + pilotIndex + 1;
+
               const classesScore = tcx('text-center', {
                 'text-gray-900': rank < 4,
               });
