@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react';
+import { useRecoilValue } from 'recoil';
+import { resultsFilter } from 'app/score/state/scoreState';
 import tcx from 'common/tailwindcss-classnames';
 import cx from 'classnames';
 import { Table, TBody, Tr } from 'common/table';
@@ -14,6 +16,9 @@ type TableProps = {
 };
 
 const ScoreTable = ({ data = [], bottom }: TableProps) => {
+  const filter = useRecoilValue(resultsFilter);
+  const isFilter = !!filter;
+
   return (
     <Table className={styles.table}>
       <TableHeader />
@@ -21,19 +26,20 @@ const ScoreTable = ({ data = [], bottom }: TableProps) => {
         {data.map((group, gIndex) => (
           <Fragment key={gIndex}>
             {group.results.map((pilot, pilotIndex) => {
+              const rank = isFilter ? pilot.rank : pilotIndex + 1;
               const classesScore = tcx('text-center', {
-                'text-gray-900': pilot.rank < 4,
+                'text-gray-900': rank < 4,
               });
 
               return (
                 <Tr
-                  key={`${pilot.pilotId}-${pilot.rank}`}
+                  key={`${pilot.pilotId}-${rank}`}
                   className="border-b-8 border-white"
                 >
                   <PilotTableCell
                     id={pilot.pilotId}
                     name={pilot.name}
-                    rank={pilot.rank}
+                    rank={rank}
                   />
 
                   <TableCell className={classesScore}>

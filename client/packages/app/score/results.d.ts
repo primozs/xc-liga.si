@@ -58,7 +58,6 @@ type FSeasonData = {
   noPilots: number;
   totalNoFlights: number;
   totalSeasonDist: string;
-  sex: string;
   gliders: string;
   updated: string;
   first: string;

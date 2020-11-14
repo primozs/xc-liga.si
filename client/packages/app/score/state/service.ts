@@ -1,16 +1,61 @@
 import { useInfiniteQuery, useQuery, QueryCache } from 'react-query';
-import { useRecoilState } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 import format from 'date-fns/format';
 import getConfig from 'next/config';
 import axios from 'axios';
+import { resultsFilter } from 'app/score/state/scoreState';
 import {
   getSeasonYear,
   getDuration,
   getCurrentSeason,
 } from 'app/score/state/utils';
-import { selectedSeason } from './scoreState';
+import {
+  selectedSeason,
+  selectedCategory,
+  DEFAULT_CATEGORY,
+} from './scoreState';
 
 const { publicRuntimeConfig, serverRuntimeConfig } = getConfig();
+
+export const categoryOptions = [
+  { key: 'Overall', value: 'Overall' },
+  { key: 'Overall Ž', value: 'Overall Ž' },
+  { key: 'Junior M', value: 'Junior M' },
+  { key: 'Junior Ž', value: 'Junior Ž' },
+];
+
+export const getGenderFromCategory = (category: string) => {
+  switch (category) {
+    case 'Overall':
+      return 'M/Ž';
+    case 'Overall Ž':
+      return 'Ž';
+    case 'Junior M':
+      return 'M';
+    case 'Junior Ž':
+      return 'Ž';
+    default:
+      return 'M/Ž';
+  }
+};
+
+const getFiltersFromCategory = (category?: string) => {
+  const def = { junior: '', gender: '' };
+  if (!category) return def;
+
+  switch (category) {
+    case 'Overall':
+      return def;
+    case 'Overall Ž':
+      return { junior: '', gender: 'F' };
+    case 'Junior M':
+      return { junior: 'T', gender: 'M' };
+    case 'Junior Ž':
+      return { junior: 'T', gender: 'F' };
+    default:
+      return def;
+  }
+};
 
 const getApiHost = () => {
   const host =
@@ -60,7 +105,6 @@ export const formatSeasonData = (
     ? Math.round(pData?.seasonData.totalSeasonDist).toLocaleString(language) +
       ' km'
     : '';
-  const sex = 'M/Ž';
   const gliders = 'EN-A, EN-B, EN-C, EN-D, CCC';
   const lastUpdate = pData?.seasonData.lastUpdate;
   const updated = lastUpdate ? format(lastUpdate, 'dd.MM.yyyy HH:mm') : '';
@@ -78,7 +122,6 @@ export const formatSeasonData = (
     noPilots,
     totalNoFlights,
     totalSeasonDist,
-    sex,
     gliders,
     updated,
     first,
@@ -90,17 +133,29 @@ export const formatSeasonData = (
   };
 };
 
+type ApiGetDataOptions = {
+  search: string;
+  category: string;
+};
+
 const apiGetSeasonData = async (
   season: string,
-  skip?: number,
-  options: ApiGetDataOptions = {}
+  skip: number,
+  options: ApiGetDataOptions
 ): Promise<PaginatedDbScore | null> => {
   try {
+    const category = options.category;
+    const { junior, gender } = getFiltersFromCategory(category);
+    const juniorQ = junior ? `&junior=${junior}` : '';
+    const genderQ = gender ? `&gender=${gender}` : '';
+
     const search = options.search;
     const searchQ = search ? `&$search=${search}` : '';
+
     const skipQ = skip !== undefined ? `&$skip=${skip}` : '';
+
     const host = getApiHost();
-    const url = `${host}/scores?season=${season}&$sort[score]=-1${skipQ}${searchQ}`;
+    const url = `${host}/scores?season=${season}&$sort[score]=-1${skipQ}${searchQ}${juniorQ}${genderQ}`;
 
     const res = await axios.get<PaginatedDbScore>(url);
     return res.data || null;
@@ -109,34 +164,31 @@ const apiGetSeasonData = async (
   }
 };
 
-type ApiGetDataOptions = {
-  search?: string;
-};
-
 export const prefetchResultsData = async (
   queryCache: QueryCache,
   season: string
 ) => {
   const defaultOptions = {
     search: '',
+    category: DEFAULT_CATEGORY,
   };
   await queryCache.prefetchQuery(
     ['season-data', season, defaultOptions],
     async () => {
-      const data = await apiGetSeasonData(season);
+      const data = await apiGetSeasonData(season, 0, defaultOptions);
       const formated = formatSeasonData(data);
       return [formated];
     }
   );
 };
 
-export const useApiGetResultsData = (
-  initSeason?: string,
-  options: ApiGetDataOptions = {}
-) => {
+export const useApiGetResultsData = (initSeason?: string) => {
   let [season, setSeason] = useRecoilState(selectedSeason);
   if (!season && initSeason) season = initSeason;
   if (!season) season = getCurrentSeason();
+  const filter = useRecoilValue(resultsFilter);
+  const category = useRecoilValue(selectedCategory);
+  const options: ApiGetDataOptions = { search: filter, category };
 
   return useInfiniteQuery(
     ['season-data', season, options],

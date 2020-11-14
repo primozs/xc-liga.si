@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
-import { useRecoilValue } from 'recoil';
 import ScoreTable from 'app/score/table/ScoreTable';
 import { useApiGetResultsData } from 'app/score/state/service';
-import { resultsFilter } from 'app/score/state/scoreState';
 import { useIntersectionObserver } from 'common/hooks/useIntersectionObserver';
 import Spinner from 'common/Spinner';
 import { Tr, Td } from 'common/table';
@@ -12,14 +10,13 @@ type Props = {
 };
 
 const ScoreView = ({ season }: Props) => {
-  const filter = useRecoilValue(resultsFilter);
   const {
     data,
     status,
     fetchMore,
     canFetchMore,
     isFetchingMore,
-  } = useApiGetResultsData(season, { search: filter });
+  } = useApiGetResultsData(season);
 
   const loadMoreRef = useRef<HTMLSpanElement | null>(null);
 

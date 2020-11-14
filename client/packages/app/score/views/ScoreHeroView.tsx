@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import ScoreHero from 'app/score/hero/ScoreHero';
 import {
   useApiGetResultsData,
@@ -12,14 +12,17 @@ type Props = {
 const ScoreHeroView = ({ season }: Props) => {
   const { data } = useApiGetResultsData(season);
 
-  let fData: FSeasonData;
-  if (!data) {
-    fData = formatSeasonData(undefined);
-  } else {
-    fData = data[0];
+  // preserve data until new arrives
+  let lastData = useRef<FSeasonData>();
+  if (data && data[0]) {
+    lastData.current = data[0];
   }
 
-  const { year, first, second, third } = fData;
+  if (!lastData.current) {
+    lastData.current = formatSeasonData(undefined);
+  }
+
+  const { year, first, second, third } = lastData.current;
 
   return (
     <ScoreHero season={year} first={first} second={second} third={third} />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import StatsItem from 'common/stats/StatsItem';
 import Search from 'app/score/search/Search';
 import {
@@ -6,6 +6,8 @@ import {
   formatSeasonData,
 } from 'app/score/state/service';
 import SelectSeason from 'app/score/select/SelectSeason';
+import SelectCategory from 'app/score/select/SelectCategory';
+import GenderInfo from '../select/GenderInfo';
 
 type Props = {
   season?: string;
@@ -14,11 +16,14 @@ type Props = {
 const ScoreInfoView = ({ season }: Props) => {
   const { data } = useApiGetResultsData(season);
 
-  let fData: FSeasonData;
-  if (!data) {
-    fData = formatSeasonData(undefined);
-  } else {
-    fData = data[0];
+  // preserve data until new arrives
+  let lastData = useRef<FSeasonData>();
+  if (data && data[0]) {
+    lastData.current = data[0];
+  }
+
+  if (!lastData.current) {
+    lastData.current = formatSeasonData(undefined);
   }
 
   const {
@@ -28,25 +33,26 @@ const ScoreInfoView = ({ season }: Props) => {
     updated,
     gliders,
     noPilots,
-    sex,
-  } = fData;
+    total,
+  } = lastData.current;
 
   return (
     <div className="flex-grow-0 flex-auto flex-row sm:flex-col">
+      <Search className="mb-4" />
       <SelectSeason />
       <div className="flex flex-col">
+        <StatsItem label="Število pilotov" value={noPilots} />
         <StatsItem label="Št. Letov" value={totalNoFlights} />
         <StatsItem label="Razdalja" value={totalSeasonDist} />
         <StatsItem label="Trajanje" value={duration} />
         <StatsItem label="Zadnjič osveženo" value={updated} className="mb-4" />
       </div>
       <div className="flex flex-col">
-        <StatsItem label="KAT." value="Overall" type="header" />
+        <SelectCategory />
+        <StatsItem label="Število pilotov" value={total} />
+        <GenderInfo />
         <StatsItem label="Padala" value={gliders} />
-        <StatsItem label="Število pilotov" value={noPilots} />
-        <StatsItem label="Spol" value={sex} className="mb-4" />
       </div>
-      <Search />
     </div>
   );
 };
