@@ -1,0 +1,5677 @@
+[
+  {
+    "pilot": 37893,
+    "junior": 0,
+    "score": 809.0613,
+    "name": "JERNEJ BODLAJ",
+    "flights": [
+      { "id": 2356987, "type": 2, "pts": 283.2 },
+      { "id": 2363597, "type": 3, "pts": 267.62 },
+      { "id": 2355897, "type": 2, "pts": 258.24 }
+    ]
+  },
+  {
+    "pilot": 977,
+    "junior": 0,
+    "score": 762.395,
+    "name": "TILEN CEGLAR",
+    "flights": [
+      { "id": 2363631, "type": 3, "pts": 413.7 },
+      { "id": 2346717, "type": 3, "pts": 209.38 },
+      { "id": 2356923, "type": 3, "pts": 139.32 }
+    ]
+  },
+  {
+    "pilot": 982,
+    "junior": 0,
+    "score": 673.43164,
+    "name": "FRANCI REVEN",
+    "flights": [
+      { "id": 2357120, "type": 2, "pts": 267.67 },
+      { "id": 2364024, "type": 2, "pts": 220.92 },
+      { "id": 2356016, "type": 2, "pts": 184.84 }
+    ]
+  },
+  {
+    "pilot": 54439,
+    "junior": 0,
+    "score": 610.4184,
+    "name": "LENART OBLAK",
+    "flights": [
+      { "id": 2357126, "type": 2, "pts": 247.93 },
+      { "id": 2364244, "type": 2, "pts": 203.8 },
+      { "id": 2356042, "type": 2, "pts": 158.69 }
+    ]
+  },
+  {
+    "pilot": 53740,
+    "junior": 0,
+    "score": 588.6028,
+    "name": "MARKO KEJŽAR",
+    "flights": [
+      { "id": 2363585, "type": 3, "pts": 293.86 },
+      { "id": 2357072, "type": 2, "pts": 174.38 },
+      { "id": 2361381, "type": 2, "pts": 120.36 }
+    ]
+  },
+  {
+    "pilot": 1068,
+    "junior": 0,
+    "score": 496.7512,
+    "name": "TIBOR TAJNŠEK",
+    "flights": [
+      { "id": 2355877, "type": 2, "pts": 258.12 },
+      { "id": 2358222, "type": 3, "pts": 132.72 },
+      { "id": 2369362, "type": 2, "pts": 105.91 }
+    ]
+  },
+  {
+    "pilot": 51670,
+    "junior": 0,
+    "score": 495.626,
+    "name": "MIHA VOVK",
+    "flights": [
+      { "id": 2357134, "type": 2, "pts": 261.52 },
+      { "id": 2352899, "type": 2, "pts": 122.76 },
+      { "id": 2382693, "type": 1, "pts": 111.34 }
+    ]
+  },
+  {
+    "pilot": 2187,
+    "junior": 0,
+    "score": 494.018,
+    "name": "SEBASTJAN PODBREGAR",
+    "flights": [
+      { "id": 2355894, "type": 2, "pts": 264.0 },
+      { "id": 2363943, "type": 2, "pts": 124.82 },
+      { "id": 2334906, "type": 1, "pts": 105.2 }
+    ]
+  },
+  {
+    "pilot": 53345,
+    "junior": 0,
+    "score": 480.43716,
+    "name": "LUKA FABČIČ",
+    "flights": [
+      { "id": 2357137, "type": 2, "pts": 245.22 },
+      { "id": 2356003, "type": 2, "pts": 181.07 },
+      { "id": 2345282, "type": 2, "pts": 54.14 }
+    ]
+  },
+  {
+    "pilot": 1729,
+    "junior": 0,
+    "score": 479.52002,
+    "name": "JOŽE POJE",
+    "flights": [
+      { "id": 2357037, "type": 2, "pts": 251.52 },
+      { "id": 2353562, "type": 1, "pts": 120.9 },
+      { "id": 2371858, "type": 1, "pts": 107.1 }
+    ]
+  },
+  {
+    "pilot": 3256,
+    "junior": 0,
+    "score": 477.9432,
+    "name": "ANDREJ HLIŠ",
+    "flights": [
+      { "id": 2355945, "type": 2, "pts": 181.43 },
+      { "id": 2351311, "type": 2, "pts": 164.16 },
+      { "id": 2357013, "type": 2, "pts": 132.35 }
+    ]
+  },
+  {
+    "pilot": 29961,
+    "junior": 0,
+    "score": 473.7928,
+    "name": "NEJC SIMIČ",
+    "flights": [
+      { "id": 2356998, "type": 2, "pts": 273.59 },
+      { "id": 2363447, "type": 1, "pts": 109.2 },
+      { "id": 2355278, "type": 3, "pts": 91.0 }
+    ]
+  },
+  {
+    "pilot": 1169,
+    "junior": 0,
+    "score": 456.84003,
+    "name": "BORIS  ČEBULJ",
+    "flights": [
+      { "id": 2355855, "type": 2, "pts": 235.68 },
+      { "id": 2340115, "type": 2, "pts": 127.92 },
+      { "id": 2350718, "type": 2, "pts": 93.24 }
+    ]
+  },
+  {
+    "pilot": 56216,
+    "junior": 1,
+    "score": 433.19043,
+    "name": "BLAŽ KEŠNAR",
+    "flights": [
+      { "id": 2356899, "type": 2, "pts": 178.38 },
+      { "id": 2355748, "type": 2, "pts": 152.28 },
+      { "id": 2359842, "type": 1, "pts": 102.53 }
+    ]
+  },
+  {
+    "pilot": 29920,
+    "junior": 0,
+    "score": 432.64243,
+    "name": "AMBROŽ MIKELJ",
+    "flights": [
+      { "id": 2344073, "type": 1, "pts": 169.6 },
+      { "id": 2340200, "type": 2, "pts": 152.04 },
+      { "id": 2338036, "type": 2, "pts": 111.0 }
+    ]
+  },
+  {
+    "pilot": 50031,
+    "junior": 0,
+    "score": 425.16003,
+    "name": "DEJANOVIĆ MATIC",
+    "flights": [
+      { "id": 2355852, "type": 2, "pts": 264.36 },
+      { "id": 2333764, "type": 2, "pts": 81.12 },
+      { "id": 2325477, "type": 2, "pts": 79.68 }
+    ]
+  },
+  {
+    "pilot": 997,
+    "junior": 0,
+    "score": 422.02,
+    "name": "JOŽE VIDMAR",
+    "flights": [
+      { "id": 2356985, "type": 1, "pts": 203.92 },
+      { "id": 2314534, "type": 1, "pts": 110.7 },
+      { "id": 2367502, "type": 1, "pts": 107.4 }
+    ]
+  },
+  {
+    "pilot": 966,
+    "junior": 0,
+    "score": 417.9965,
+    "name": "BRANKO ŽNUDERL",
+    "flights": [
+      { "id": 2361110, "type": 2, "pts": 197.43 },
+      { "id": 2362471, "type": 2, "pts": 119.9 },
+      { "id": 2361338, "type": 2, "pts": 100.67 }
+    ]
+  },
+  {
+    "pilot": 2066,
+    "junior": 0,
+    "score": 410.114,
+    "name": "BOJAN GABERŠEK",
+    "flights": [
+      { "id": 2355951, "type": 2, "pts": 176.4 },
+      { "id": 2356810, "type": 2, "pts": 121.2 },
+      { "id": 2339243, "type": 1, "pts": 112.51 }
+    ]
+  },
+  {
+    "pilot": 2791,
+    "junior": 0,
+    "score": 409.20264,
+    "name": "TOM SLEJKO",
+    "flights": [
+      { "id": 2363575, "type": 2, "pts": 217.21 },
+      { "id": 2345062, "type": 2, "pts": 103.32 },
+      { "id": 2363786, "type": 2, "pts": 88.67 }
+    ]
+  },
+  {
+    "pilot": 53662,
+    "junior": 0,
+    "score": 405.79202,
+    "name": "KLEMEN RAJH",
+    "flights": [
+      { "id": 2355813, "type": 2, "pts": 182.05 },
+      { "id": 2363906, "type": 2, "pts": 122.04 },
+      { "id": 2314456, "type": 1, "pts": 101.7 }
+    ]
+  },
+  {
+    "pilot": 55316,
+    "junior": 0,
+    "score": 398.6402,
+    "name": "KAVČIČ MIHA",
+    "flights": [
+      { "id": 2356976, "type": 2, "pts": 241.44 },
+      { "id": 2334716, "type": 2, "pts": 84.24 },
+      { "id": 2373010, "type": 1, "pts": 72.96 }
+    ]
+  },
+  {
+    "pilot": 1433,
+    "junior": 0,
+    "score": 393.90002,
+    "name": "ALOJZ TURK",
+    "flights": [
+      { "id": 2356015, "type": 2, "pts": 174.6 },
+      { "id": 2314507, "type": 1, "pts": 112.8 },
+      { "id": 2330481, "type": 1, "pts": 106.5 }
+    ]
+  },
+  {
+    "pilot": 52244,
+    "junior": 0,
+    "score": 387.2024,
+    "name": "ŽIGA BAJT",
+    "flights": [
+      { "id": 2355767, "type": 2, "pts": 178.51 },
+      { "id": 2333694, "type": 1, "pts": 104.82 },
+      { "id": 2354116, "type": 1, "pts": 103.87 }
+    ]
+  },
+  {
+    "pilot": 992,
+    "junior": 0,
+    "score": 387.16,
+    "name": "DRAGAN VIDIC",
+    "flights": [
+      { "id": 2361011, "type": 2, "pts": 156.0 },
+      { "id": 2333765, "type": 1, "pts": 119.8 },
+      { "id": 2351165, "type": 2, "pts": 111.36 }
+    ]
+  },
+  {
+    "pilot": 996,
+    "junior": 0,
+    "score": 378.84888,
+    "name": "TOMAŽ ERŽEN",
+    "flights": [
+      { "id": 2356592, "type": 1, "pts": 156.33 },
+      { "id": 2337989, "type": 3, "pts": 153.9 },
+      { "id": 2373007, "type": 1, "pts": 68.62 }
+    ]
+  },
+  {
+    "pilot": 38662,
+    "junior": 0,
+    "score": 373.31387,
+    "name": "TOMAŽ IVENČNIK GOLOUH",
+    "flights": [
+      { "id": 2355860, "type": 2, "pts": 206.28 },
+      { "id": 2356880, "type": 3, "pts": 85.68 },
+      { "id": 2363539, "type": 2, "pts": 81.35 }
+    ]
+  },
+  {
+    "pilot": 1151,
+    "junior": 0,
+    "score": 373.20483,
+    "name": "DUŠAN OROŽ",
+    "flights": [
+      { "id": 2355938, "type": 2, "pts": 165.96 },
+      { "id": 2339954, "type": 3, "pts": 107.38 },
+      { "id": 2340158, "type": 2, "pts": 99.87 }
+    ]
+  },
+  {
+    "pilot": 1530,
+    "junior": 0,
+    "score": 368.40512,
+    "name": "FRANCE MEGUŠAR",
+    "flights": [
+      { "id": 2357107, "type": 2, "pts": 197.56 },
+      { "id": 2369864, "type": 2, "pts": 106.78 },
+      { "id": 2351406, "type": 1, "pts": 64.07 }
+    ]
+  },
+  {
+    "pilot": 30691,
+    "junior": 0,
+    "score": 368.141,
+    "name": "ALEŠ PIRŠ",
+    "flights": [
+      { "id": 2355794, "type": 2, "pts": 180.2 },
+      { "id": 2377491, "type": 1, "pts": 101.88 },
+      { "id": 2352871, "type": 1, "pts": 86.06 }
+    ]
+  },
+  {
+    "pilot": 1804,
+    "junior": 0,
+    "score": 367.87454,
+    "name": "SERGEJ BUKOVNIK",
+    "flights": [
+      { "id": 2355798, "type": 2, "pts": 175.78 },
+      { "id": 2330444, "type": 2, "pts": 97.56 },
+      { "id": 2314423, "type": 2, "pts": 94.53 }
+    ]
+  },
+  {
+    "pilot": 56851,
+    "junior": 1,
+    "score": 361.69202,
+    "name": "JERNEJ MARČIČ",
+    "flights": [
+      { "id": 2351399, "type": 2, "pts": 229.72 },
+      { "id": 2340409, "type": 2, "pts": 131.98 }
+    ]
+  },
+  {
+    "pilot": 35221,
+    "junior": 0,
+    "score": 357.22122,
+    "name": "KARL POTOČNIK",
+    "flights": [
+      { "id": 2356927, "type": 2, "pts": 127.77 },
+      { "id": 2356523, "type": 2, "pts": 126.15 },
+      { "id": 2334884, "type": 1, "pts": 103.3 }
+    ]
+  },
+  {
+    "pilot": 1249,
+    "junior": 0,
+    "score": 357.0785,
+    "name": "BOJAN OBROVNIK",
+    "flights": [
+      { "id": 2362515, "type": 1, "pts": 133.46 },
+      { "id": 2361108, "type": 2, "pts": 115.62 },
+      { "id": 2353440, "type": 1, "pts": 108.0 }
+    ]
+  },
+  {
+    "pilot": 41792,
+    "junior": 0,
+    "score": 350.17352,
+    "name": "MATEJ PELJHAN",
+    "flights": [
+      { "id": 2333739, "type": 1, "pts": 121.9 },
+      { "id": 2377458, "type": 1, "pts": 115.67 },
+      { "id": 2361065, "type": 2, "pts": 112.61 }
+    ]
+  },
+  {
+    "pilot": 55722,
+    "junior": 0,
+    "score": 338.5409,
+    "name": "ANDREJ KRAJNC",
+    "flights": [
+      { "id": 2337939, "type": 3, "pts": 121.96 },
+      { "id": 2356451, "type": 1, "pts": 113.3 },
+      { "id": 2369911, "type": 2, "pts": 103.27 }
+    ]
+  },
+  {
+    "pilot": 39533,
+    "junior": 1,
+    "score": 329.17722,
+    "name": "TIM  SKVARČA",
+    "flights": [
+      { "id": 2356528, "type": 2, "pts": 127.48 },
+      { "id": 2333697, "type": 1, "pts": 103.4 },
+      { "id": 2334930, "type": 1, "pts": 98.3 }
+    ]
+  },
+  {
+    "pilot": 1408,
+    "junior": 0,
+    "score": 323.287,
+    "name": "MITJA ŠUŠTAR",
+    "flights": [
+      { "id": 2314480, "type": 1, "pts": 111.07 },
+      { "id": 2338577, "type": 1, "pts": 107.82 },
+      { "id": 2334903, "type": 1, "pts": 104.39 }
+    ]
+  },
+  {
+    "pilot": 54688,
+    "junior": 0,
+    "score": 322.92938,
+    "name": "JAN KLOPČIČ",
+    "flights": [
+      { "id": 2355919, "type": 2, "pts": 207.0 },
+      { "id": 2340188, "type": 2, "pts": 115.93 }
+    ]
+  },
+  {
+    "pilot": 36871,
+    "junior": 0,
+    "score": 318.2058,
+    "name": "PRIMOŽ VOGRINC",
+    "flights": [
+      { "id": 2340976, "type": 2, "pts": 123.11 },
+      { "id": 2374932, "type": 2, "pts": 104.41 },
+      { "id": 2363959, "type": 2, "pts": 90.69 }
+    ]
+  },
+  {
+    "pilot": 50518,
+    "junior": 0,
+    "score": 307.3,
+    "name": "BOŠTJAN ZAGORC",
+    "flights": [
+      { "id": 2358040, "type": 1, "pts": 142.4 },
+      { "id": 2353011, "type": 1, "pts": 99.1 },
+      { "id": 2343830, "type": 1, "pts": 65.8 }
+    ]
+  },
+  {
+    "pilot": 55271,
+    "junior": 0,
+    "score": 304.94604,
+    "name": "VID BAJEC",
+    "flights": [
+      { "id": 2363932, "type": 2, "pts": 119.24 },
+      { "id": 2362528, "type": 2, "pts": 97.76 },
+      { "id": 2336006, "type": 2, "pts": 87.94 }
+    ]
+  },
+  {
+    "pilot": 1678,
+    "junior": 0,
+    "score": 302.96002,
+    "name": "BLAŽ KOROŠEC",
+    "flights": [
+      { "id": 2356700, "type": 2, "pts": 153.48 },
+      { "id": 2354242, "type": 2, "pts": 75.48 },
+      { "id": 2351330, "type": 1, "pts": 74.0 }
+    ]
+  },
+  {
+    "pilot": 38430,
+    "junior": 0,
+    "score": 301.32,
+    "name": "ROK RUP",
+    "flights": [
+      { "id": 2363899, "type": 2, "pts": 122.52 },
+      { "id": 2334865, "type": 1, "pts": 106.2 },
+      { "id": 2314350, "type": 2, "pts": 72.6 }
+    ]
+  },
+  {
+    "pilot": 1099,
+    "junior": 0,
+    "score": 300.62463,
+    "name": "BORUT HAFNER",
+    "flights": [
+      { "id": 2338040, "type": 3, "pts": 144.34 },
+      { "id": 2363616, "type": 2, "pts": 90.36 },
+      { "id": 2352824, "type": 1, "pts": 65.93 }
+    ]
+  },
+  {
+    "pilot": 950,
+    "junior": 0,
+    "score": 298.434,
+    "name": "BORUT LAPAJNE",
+    "flights": [
+      { "id": 2333695, "type": 1, "pts": 110.7 },
+      { "id": 2351382, "type": 1, "pts": 101.73 },
+      { "id": 2334944, "type": 1, "pts": 86.0 }
+    ]
+  },
+  {
+    "pilot": 52609,
+    "junior": 0,
+    "score": 297.70514,
+    "name": "MIHA GORJANC",
+    "flights": [
+      { "id": 2375000, "type": 1, "pts": 126.01 },
+      { "id": 2344764, "type": 2, "pts": 88.9 },
+      { "id": 2333702, "type": 1, "pts": 82.8 }
+    ]
+  },
+  {
+    "pilot": 1561,
+    "junior": 0,
+    "score": 289.4188,
+    "name": "SANDI KRISTIĆ",
+    "flights": [
+      { "id": 2374984, "type": 2, "pts": 110.64 },
+      { "id": 2342210, "type": 1, "pts": 108.3 },
+      { "id": 2363605, "type": 3, "pts": 70.48 }
+    ]
+  },
+  {
+    "pilot": 50152,
+    "junior": 0,
+    "score": 288.0411,
+    "name": "MILAN VELKAVRH",
+    "flights": [
+      { "id": 2333704, "type": 1, "pts": 99.88 },
+      { "id": 2361152, "type": 1, "pts": 94.37 },
+      { "id": 2356585, "type": 1, "pts": 93.79 }
+    ]
+  },
+  {
+    "pilot": 1687,
+    "junior": 0,
+    "score": 285.8251,
+    "name": "ALEŠ  PAVLIN ",
+    "flights": [
+      { "id": 2381838, "type": 1, "pts": 125.47 },
+      { "id": 2367484, "type": 1, "pts": 83.7 },
+      { "id": 2381840, "type": 1, "pts": 76.65 }
+    ]
+  },
+  {
+    "pilot": 33319,
+    "junior": 0,
+    "score": 285.3095,
+    "name": "BORUT KOLER",
+    "flights": [
+      { "id": 2356894, "type": 2, "pts": 143.68 },
+      { "id": 2355921, "type": 2, "pts": 86.16 },
+      { "id": 2371704, "type": 1, "pts": 55.47 }
+    ]
+  },
+  {
+    "pilot": 30011,
+    "junior": 0,
+    "score": 282.8553,
+    "name": "JANKO BOGATAJ",
+    "flights": [
+      { "id": 2335917, "type": 1, "pts": 103.5 },
+      { "id": 2369166, "type": 1, "pts": 99.12 },
+      { "id": 2369168, "type": 2, "pts": 80.24 }
+    ]
+  },
+  {
+    "pilot": 41731,
+    "junior": 0,
+    "score": 282.04,
+    "name": "MITJA KUZMAN",
+    "flights": [
+      { "id": 2356519, "type": 2, "pts": 124.92 },
+      { "id": 2356876, "type": 2, "pts": 101.52 },
+      { "id": 2372926, "type": 1, "pts": 55.6 }
+    ]
+  },
+  {
+    "pilot": 39588,
+    "junior": 0,
+    "score": 281.76556,
+    "name": "SIMON RANT",
+    "flights": [
+      { "id": 2356702, "type": 2, "pts": 188.47 },
+      { "id": 2369902, "type": 1, "pts": 51.49 },
+      { "id": 2370689, "type": 2, "pts": 41.81 }
+    ]
+  },
+  {
+    "pilot": 1130,
+    "junior": 0,
+    "score": 281.34222,
+    "name": "JOŽE MOLEK",
+    "flights": [
+      { "id": 2339940, "type": 2, "pts": 95.15 },
+      { "id": 2347886, "type": 1, "pts": 94.03 },
+      { "id": 2333860, "type": 2, "pts": 92.16 }
+    ]
+  },
+  {
+    "pilot": 55611,
+    "junior": 0,
+    "score": 273.68082,
+    "name": "LENART PRIMOŽIČ",
+    "flights": [
+      { "id": 2357119, "type": 2, "pts": 153.38 },
+      { "id": 2357625, "type": 2, "pts": 80.61 },
+      { "id": 2364001, "type": 1, "pts": 39.69 }
+    ]
+  },
+  {
+    "pilot": 55299,
+    "junior": 0,
+    "score": 271.85156,
+    "name": "KRISTJAN  NOVAK",
+    "flights": [
+      { "id": 2351252, "type": 1, "pts": 98.33 },
+      { "id": 2333665, "type": 2, "pts": 91.08 },
+      { "id": 2330475, "type": 2, "pts": 82.44 }
+    ]
+  },
+  {
+    "pilot": 951,
+    "junior": 0,
+    "score": 270.28525,
+    "name": "MIHA MLAKAR",
+    "flights": [
+      { "id": 2333803, "type": 2, "pts": 92.4 },
+      { "id": 2334965, "type": 2, "pts": 90.48 },
+      { "id": 2351455, "type": 2, "pts": 87.41 }
+    ]
+  },
+  {
+    "pilot": 29998,
+    "junior": 0,
+    "score": 269.32898,
+    "name": "PAVEL KANTE",
+    "flights": [
+      { "id": 2352851, "type": 2, "pts": 97.39 },
+      { "id": 2333624, "type": 2, "pts": 89.06 },
+      { "id": 2361054, "type": 2, "pts": 82.88 }
+    ]
+  },
+  {
+    "pilot": 2662,
+    "junior": 0,
+    "score": 264.58652,
+    "name": "ROK LOTRIČ",
+    "flights": [
+      { "id": 2372975, "type": 2, "pts": 105.0 },
+      { "id": 2352844, "type": 1, "pts": 82.43 },
+      { "id": 2333521, "type": 2, "pts": 77.16 }
+    ]
+  },
+  {
+    "pilot": 1421,
+    "junior": 0,
+    "score": 261.635,
+    "name": "BOŠTJAN ZORMAN",
+    "flights": [
+      { "id": 2357307, "type": 2, "pts": 95.75 },
+      { "id": 2355726, "type": 2, "pts": 87.69 },
+      { "id": 2372065, "type": 1, "pts": 78.19 }
+    ]
+  },
+  {
+    "pilot": 1149,
+    "junior": 0,
+    "score": 258.6488,
+    "name": "ANDREJ BOLHA",
+    "flights": [
+      { "id": 2337916, "type": 2, "pts": 97.2 },
+      { "id": 2360906, "type": 1, "pts": 90.35 },
+      { "id": 2344749, "type": 1, "pts": 71.1 }
+    ]
+  },
+  {
+    "pilot": 36248,
+    "junior": 0,
+    "score": 257.39066,
+    "name": "SAMO OPALK",
+    "flights": [
+      { "id": 2356901, "type": 2, "pts": 123.96 },
+      { "id": 2345454, "type": 2, "pts": 72.07 },
+      { "id": 2356903, "type": 2, "pts": 61.36 }
+    ]
+  },
+  {
+    "pilot": 29951,
+    "junior": 0,
+    "score": 255.4577,
+    "name": "KONRAD KRAŠEK",
+    "flights": [
+      { "id": 2338584, "type": 1, "pts": 99.4 },
+      { "id": 2334905, "type": 1, "pts": 84.5 },
+      { "id": 2349473, "type": 1, "pts": 71.55 }
+    ]
+  },
+  {
+    "pilot": 2027,
+    "junior": 0,
+    "score": 255.0765,
+    "name": "JANEZ BENEDIČIČ",
+    "flights": [
+      { "id": 2356536, "type": 2, "pts": 177.5 },
+      { "id": 2369807, "type": 1, "pts": 43.48 },
+      { "id": 2356872, "type": 1, "pts": 34.1 }
+    ]
+  },
+  {
+    "pilot": 1185,
+    "junior": 0,
+    "score": 253.71,
+    "name": "SAMO BOŽIČ",
+    "flights": [
+      { "id": 2361148, "type": 1, "pts": 104.78 },
+      { "id": 2352924, "type": 1, "pts": 84.88 },
+      { "id": 2349500, "type": 1, "pts": 64.05 }
+    ]
+  },
+  {
+    "pilot": 1168,
+    "junior": 0,
+    "score": 252.9239,
+    "name": "URBAN PURKAT",
+    "flights": [
+      { "id": 2333662, "type": 1, "pts": 115.6 },
+      { "id": 2353633, "type": 1, "pts": 99.62 },
+      { "id": 2331026, "type": 1, "pts": 37.7 }
+    ]
+  },
+  {
+    "pilot": 1396,
+    "junior": 0,
+    "score": 251.1968,
+    "name": "BRANE ROZMAN",
+    "flights": [
+      { "id": 2314503, "type": 1, "pts": 111.16 },
+      { "id": 2316279, "type": 1, "pts": 87.47 },
+      { "id": 2320142, "type": 2, "pts": 52.57 }
+    ]
+  },
+  {
+    "pilot": 1039,
+    "junior": 0,
+    "score": 250.40001,
+    "name": "MITJA SAJKO",
+    "flights": [
+      { "id": 2355846, "type": 2, "pts": 121.2 },
+      { "id": 2343593, "type": 1, "pts": 64.9 },
+      { "id": 2372291, "type": 1, "pts": 64.3 }
+    ]
+  },
+  {
+    "pilot": 958,
+    "junior": 0,
+    "score": 249.66,
+    "name": "GAŠPER FERME",
+    "flights": [
+      { "id": 2358335, "type": 1, "pts": 90.9 },
+      { "id": 2344769, "type": 2, "pts": 88.68 },
+      { "id": 2354965, "type": 2, "pts": 70.08 }
+    ]
+  },
+  {
+    "pilot": 3077,
+    "junior": 0,
+    "score": 246.98,
+    "name": "MATEJ KALIŠNIK",
+    "flights": [
+      { "id": 2333651, "type": 1, "pts": 118.1 },
+      { "id": 2330459, "type": 1, "pts": 103.4 },
+      { "id": 2351227, "type": 3, "pts": 25.48 }
+    ]
+  },
+  {
+    "pilot": 49350,
+    "junior": 0,
+    "score": 245.12628,
+    "name": "IGOR CIMERMAN",
+    "flights": [
+      { "id": 2365041, "type": 2, "pts": 87.08 },
+      { "id": 2376224, "type": 2, "pts": 80.65 },
+      { "id": 2324856, "type": 2, "pts": 77.4 }
+    ]
+  },
+  {
+    "pilot": 1631,
+    "junior": 0,
+    "score": 244.12115,
+    "name": "PETER KRKOČ",
+    "flights": [
+      { "id": 2367774, "type": 2, "pts": 95.72 },
+      { "id": 2371774, "type": 1, "pts": 94.82 },
+      { "id": 2347447, "type": 1, "pts": 53.58 }
+    ]
+  },
+  {
+    "pilot": 2401,
+    "junior": 0,
+    "score": 241.61224,
+    "name": "MITJA JUG",
+    "flights": [
+      { "id": 2352854, "type": 2, "pts": 86.11 },
+      { "id": 2354846, "type": 1, "pts": 78.1 },
+      { "id": 2333590, "type": 2, "pts": 77.4 }
+    ]
+  },
+  {
+    "pilot": 2654,
+    "junior": 0,
+    "score": 241.5956,
+    "name": "ALEŠ DIMNIK",
+    "flights": [
+      { "id": 2330478, "type": 1, "pts": 95.0 },
+      { "id": 2333571, "type": 2, "pts": 92.64 },
+      { "id": 2333001, "type": 1, "pts": 53.96 }
+    ]
+  },
+  {
+    "pilot": 1764,
+    "junior": 0,
+    "score": 240.87015,
+    "name": "ZORAN GABOROVIČ",
+    "flights": [
+      { "id": 2334894, "type": 1, "pts": 85.22 },
+      { "id": 2330465, "type": 1, "pts": 80.8 },
+      { "id": 2316281, "type": 2, "pts": 74.85 }
+    ]
+  },
+  {
+    "pilot": 52158,
+    "junior": 0,
+    "score": 237.8681,
+    "name": "DENIS SLEMENŠEK",
+    "flights": [
+      { "id": 2353796, "type": 1, "pts": 98.96 },
+      { "id": 2355931, "type": 2, "pts": 80.41 },
+      { "id": 2335063, "type": 1, "pts": 58.5 }
+    ]
+  },
+  {
+    "pilot": 1300,
+    "junior": 0,
+    "score": 237.114,
+    "name": "SREČKO ZAVRŠEK",
+    "flights": [
+      { "id": 2333654, "type": 1, "pts": 105.3 },
+      { "id": 2345151, "type": 1, "pts": 78.53 },
+      { "id": 2349840, "type": 1, "pts": 53.28 }
+    ]
+  },
+  {
+    "pilot": 33537,
+    "junior": 0,
+    "score": 235.5248,
+    "name": "DAMJAN BOGATAJ",
+    "flights": [
+      { "id": 2337521, "type": 1, "pts": 87.68 },
+      { "id": 2377496, "type": 1, "pts": 79.98 },
+      { "id": 2373057, "type": 1, "pts": 67.86 }
+    ]
+  },
+  {
+    "pilot": 2064,
+    "junior": 0,
+    "score": 234.4945,
+    "name": "ZDRAVKO KUMER",
+    "flights": [
+      { "id": 2333650, "type": 1, "pts": 106.5 },
+      { "id": 2334833, "type": 1, "pts": 64.1 },
+      { "id": 2371806, "type": 1, "pts": 63.89 }
+    ]
+  },
+  {
+    "pilot": 53597,
+    "junior": 0,
+    "score": 232.12,
+    "name": "ELVIS HALILOVIĆ",
+    "flights": [
+      { "id": 2333612, "type": 2, "pts": 87.72 },
+      { "id": 2374397, "type": 3, "pts": 75.88 },
+      { "id": 2370990, "type": 2, "pts": 68.52 }
+    ]
+  },
+  {
+    "pilot": 2103,
+    "junior": 0,
+    "score": 228.76729,
+    "name": "UROŠ KOMAC",
+    "flights": [
+      { "id": 2363866, "type": 2, "pts": 93.83 },
+      { "id": 2333679, "type": 1, "pts": 67.5 },
+      { "id": 2334747, "type": 2, "pts": 67.44 }
+    ]
+  },
+  {
+    "pilot": 54244,
+    "junior": 0,
+    "score": 228.16028,
+    "name": "JURE MAROLT  ",
+    "flights": [
+      { "id": 2314883, "type": 1, "pts": 94.9 },
+      { "id": 2314407, "type": 1, "pts": 82.3 },
+      { "id": 2356112, "type": 2, "pts": 50.96 }
+    ]
+  },
+  {
+    "pilot": 54733,
+    "junior": 0,
+    "score": 227.6237,
+    "name": "MATEJ JARM",
+    "flights": [
+      { "id": 2361032, "type": 2, "pts": 119.88 },
+      { "id": 2368784, "type": 1, "pts": 57.53 },
+      { "id": 2369999, "type": 1, "pts": 50.22 }
+    ]
+  },
+  {
+    "pilot": 1090,
+    "junior": 0,
+    "score": 225.6114,
+    "name": "TOMAŽ ČOPI",
+    "flights": [
+      { "id": 2354231, "type": 1, "pts": 90.44 },
+      { "id": 2333784, "type": 1, "pts": 69.3 },
+      { "id": 2349516, "type": 1, "pts": 65.87 }
+    ]
+  },
+  {
+    "pilot": 964,
+    "junior": 0,
+    "score": 225.48001,
+    "name": "RADO VOGLAR",
+    "flights": [
+      { "id": 2363973, "type": 2, "pts": 123.6 },
+      { "id": 2333189, "type": 2, "pts": 51.48 },
+      { "id": 2355650, "type": 1, "pts": 50.4 }
+    ]
+  },
+  {
+    "pilot": 1537,
+    "junior": 0,
+    "score": 221.53065,
+    "name": "BOŠTJAN SODJA",
+    "flights": [
+      { "id": 2356632, "type": 2, "pts": 155.24 },
+      { "id": 2355705, "type": 3, "pts": 46.83 },
+      { "id": 2377455, "type": 3, "pts": 19.46 }
+    ]
+  },
+  {
+    "pilot": 41013,
+    "junior": 0,
+    "score": 221.16,
+    "name": "BLAŽ VOLK",
+    "flights": [
+      { "id": 2334926, "type": 1, "pts": 95.4 },
+      { "id": 2349504, "type": 1, "pts": 73.39 },
+      { "id": 2333604, "type": 1, "pts": 52.37 }
+    ]
+  },
+  {
+    "pilot": 52980,
+    "junior": 0,
+    "score": 219.5492,
+    "name": "KLEMEN JAZBEC",
+    "flights": [
+      { "id": 2334983, "type": 1, "pts": 82.71 },
+      { "id": 2345504, "type": 2, "pts": 77.09 },
+      { "id": 2324782, "type": 1, "pts": 59.75 }
+    ]
+  },
+  {
+    "pilot": 51490,
+    "junior": 0,
+    "score": 215.42686,
+    "name": "JOŽE SPEVAN",
+    "flights": [
+      { "id": 2363894, "type": 1, "pts": 93.77 },
+      { "id": 2356587, "type": 2, "pts": 65.61 },
+      { "id": 2355763, "type": 2, "pts": 56.05 }
+    ]
+  },
+  {
+    "pilot": 37280,
+    "junior": 0,
+    "score": 213.5258,
+    "name": "ROBERT POLIČNIK",
+    "flights": [
+      { "id": 2333633, "type": 2, "pts": 89.64 },
+      { "id": 2334853, "type": 1, "pts": 63.2 },
+      { "id": 2337867, "type": 2, "pts": 60.69 }
+    ]
+  },
+  {
+    "pilot": 3118,
+    "junior": 0,
+    "score": 212.9214,
+    "name": "DOMEN LIPUŽIČ",
+    "flights": [
+      { "id": 2355896, "type": 2, "pts": 113.08 },
+      { "id": 2335091, "type": 2, "pts": 50.04 },
+      { "id": 2327062, "type": 2, "pts": 49.8 }
+    ]
+  },
+  {
+    "pilot": 35874,
+    "junior": 0,
+    "score": 209.7492,
+    "name": "ANDREJ GRAJŽEL",
+    "flights": [
+      { "id": 2362468, "type": 2, "pts": 76.18 },
+      { "id": 2367706, "type": 2, "pts": 75.68 },
+      { "id": 2365304, "type": 2, "pts": 57.89 }
+    ]
+  },
+  {
+    "pilot": 45540,
+    "junior": 0,
+    "score": 209.5279,
+    "name": "MATJAŽ SKRINJER",
+    "flights": [
+      { "id": 2333804, "type": 2, "pts": 78.0 },
+      { "id": 2320286, "type": 1, "pts": 68.48 },
+      { "id": 2351793, "type": 1, "pts": 63.05 }
+    ]
+  },
+  {
+    "pilot": 959,
+    "junior": 0,
+    "score": 208.73808,
+    "name": "ALOJZ TOVORNIK",
+    "flights": [
+      { "id": 2354080, "type": 2, "pts": 83.04 },
+      { "id": 2374541, "type": 1, "pts": 68.87 },
+      { "id": 2344906, "type": 2, "pts": 56.83 }
+    ]
+  },
+  {
+    "pilot": 29741,
+    "junior": 0,
+    "score": 208.18681,
+    "name": "PETER KOCJAN",
+    "flights": [
+      { "id": 2333542, "type": 2, "pts": 77.16 },
+      { "id": 2351177, "type": 1, "pts": 66.96 },
+      { "id": 2318237, "type": 1, "pts": 64.07 }
+    ]
+  },
+  {
+    "pilot": 2661,
+    "junior": 0,
+    "score": 207.09999,
+    "name": "NIKOLAJ ČINKU",
+    "flights": [
+      { "id": 2335680, "type": 1, "pts": 86.2 },
+      { "id": 2324939, "type": 1, "pts": 69.2 },
+      { "id": 2374105, "type": 1, "pts": 51.7 }
+    ]
+  },
+  {
+    "pilot": 53768,
+    "junior": 0,
+    "score": 203.99486,
+    "name": "DENIS ŠEBREK",
+    "flights": [
+      { "id": 2365759, "type": 1, "pts": 88.92 },
+      { "id": 2340392, "type": 1, "pts": 59.98 },
+      { "id": 2345428, "type": 2, "pts": 55.09 }
+    ]
+  },
+  {
+    "pilot": 39649,
+    "junior": 0,
+    "score": 202.92274,
+    "name": "SIMON OBLAK",
+    "flights": [
+      { "id": 2314881, "type": 2, "pts": 87.72 },
+      { "id": 2355657, "type": 2, "pts": 57.68 },
+      { "id": 2351113, "type": 1, "pts": 57.52 }
+    ]
+  },
+  {
+    "pilot": 1438,
+    "junior": 0,
+    "score": 200.3045,
+    "name": "MOJCA PIŠEK",
+    "flights": [
+      { "id": 2314504, "type": 1, "pts": 111.5 },
+      { "id": 2314902, "type": 1, "pts": 88.8 }
+    ]
+  },
+  {
+    "pilot": 46606,
+    "junior": 0,
+    "score": 198.7152,
+    "name": "IGOR OKORN",
+    "flights": [
+      { "id": 2333672, "type": 1, "pts": 92.7 },
+      { "id": 2339896, "type": 2, "pts": 56.32 },
+      { "id": 2339215, "type": 2, "pts": 49.7 }
+    ]
+  },
+  {
+    "pilot": 3366,
+    "junior": 0,
+    "score": 197.9492,
+    "name": "FRANC UNUK",
+    "flights": [
+      { "id": 2333658, "type": 1, "pts": 81.8 },
+      { "id": 2335034, "type": 1, "pts": 75.0 },
+      { "id": 2320269, "type": 1, "pts": 41.15 }
+    ]
+  },
+  {
+    "pilot": 37981,
+    "junior": 0,
+    "score": 197.18835,
+    "name": "GORAZD BRGLEZ",
+    "flights": [
+      { "id": 2363939, "type": 2, "pts": 99.95 },
+      { "id": 2374018, "type": 2, "pts": 51.0 },
+      { "id": 2353998, "type": 1, "pts": 46.24 }
+    ]
+  },
+  {
+    "pilot": 1375,
+    "junior": 0,
+    "score": 196.6251,
+    "name": "EMIL KOS",
+    "flights": [
+      { "id": 2318235, "type": 2, "pts": 87.96 },
+      { "id": 2335253, "type": 2, "pts": 54.48 },
+      { "id": 2345399, "type": 1, "pts": 54.19 }
+    ]
+  },
+  {
+    "pilot": 3237,
+    "junior": 0,
+    "score": 195.7088,
+    "name": "ALEŠ MOHORIČ",
+    "flights": [
+      { "id": 2335043, "type": 1, "pts": 93.8 },
+      { "id": 2320274, "type": 1, "pts": 57.57 },
+      { "id": 2354241, "type": 1, "pts": 44.33 }
+    ]
+  },
+  {
+    "pilot": 38106,
+    "junior": 1,
+    "score": 195.69879,
+    "name": "MATIJA  KURINČIČ",
+    "flights": [
+      { "id": 2355756, "type": 2, "pts": 121.3 },
+      { "id": 2368258, "type": 1, "pts": 37.74 },
+      { "id": 2364155, "type": 1, "pts": 36.66 }
+    ]
+  },
+  {
+    "pilot": 30685,
+    "junior": 0,
+    "score": 195.11676,
+    "name": "MARKO VOVK",
+    "flights": [
+      { "id": 2361402, "type": 2, "pts": 91.86 },
+      { "id": 2318612, "type": 2, "pts": 52.56 },
+      { "id": 2360397, "type": 1, "pts": 50.7 }
+    ]
+  },
+  {
+    "pilot": 1136,
+    "junior": 0,
+    "score": 192.81834,
+    "name": "TOM PAVLIČ",
+    "flights": [
+      { "id": 2371714, "type": 2, "pts": 85.19 },
+      { "id": 2347512, "type": 1, "pts": 56.99 },
+      { "id": 2317606, "type": 2, "pts": 50.64 }
+    ]
+  },
+  {
+    "pilot": 1867,
+    "junior": 0,
+    "score": 192.54922,
+    "name": "JANEZ KAVČIČ",
+    "flights": [
+      { "id": 2356541, "type": 2, "pts": 162.54 },
+      { "id": 2334704, "type": 1, "pts": 17.73 },
+      { "id": 2314906, "type": 2, "pts": 12.28 }
+    ]
+  },
+  {
+    "pilot": 36807,
+    "junior": 0,
+    "score": 191.56898,
+    "name": "JANEZ OBU",
+    "flights": [
+      { "id": 2354105, "type": 1, "pts": 93.02 },
+      { "id": 2362479, "type": 2, "pts": 62.23 },
+      { "id": 2324731, "type": 1, "pts": 36.32 }
+    ]
+  },
+  {
+    "pilot": 2034,
+    "junior": 0,
+    "score": 190.96002,
+    "name": "SIMEON KLOKOČOVNIK",
+    "flights": [
+      { "id": 2337996, "type": 2, "pts": 100.08 },
+      { "id": 2367448, "type": 1, "pts": 49.0 },
+      { "id": 2360837, "type": 2, "pts": 41.88 }
+    ]
+  },
+  {
+    "pilot": 1044,
+    "junior": 0,
+    "score": 190.5,
+    "name": "MARKO VALENČIČ",
+    "flights": [
+      { "id": 2337894, "type": 1, "pts": 75.1 },
+      { "id": 2335260, "type": 2, "pts": 62.4 },
+      { "id": 2372231, "type": 1, "pts": 53.0 }
+    ]
+  },
+  {
+    "pilot": 1007,
+    "junior": 0,
+    "score": 190.18019,
+    "name": "ROK LORGER",
+    "flights": [
+      { "id": 2339895, "type": 3, "pts": 64.46 },
+      { "id": 2334883, "type": 1, "pts": 63.0 },
+      { "id": 2339249, "type": 3, "pts": 62.72 }
+    ]
+  },
+  {
+    "pilot": 1758,
+    "junior": 0,
+    "score": 189.2578,
+    "name": "MITJA JANČIČ",
+    "flights": [
+      { "id": 2372967, "type": 1, "pts": 68.85 },
+      { "id": 2355831, "type": 2, "pts": 61.44 },
+      { "id": 2376026, "type": 1, "pts": 58.96 }
+    ]
+  },
+  {
+    "pilot": 55861,
+    "junior": 0,
+    "score": 188.96426,
+    "name": "JERNEJ POGAČAR",
+    "flights": [
+      { "id": 2353352, "type": 2, "pts": 66.22 },
+      { "id": 2333634, "type": 1, "pts": 63.9 },
+      { "id": 2365705, "type": 1, "pts": 58.84 }
+    ]
+  },
+  {
+    "pilot": 2397,
+    "junior": 0,
+    "score": 187.61449,
+    "name": "DARKO GLUŠIČ",
+    "flights": [
+      { "id": 2355656, "type": 2, "pts": 79.33 },
+      { "id": 2364177, "type": 2, "pts": 65.52 },
+      { "id": 2351111, "type": 2, "pts": 42.76 }
+    ]
+  },
+  {
+    "pilot": 55297,
+    "junior": 0,
+    "score": 186.91719,
+    "name": "JERNEJ ARH",
+    "flights": [
+      { "id": 2373843, "type": 1, "pts": 65.2 },
+      { "id": 2320282, "type": 1, "pts": 63.52 },
+      { "id": 2369435, "type": 1, "pts": 58.2 }
+    ]
+  },
+  {
+    "pilot": 33849,
+    "junior": 0,
+    "score": 186.12247,
+    "name": "DAMIJAN KRANJC",
+    "flights": [
+      { "id": 2318801, "type": 2, "pts": 82.8 },
+      { "id": 2358185, "type": 2, "pts": 73.9 },
+      { "id": 2356649, "type": 3, "pts": 29.42 }
+    ]
+  },
+  {
+    "pilot": 2189,
+    "junior": 0,
+    "score": 184.6779,
+    "name": "KLEMEN PLESTENJAK",
+    "flights": [
+      { "id": 2361710, "type": 2, "pts": 92.53 },
+      { "id": 2318689, "type": 2, "pts": 50.16 },
+      { "id": 2361942, "type": 1, "pts": 41.99 }
+    ]
+  },
+  {
+    "pilot": 47789,
+    "junior": 1,
+    "score": 178.31705,
+    "name": "UROŠ KOMEL",
+    "flights": [
+      { "id": 2363846, "type": 2, "pts": 83.0 },
+      { "id": 2356002, "type": 1, "pts": 48.48 },
+      { "id": 2320109, "type": 2, "pts": 46.83 }
+    ]
+  },
+  {
+    "pilot": 56727,
+    "junior": 1,
+    "score": 177.2455,
+    "name": "ŽAN JEVŠOVAR",
+    "flights": [
+      { "id": 2333740, "type": 2, "pts": 87.72 },
+      { "id": 2344760, "type": 1, "pts": 45.07 },
+      { "id": 2330464, "type": 1, "pts": 44.46 }
+    ]
+  },
+  {
+    "pilot": 55715,
+    "junior": 0,
+    "score": 175.72845,
+    "name": "BLAŽ POHLEVEN",
+    "flights": [
+      { "id": 2362474, "type": 2, "pts": 70.84 },
+      { "id": 2361019, "type": 1, "pts": 57.43 },
+      { "id": 2353987, "type": 2, "pts": 47.45 }
+    ]
+  },
+  {
+    "pilot": 1627,
+    "junior": 0,
+    "score": 175.22002,
+    "name": "MARKO LUKIĆ",
+    "flights": [
+      { "id": 2372972, "type": 1, "pts": 62.3 },
+      { "id": 2358507, "type": 2, "pts": 62.04 },
+      { "id": 2333266, "type": 2, "pts": 50.88 }
+    ]
+  },
+  {
+    "pilot": 1389,
+    "junior": 0,
+    "score": 173.4751,
+    "name": "ALEŠ ŽUMER",
+    "flights": [
+      { "id": 2314556, "type": 2, "pts": 67.95 },
+      { "id": 2369022, "type": 1, "pts": 54.84 },
+      { "id": 2370403, "type": 1, "pts": 50.68 }
+    ]
+  },
+  {
+    "pilot": 39104,
+    "junior": 0,
+    "score": 172.69728,
+    "name": "IZTOK TOMINEC",
+    "flights": [
+      { "id": 2361703, "type": 2, "pts": 72.98 },
+      { "id": 2318740, "type": 2, "pts": 50.4 },
+      { "id": 2369405, "type": 2, "pts": 49.32 }
+    ]
+  },
+  {
+    "pilot": 2553,
+    "junior": 0,
+    "score": 172.6878,
+    "name": "JOŽE MARKEŠ",
+    "flights": [
+      { "id": 2360125, "type": 1, "pts": 84.12 },
+      { "id": 2360128, "type": 2, "pts": 52.16 },
+      { "id": 2360124, "type": 1, "pts": 36.41 }
+    ]
+  },
+  {
+    "pilot": 29983,
+    "junior": 0,
+    "score": 171.92839,
+    "name": "GREGOR GORENČIČ",
+    "flights": [
+      { "id": 2361408, "type": 2, "pts": 93.62 },
+      { "id": 2333514, "type": 2, "pts": 52.44 },
+      { "id": 2360997, "type": 1, "pts": 25.87 }
+    ]
+  },
+  {
+    "pilot": 50115,
+    "junior": 0,
+    "score": 169.0917,
+    "name": "ANŽE HRAST",
+    "flights": [
+      { "id": 2333641, "type": 2, "pts": 81.48 },
+      { "id": 2353346, "type": 1, "pts": 51.74 },
+      { "id": 2365785, "type": 1, "pts": 35.87 }
+    ]
+  },
+  {
+    "pilot": 58244,
+    "junior": 0,
+    "score": 168.25775,
+    "name": "DOMEN SELJAK",
+    "flights": [
+      { "id": 2363990, "type": 2, "pts": 63.66 },
+      { "id": 2347556, "type": 1, "pts": 53.34 },
+      { "id": 2351195, "type": 1, "pts": 51.26 }
+    ]
+  },
+  {
+    "pilot": 53730,
+    "junior": 0,
+    "score": 166.71878,
+    "name": "MARTIN  KOČEVAR",
+    "flights": [
+      { "id": 2314939, "type": 2, "pts": 77.28 },
+      { "id": 2353684, "type": 2, "pts": 55.43 },
+      { "id": 2369352, "type": 2, "pts": 34.01 }
+    ]
+  },
+  {
+    "pilot": 58457,
+    "junior": 0,
+    "score": 166.36491,
+    "name": "EMILIANO GRGIČ",
+    "flights": [
+      { "id": 2377558, "type": 1, "pts": 63.42 },
+      { "id": 2377559, "type": 2, "pts": 53.53 },
+      { "id": 2362635, "type": 2, "pts": 49.42 }
+    ]
+  },
+  {
+    "pilot": 42947,
+    "junior": 0,
+    "score": 166.1882,
+    "name": "ANŽE BREJC",
+    "flights": [
+      { "id": 2334902, "type": 2, "pts": 73.23 },
+      { "id": 2345477, "type": 2, "pts": 58.56 },
+      { "id": 2343380, "type": 1, "pts": 34.4 }
+    ]
+  },
+  {
+    "pilot": 993,
+    "junior": 0,
+    "score": 165.59013,
+    "name": "JANEZ CIMERMAN",
+    "flights": [
+      { "id": 2334820, "type": 1, "pts": 62.2 },
+      { "id": 2377431, "type": 2, "pts": 52.56 },
+      { "id": 2314590, "type": 1, "pts": 50.83 }
+    ]
+  },
+  {
+    "pilot": 44319,
+    "junior": 0,
+    "score": 164.00763,
+    "name": "NICK PETRIČ",
+    "flights": [
+      { "id": 2373131, "type": 1, "pts": 71.39 },
+      { "id": 2353725, "type": 1, "pts": 60.2 },
+      { "id": 2370905, "type": 3, "pts": 32.42 }
+    ]
+  },
+  {
+    "pilot": 37114,
+    "junior": 0,
+    "score": 162.70201,
+    "name": "MATIC EGART",
+    "flights": [{ "id": 2356548, "type": 2, "pts": 162.7 }]
+  },
+  {
+    "pilot": 30591,
+    "junior": 0,
+    "score": 162.38339,
+    "name": "ROBERT ČEBULAR",
+    "flights": [
+      { "id": 2355795, "type": 1, "pts": 65.66 },
+      { "id": 2362486, "type": 1, "pts": 50.89 },
+      { "id": 2339237, "type": 1, "pts": 45.83 }
+    ]
+  },
+  {
+    "pilot": 53927,
+    "junior": 0,
+    "score": 161.91454,
+    "name": "DUŠAN ŠIREC",
+    "flights": [
+      { "id": 2324865, "type": 3, "pts": 62.87 },
+      { "id": 2343255, "type": 2, "pts": 51.58 },
+      { "id": 2343254, "type": 2, "pts": 47.46 }
+    ]
+  },
+  {
+    "pilot": 2841,
+    "junior": 0,
+    "score": 161.2028,
+    "name": "ROK  KAVČIČ",
+    "flights": [
+      { "id": 2356669, "type": 2, "pts": 136.1 },
+      { "id": 2356221, "type": 1, "pts": 13.0 },
+      { "id": 2356229, "type": 1, "pts": 12.1 }
+    ]
+  },
+  {
+    "pilot": 52462,
+    "junior": 0,
+    "score": 160.1936,
+    "name": "GORAZD ŠIRCA",
+    "flights": [
+      { "id": 2329954, "type": 1, "pts": 66.2 },
+      { "id": 2352878, "type": 2, "pts": 47.91 },
+      { "id": 2317619, "type": 2, "pts": 46.08 }
+    ]
+  },
+  {
+    "pilot": 2407,
+    "junior": 0,
+    "score": 159.889,
+    "name": "JANEZ JELOVČAN",
+    "flights": [
+      { "id": 2368172, "type": 1, "pts": 59.52 },
+      { "id": 2345475, "type": 1, "pts": 53.07 },
+      { "id": 2367753, "type": 1, "pts": 47.3 }
+    ]
+  },
+  {
+    "pilot": 1936,
+    "junior": 0,
+    "score": 159.46669,
+    "name": "UROŠ NOVAK",
+    "flights": [
+      { "id": 2334889, "type": 1, "pts": 68.29 },
+      { "id": 2335809, "type": 1, "pts": 50.92 },
+      { "id": 2324769, "type": 2, "pts": 40.26 }
+    ]
+  },
+  {
+    "pilot": 38861,
+    "junior": 0,
+    "score": 159.43182,
+    "name": "MATJAŽ ŠKERGET",
+    "flights": [
+      { "id": 2334835, "type": 2, "pts": 64.92 },
+      { "id": 2353587, "type": 1, "pts": 61.2 },
+      { "id": 2333175, "type": 1, "pts": 33.31 }
+    ]
+  },
+  {
+    "pilot": 1005,
+    "junior": 0,
+    "score": 158.70331,
+    "name": "SREČKO JOŠT",
+    "flights": [
+      { "id": 2344784, "type": 1, "pts": 59.7 },
+      { "id": 2339194, "type": 1, "pts": 52.5 },
+      { "id": 2364746, "type": 1, "pts": 46.51 }
+    ]
+  },
+  {
+    "pilot": 1521,
+    "junior": 0,
+    "score": 156.9582,
+    "name": "STANE BAJT",
+    "flights": [
+      { "id": 2369334, "type": 1, "pts": 86.81 },
+      { "id": 2353990, "type": 2, "pts": 70.15 }
+    ]
+  },
+  {
+    "pilot": 1420,
+    "junior": 0,
+    "score": 156.84889,
+    "name": "MIRAN FRIDAU",
+    "flights": [
+      { "id": 2355381, "type": 2, "pts": 57.88 },
+      { "id": 2355710, "type": 2, "pts": 52.22 },
+      { "id": 2349124, "type": 2, "pts": 46.75 }
+    ]
+  },
+  {
+    "pilot": 40889,
+    "junior": 0,
+    "score": 156.76929,
+    "name": "DAVORIN DRAGINC",
+    "flights": [
+      { "id": 2350741, "type": 3, "pts": 57.5 },
+      { "id": 2345414, "type": 2, "pts": 54.46 },
+      { "id": 2373911, "type": 2, "pts": 44.81 }
+    ]
+  },
+  {
+    "pilot": 51961,
+    "junior": 0,
+    "score": 156.7369,
+    "name": "BOJAN DOLENC",
+    "flights": [
+      { "id": 2329951, "type": 2, "pts": 62.52 },
+      { "id": 2334323, "type": 1, "pts": 54.35 },
+      { "id": 2352856, "type": 1, "pts": 39.87 }
+    ]
+  },
+  {
+    "pilot": 36108,
+    "junior": 0,
+    "score": 155.26285,
+    "name": "ALEŠ ČEBAŠEK",
+    "flights": [
+      { "id": 2354010, "type": 1, "pts": 57.22 },
+      { "id": 2356576, "type": 1, "pts": 52.9 },
+      { "id": 2337885, "type": 2, "pts": 45.14 }
+    ]
+  },
+  {
+    "pilot": 52075,
+    "junior": 0,
+    "score": 154.62492,
+    "name": "MILAN MILANOVIČ",
+    "flights": [
+      { "id": 2362511, "type": 2, "pts": 59.62 },
+      { "id": 2361018, "type": 2, "pts": 59.22 },
+      { "id": 2371778, "type": 1, "pts": 35.79 }
+    ]
+  },
+  {
+    "pilot": 1070,
+    "junior": 0,
+    "score": 153.62497,
+    "name": "SIMON ČOPI",
+    "flights": [
+      { "id": 2338063, "type": 2, "pts": 66.05 },
+      { "id": 2333728, "type": 2, "pts": 56.35 },
+      { "id": 2353845, "type": 2, "pts": 31.22 }
+    ]
+  },
+  {
+    "pilot": 54427,
+    "junior": 0,
+    "score": 153.5871,
+    "name": "VERONIKA ŠTAMPFL",
+    "flights": [
+      { "id": 2357133, "type": 1, "pts": 58.28 },
+      { "id": 2369993, "type": 1, "pts": 50.56 },
+      { "id": 2373067, "type": 1, "pts": 44.75 }
+    ]
+  },
+  {
+    "pilot": 42501,
+    "junior": 0,
+    "score": 152.1228,
+    "name": "TOMAŽ  BAVDAŽ",
+    "flights": [
+      { "id": 2333823, "type": 2, "pts": 78.0 },
+      { "id": 2338067, "type": 2, "pts": 38.69 },
+      { "id": 2349758, "type": 2, "pts": 35.44 }
+    ]
+  },
+  {
+    "pilot": 36037,
+    "junior": 0,
+    "score": 150.25046,
+    "name": "JURIJ VIDIC",
+    "flights": [
+      { "id": 2344037, "type": 1, "pts": 88.82 },
+      { "id": 2347220, "type": 1, "pts": 61.39 },
+      { "id": 2344036, "type": 1, "pts": 0.04 }
+    ]
+  },
+  {
+    "pilot": 47746,
+    "junior": 0,
+    "score": 150.03375,
+    "name": "BOŠTJAN KLEMENČIČ",
+    "flights": [
+      { "id": 2355698, "type": 2, "pts": 88.35 },
+      { "id": 2353541, "type": 1, "pts": 32.53 },
+      { "id": 2354028, "type": 2, "pts": 29.16 }
+    ]
+  },
+  {
+    "pilot": 46951,
+    "junior": 0,
+    "score": 149.9579,
+    "name": "PETER SVETLIČIČ",
+    "flights": [
+      { "id": 2335105, "type": 2, "pts": 51.0 },
+      { "id": 2350877, "type": 2, "pts": 49.56 },
+      { "id": 2334317, "type": 1, "pts": 49.4 }
+    ]
+  },
+  {
+    "pilot": 55261,
+    "junior": 1,
+    "score": 149.15964,
+    "name": "DOMEN VIŠNAR",
+    "flights": [
+      { "id": 2367780, "type": 2, "pts": 69.18 },
+      { "id": 2367444, "type": 2, "pts": 40.08 },
+      { "id": 2354091, "type": 3, "pts": 39.9 }
+    ]
+  },
+  {
+    "pilot": 1069,
+    "junior": 0,
+    "score": 148.66321,
+    "name": "TOMAŽ TRSTENJAK",
+    "flights": [
+      { "id": 2334224, "type": 2, "pts": 81.72 },
+      { "id": 2340232, "type": 2, "pts": 37.66 },
+      { "id": 2334231, "type": 2, "pts": 29.28 }
+    ]
+  },
+  {
+    "pilot": 39663,
+    "junior": 0,
+    "score": 146.72626,
+    "name": "ANDREJA ERŽEN",
+    "flights": [
+      { "id": 2377511, "type": 1, "pts": 68.18 },
+      { "id": 2361514, "type": 2, "pts": 41.1 },
+      { "id": 2320188, "type": 2, "pts": 37.44 }
+    ]
+  },
+  {
+    "pilot": 53035,
+    "junior": 0,
+    "score": 145.5865,
+    "name": "ANŽE  MIHELČIČ",
+    "flights": [
+      { "id": 2333535, "type": 2, "pts": 79.56 },
+      { "id": 2324727, "type": 1, "pts": 33.8 },
+      { "id": 2319311, "type": 1, "pts": 32.23 }
+    ]
+  },
+  {
+    "pilot": 51370,
+    "junior": 0,
+    "score": 145.13269,
+    "name": "BLAŽ TRUDEN",
+    "flights": [
+      { "id": 2374903, "type": 2, "pts": 59.14 },
+      { "id": 2320176, "type": 2, "pts": 43.87 },
+      { "id": 2351249, "type": 2, "pts": 42.12 }
+    ]
+  },
+  {
+    "pilot": 33451,
+    "junior": 0,
+    "score": 141.41629,
+    "name": "ROBERT BLATNIK",
+    "flights": [
+      { "id": 2333509, "type": 2, "pts": 52.56 },
+      { "id": 2337884, "type": 2, "pts": 45.96 },
+      { "id": 2334741, "type": 1, "pts": 42.9 }
+    ]
+  },
+  {
+    "pilot": 53075,
+    "junior": 0,
+    "score": 141.1861,
+    "name": "DUŠAN ŠTUSEJ",
+    "flights": [
+      { "id": 2344670, "type": 1, "pts": 57.56 },
+      { "id": 2314806, "type": 1, "pts": 45.43 },
+      { "id": 2329934, "type": 1, "pts": 38.2 }
+    ]
+  },
+  {
+    "pilot": 2286,
+    "junior": 0,
+    "score": 141.037,
+    "name": "BOŠTJAN POROČNIK",
+    "flights": [
+      { "id": 2333847, "type": 2, "pts": 76.8 },
+      { "id": 2339131, "type": 1, "pts": 35.5 },
+      { "id": 2338364, "type": 2, "pts": 28.74 }
+    ]
+  },
+  {
+    "pilot": 980,
+    "junior": 0,
+    "score": 140.08685,
+    "name": "GVIDO JAGER",
+    "flights": [
+      { "id": 2323669, "type": 2, "pts": 54.36 },
+      { "id": 2368642, "type": 1, "pts": 45.7 },
+      { "id": 2320141, "type": 2, "pts": 40.03 }
+    ]
+  },
+  {
+    "pilot": 51859,
+    "junior": 0,
+    "score": 139.41031,
+    "name": "ALBIN GRMEK",
+    "flights": [
+      { "id": 2333810, "type": 2, "pts": 54.72 },
+      { "id": 2335902, "type": 1, "pts": 52.5 },
+      { "id": 2356668, "type": 1, "pts": 32.19 }
+    ]
+  },
+  {
+    "pilot": 55797,
+    "junior": 0,
+    "score": 138.5643,
+    "name": "DENIS PATERNOST",
+    "flights": [
+      { "id": 2330461, "type": 2, "pts": 52.8 },
+      { "id": 2335821, "type": 1, "pts": 49.97 },
+      { "id": 2377468, "type": 1, "pts": 35.79 }
+    ]
+  },
+  {
+    "pilot": 55591,
+    "junior": 0,
+    "score": 135.9026,
+    "name": "ANDREJ MIKELJ",
+    "flights": [
+      { "id": 2369096, "type": 1, "pts": 50.48 },
+      { "id": 2359722, "type": 1, "pts": 43.5 },
+      { "id": 2371325, "type": 1, "pts": 41.92 }
+    ]
+  },
+  {
+    "pilot": 36592,
+    "junior": 0,
+    "score": 135.65689,
+    "name": "ALEŠ BAJDA",
+    "flights": [
+      { "id": 2345034, "type": 2, "pts": 47.25 },
+      { "id": 2337906, "type": 2, "pts": 45.37 },
+      { "id": 2353604, "type": 2, "pts": 43.03 }
+    ]
+  },
+  {
+    "pilot": 53034,
+    "junior": 0,
+    "score": 134.7008,
+    "name": "EDVIN MLJAČ",
+    "flights": [
+      { "id": 2338070, "type": 1, "pts": 56.57 },
+      { "id": 2335365, "type": 1, "pts": 50.51 },
+      { "id": 2359597, "type": 2, "pts": 27.62 }
+    ]
+  },
+  {
+    "pilot": 50616,
+    "junior": 1,
+    "score": 134.5425,
+    "name": "ŽAN  KURINČIČ",
+    "flights": [
+      { "id": 2375296, "type": 3, "pts": 61.24 },
+      { "id": 2355807, "type": 1, "pts": 42.13 },
+      { "id": 2345440, "type": 3, "pts": 31.18 }
+    ]
+  },
+  {
+    "pilot": 54221,
+    "junior": 0,
+    "score": 134.18933,
+    "name": "VESNA SELJAK",
+    "flights": [
+      { "id": 2368093, "type": 1, "pts": 48.76 },
+      { "id": 2360753, "type": 2, "pts": 46.06 },
+      { "id": 2314500, "type": 2, "pts": 39.36 }
+    ]
+  },
+  {
+    "pilot": 30715,
+    "junior": 0,
+    "score": 132.50291,
+    "name": "MIRAN TURK",
+    "flights": [
+      { "id": 2333797, "type": 1, "pts": 104.4 },
+      { "id": 2356021, "type": 2, "pts": 20.29 },
+      { "id": 2314430, "type": 3, "pts": 7.81 }
+    ]
+  },
+  {
+    "pilot": 34716,
+    "junior": 0,
+    "score": 132.25679,
+    "name": "LUKA ŠTUSEJ",
+    "flights": [
+      { "id": 2350870, "type": 2, "pts": 52.15 },
+      { "id": 2344673, "type": 1, "pts": 49.8 },
+      { "id": 2333559, "type": 1, "pts": 30.3 }
+    ]
+  },
+  {
+    "pilot": 39669,
+    "junior": 0,
+    "score": 131.573,
+    "name": "MARJAN REKAR ",
+    "flights": [
+      { "id": 2368169, "type": 1, "pts": 48.32 },
+      { "id": 2367759, "type": 1, "pts": 42.85 },
+      { "id": 2350817, "type": 1, "pts": 40.41 }
+    ]
+  },
+  {
+    "pilot": 965,
+    "junior": 0,
+    "score": 130.69044,
+    "name": "SREČKO ŽNIDARIČ",
+    "flights": [
+      { "id": 2353611, "type": 1, "pts": 65.36 },
+      { "id": 2371767, "type": 1, "pts": 39.56 },
+      { "id": 2356138, "type": 3, "pts": 25.77 }
+    ]
+  },
+  {
+    "pilot": 57915,
+    "junior": 0,
+    "score": 129.40108,
+    "name": "JURE TISELJ",
+    "flights": [
+      { "id": 2333834, "type": 1, "pts": 51.58 },
+      { "id": 2367445, "type": 2, "pts": 41.74 },
+      { "id": 2334915, "type": 1, "pts": 36.08 }
+    ]
+  },
+  {
+    "pilot": 45352,
+    "junior": 0,
+    "score": 127.8013,
+    "name": "KLEMEN DACAR",
+    "flights": [
+      { "id": 2333757, "type": 1, "pts": 57.6 },
+      { "id": 2324909, "type": 1, "pts": 35.52 },
+      { "id": 2350898, "type": 2, "pts": 34.68 }
+    ]
+  },
+  {
+    "pilot": 2554,
+    "junior": 0,
+    "score": 127.740005,
+    "name": "RAJKO SILA",
+    "flights": [
+      { "id": 2329937, "type": 1, "pts": 43.1 },
+      { "id": 2352860, "type": 1, "pts": 42.4 },
+      { "id": 2317600, "type": 2, "pts": 42.24 }
+    ]
+  },
+  {
+    "pilot": 39671,
+    "junior": 0,
+    "score": 127.62001,
+    "name": "MERI SIMJANOV",
+    "flights": [
+      { "id": 2335394, "type": 2, "pts": 43.68 },
+      { "id": 2318796, "type": 2, "pts": 42.84 },
+      { "id": 2320283, "type": 1, "pts": 41.1 }
+    ]
+  },
+  {
+    "pilot": 53748,
+    "junior": 1,
+    "score": 127.0942,
+    "name": "ALJAŽ ŠTILEC",
+    "flights": [
+      { "id": 2340198, "type": 3, "pts": 76.32 },
+      { "id": 2351132, "type": 1, "pts": 50.77 }
+    ]
+  },
+  {
+    "pilot": 57586,
+    "junior": 0,
+    "score": 126.37776,
+    "name": "JAKA DEČMAN",
+    "flights": [
+      { "id": 2349491, "type": 1, "pts": 50.5 },
+      { "id": 2333466, "type": 2, "pts": 49.58 },
+      { "id": 2359808, "type": 1, "pts": 26.3 }
+    ]
+  },
+  {
+    "pilot": 3122,
+    "junior": 0,
+    "score": 126.2801,
+    "name": "ALJAŽ VALIČ",
+    "flights": [
+      { "id": 2337031, "type": 1, "pts": 55.96 },
+      { "id": 2337848, "type": 2, "pts": 45.36 },
+      { "id": 2337030, "type": 2, "pts": 24.96 }
+    ]
+  },
+  {
+    "pilot": 947,
+    "junior": 0,
+    "score": 125.4917,
+    "name": "MILAN JENČIČ",
+    "flights": [
+      { "id": 2368752, "type": 1, "pts": 42.93 },
+      { "id": 2374552, "type": 1, "pts": 41.66 },
+      { "id": 2368782, "type": 1, "pts": 40.9 }
+    ]
+  },
+  {
+    "pilot": 1634,
+    "junior": 0,
+    "score": 124.5314,
+    "name": "MATJAŽ  ŠAJTEGEL",
+    "flights": [
+      { "id": 2369844, "type": 1, "pts": 43.82 },
+      { "id": 2364445, "type": 1, "pts": 42.17 },
+      { "id": 2340939, "type": 3, "pts": 38.54 }
+    ]
+  },
+  {
+    "pilot": 994,
+    "junior": 0,
+    "score": 122.93846,
+    "name": "SREČKO MEGLIČ",
+    "flights": [
+      { "id": 2334750, "type": 1, "pts": 44.47 },
+      { "id": 2339789, "type": 2, "pts": 44.44 },
+      { "id": 2370376, "type": 2, "pts": 34.02 }
+    ]
+  },
+  {
+    "pilot": 29856,
+    "junior": 0,
+    "score": 122.43198,
+    "name": "SAŠA MILOHNOJA",
+    "flights": [
+      { "id": 2364527, "type": 3, "pts": 48.61 },
+      { "id": 2354294, "type": 1, "pts": 38.23 },
+      { "id": 2333389, "type": 1, "pts": 35.6 }
+    ]
+  },
+  {
+    "pilot": 58136,
+    "junior": 0,
+    "score": 122.16891,
+    "name": "GORAZD ROGAČ",
+    "flights": [
+      { "id": 2334034, "type": 2, "pts": 68.01 },
+      { "id": 2344929, "type": 1, "pts": 31.8 },
+      { "id": 2368666, "type": 1, "pts": 22.36 }
+    ]
+  },
+  {
+    "pilot": 53690,
+    "junior": 0,
+    "score": 122.112885,
+    "name": "NEJC DEŽELAK",
+    "flights": [
+      { "id": 2369976, "type": 2, "pts": 52.89 },
+      { "id": 2359124, "type": 1, "pts": 40.34 },
+      { "id": 2363955, "type": 1, "pts": 28.88 }
+    ]
+  },
+  {
+    "pilot": 36821,
+    "junior": 0,
+    "score": 120.7231,
+    "name": "SIMON MARCIC",
+    "flights": [
+      { "id": 2356511, "type": 3, "pts": 49.12 },
+      { "id": 2357264, "type": 2, "pts": 36.59 },
+      { "id": 2344738, "type": 1, "pts": 35.01 }
+    ]
+  },
+  {
+    "pilot": 53405,
+    "junior": 0,
+    "score": 120.2905,
+    "name": "FRANC ČERVAN ",
+    "flights": [
+      { "id": 2359789, "type": 1, "pts": 43.52 },
+      { "id": 2361208, "type": 1, "pts": 42.8 },
+      { "id": 2360778, "type": 1, "pts": 33.97 }
+    ]
+  },
+  {
+    "pilot": 30044,
+    "junior": 0,
+    "score": 119.0231,
+    "name": "MIRAN MAJERIČ",
+    "flights": [
+      { "id": 2352900, "type": 1, "pts": 43.8 },
+      { "id": 2337944, "type": 1, "pts": 41.34 },
+      { "id": 2320224, "type": 1, "pts": 33.89 }
+    ]
+  },
+  {
+    "pilot": 1382,
+    "junior": 0,
+    "score": 118.887726,
+    "name": "UROŠ BERGANT",
+    "flights": [
+      { "id": 2350410, "type": 2, "pts": 50.12 },
+      { "id": 2315982, "type": 2, "pts": 34.45 },
+      { "id": 2336172, "type": 2, "pts": 34.32 }
+    ]
+  },
+  {
+    "pilot": 54603,
+    "junior": 0,
+    "score": 118.560005,
+    "name": "MIHA KOLŠEK",
+    "flights": [
+      { "id": 2353552, "type": 1, "pts": 49.5 },
+      { "id": 2337776, "type": 2, "pts": 36.36 },
+      { "id": 2369254, "type": 1, "pts": 32.7 }
+    ]
+  },
+  {
+    "pilot": 52632,
+    "junior": 0,
+    "score": 118.02309,
+    "name": "NIKOLAJ KOSMAČ",
+    "flights": [
+      { "id": 2341640, "type": 2, "pts": 43.26 },
+      { "id": 2363742, "type": 1, "pts": 39.48 },
+      { "id": 2334967, "type": 2, "pts": 35.28 }
+    ]
+  },
+  {
+    "pilot": 1947,
+    "junior": 0,
+    "score": 117.6481,
+    "name": "JANI HROVAT",
+    "flights": [
+      { "id": 2337913, "type": 1, "pts": 57.65 },
+      { "id": 2363756, "type": 2, "pts": 30.95 },
+      { "id": 2353497, "type": 2, "pts": 29.04 }
+    ]
+  },
+  {
+    "pilot": 1150,
+    "junior": 0,
+    "score": 116.563576,
+    "name": "MIRO KOVŠE",
+    "flights": [
+      { "id": 2365317, "type": 2, "pts": 61.58 },
+      { "id": 2362607, "type": 1, "pts": 35.6 },
+      { "id": 2350558, "type": 3, "pts": 19.38 }
+    ]
+  },
+  {
+    "pilot": 1463,
+    "junior": 0,
+    "score": 116.2737,
+    "name": "ROK BRDNIK",
+    "flights": [
+      { "id": 2334310, "type": 1, "pts": 53.6 },
+      { "id": 2317069, "type": 1, "pts": 32.1 },
+      { "id": 2359865, "type": 1, "pts": 30.57 }
+    ]
+  },
+  {
+    "pilot": 1462,
+    "junior": 0,
+    "score": 115.13736,
+    "name": "BORIS PODJAVORŠEK",
+    "flights": [
+      { "id": 2358209, "type": 1, "pts": 53.1 },
+      { "id": 2352975, "type": 1, "pts": 36.6 },
+      { "id": 2375925, "type": 2, "pts": 25.44 }
+    ]
+  },
+  {
+    "pilot": 981,
+    "junior": 0,
+    "score": 114.68,
+    "name": "DEAN LOZEJ",
+    "flights": [
+      { "id": 2353549, "type": 1, "pts": 49.4 },
+      { "id": 2353769, "type": 1, "pts": 37.2 },
+      { "id": 2345640, "type": 2, "pts": 28.08 }
+    ]
+  },
+  {
+    "pilot": 53114,
+    "junior": 0,
+    "score": 113.678185,
+    "name": "MIHA KNIFIC",
+    "flights": [
+      { "id": 2368554, "type": 1, "pts": 40.87 },
+      { "id": 2369328, "type": 2, "pts": 37.34 },
+      { "id": 2351050, "type": 2, "pts": 35.47 }
+    ]
+  },
+  {
+    "pilot": 1092,
+    "junior": 0,
+    "score": 113.35856,
+    "name": "TONI PLJAKOSKI",
+    "flights": [
+      { "id": 2367675, "type": 2, "pts": 40.08 },
+      { "id": 2369329, "type": 2, "pts": 38.82 },
+      { "id": 2369949, "type": 1, "pts": 34.46 }
+    ]
+  },
+  {
+    "pilot": 39490,
+    "junior": 0,
+    "score": 111.759995,
+    "name": "GORAN RAPUC",
+    "flights": [
+      { "id": 2371742, "type": 1, "pts": 43.5 },
+      { "id": 2336925, "type": 2, "pts": 39.96 },
+      { "id": 2354053, "type": 1, "pts": 28.3 }
+    ]
+  },
+  {
+    "pilot": 54832,
+    "junior": 0,
+    "score": 111.37537,
+    "name": "ROBERT FABJAN ",
+    "flights": [
+      { "id": 2371265, "type": 2, "pts": 77.05 },
+      { "id": 2373646, "type": 1, "pts": 18.09 },
+      { "id": 2355716, "type": 1, "pts": 16.23 }
+    ]
+  },
+  {
+    "pilot": 49907,
+    "junior": 0,
+    "score": 109.41678,
+    "name": "GREGOR JERAS",
+    "flights": [
+      { "id": 2351067, "type": 1, "pts": 44.0 },
+      { "id": 2337838, "type": 2, "pts": 41.16 },
+      { "id": 2342749, "type": 2, "pts": 24.26 }
+    ]
+  },
+  {
+    "pilot": 57914,
+    "junior": 0,
+    "score": 108.75538,
+    "name": "JOŽE KRAMBERGER",
+    "flights": [
+      { "id": 2371429, "type": 3, "pts": 43.88 },
+      { "id": 2326765, "type": 3, "pts": 36.7 },
+      { "id": 2324620, "type": 2, "pts": 28.17 }
+    ]
+  },
+  {
+    "pilot": 1077,
+    "junior": 0,
+    "score": 108.48,
+    "name": "TADEJ ROZMAN",
+    "flights": [
+      { "id": 2355805, "type": 1, "pts": 43.5 },
+      { "id": 2354030, "type": 2, "pts": 43.08 },
+      { "id": 2361003, "type": 1, "pts": 21.9 }
+    ]
+  },
+  {
+    "pilot": 1093,
+    "junior": 0,
+    "score": 107.1098,
+    "name": "JANEZ KOCJAN",
+    "flights": [
+      { "id": 2330505, "type": 1, "pts": 61.8 },
+      { "id": 2329917, "type": 1, "pts": 35.2 },
+      { "id": 2371951, "type": 1, "pts": 10.11 }
+    ]
+  },
+  {
+    "pilot": 56666,
+    "junior": 0,
+    "score": 106.7896,
+    "name": "ALEKSANDER TURK",
+    "flights": [
+      { "id": 2360737, "type": 1, "pts": 48.05 },
+      { "id": 2362439, "type": 1, "pts": 39.2 },
+      { "id": 2365955, "type": 1, "pts": 19.54 }
+    ]
+  },
+  {
+    "pilot": 50479,
+    "junior": 0,
+    "score": 106.226524,
+    "name": "ROBI SKUMAVC",
+    "flights": [
+      { "id": 2374354, "type": 2, "pts": 43.65 },
+      { "id": 2337778, "type": 2, "pts": 34.97 },
+      { "id": 2355604, "type": 2, "pts": 27.6 }
+    ]
+  },
+  {
+    "pilot": 57425,
+    "junior": 0,
+    "score": 106.2,
+    "name": "LUKA ŠTRAVS",
+    "flights": [
+      { "id": 2367505, "type": 1, "pts": 47.2 },
+      { "id": 2372969, "type": 1, "pts": 31.1 },
+      { "id": 2361441, "type": 1, "pts": 27.9 }
+    ]
+  },
+  {
+    "pilot": 38085,
+    "junior": 0,
+    "score": 106.16716,
+    "name": "JUGOSLAV DAMJANOVIČ",
+    "flights": [
+      { "id": 2353637, "type": 1, "pts": 53.61 },
+      { "id": 2342563, "type": 2, "pts": 27.27 },
+      { "id": 2357468, "type": 1, "pts": 25.28 }
+    ]
+  },
+  {
+    "pilot": 39646,
+    "junior": 0,
+    "score": 106.16082,
+    "name": "MATEJ KASTELIC",
+    "flights": [
+      { "id": 2357161, "type": 1, "pts": 58.67 },
+      { "id": 2346795, "type": 2, "pts": 26.31 },
+      { "id": 2346793, "type": 2, "pts": 21.17 }
+    ]
+  },
+  {
+    "pilot": 44387,
+    "junior": 0,
+    "score": 105.931305,
+    "name": "DANILO KUNŠEK",
+    "flights": [
+      { "id": 2355733, "type": 2, "pts": 37.68 },
+      { "id": 2369415, "type": 1, "pts": 35.45 },
+      { "id": 2339323, "type": 1, "pts": 32.8 }
+    ]
+  },
+  {
+    "pilot": 50391,
+    "junior": 0,
+    "score": 105.7818,
+    "name": "DAMIJAN ERŽEN",
+    "flights": [
+      { "id": 2353409, "type": 1, "pts": 39.11 },
+      { "id": 2347242, "type": 1, "pts": 36.05 },
+      { "id": 2351536, "type": 1, "pts": 30.63 }
+    ]
+  },
+  {
+    "pilot": 1038,
+    "junior": 0,
+    "score": 104.6,
+    "name": "DEJAN SCHWENNER",
+    "flights": [{ "id": 2333795, "type": 1, "pts": 104.6 }]
+  },
+  {
+    "pilot": 3330,
+    "junior": 0,
+    "score": 104.34829,
+    "name": "ALJAŽ ZADRAVEC",
+    "flights": [
+      { "id": 2318129, "type": 2, "pts": 35.76 },
+      { "id": 2353556, "type": 2, "pts": 34.69 },
+      { "id": 2342815, "type": 2, "pts": 33.9 }
+    ]
+  },
+  {
+    "pilot": 43111,
+    "junior": 0,
+    "score": 103.538025,
+    "name": "MATEVŽ POBERŽNIK",
+    "flights": [
+      { "id": 2335016, "type": 2, "pts": 50.41 },
+      { "id": 2374126, "type": 3, "pts": 26.61 },
+      { "id": 2335015, "type": 2, "pts": 26.52 }
+    ]
+  },
+  {
+    "pilot": 2257,
+    "junior": 0,
+    "score": 103.1,
+    "name": "SAŠO GOLOB",
+    "flights": [
+      { "id": 2331309, "type": 1, "pts": 40.3 },
+      { "id": 2317059, "type": 1, "pts": 35.6 },
+      { "id": 2365718, "type": 1, "pts": 27.2 }
+    ]
+  },
+  {
+    "pilot": 45441,
+    "junior": 0,
+    "score": 103.0672,
+    "name": "PRIMOŽ MARINČIČ",
+    "flights": [
+      { "id": 2334978, "type": 1, "pts": 53.37 },
+      { "id": 2325266, "type": 2, "pts": 30.92 },
+      { "id": 2323065, "type": 1, "pts": 18.78 }
+    ]
+  },
+  {
+    "pilot": 53594,
+    "junior": 0,
+    "score": 102.199646,
+    "name": "ALJOŠA PAVŠIČ",
+    "flights": [
+      { "id": 2329982, "type": 2, "pts": 38.79 },
+      { "id": 2362034, "type": 1, "pts": 32.44 },
+      { "id": 2338655, "type": 1, "pts": 30.97 }
+    ]
+  },
+  {
+    "pilot": 1991,
+    "junior": 0,
+    "score": 101.37507,
+    "name": "ALBIN HERLAH",
+    "flights": [
+      { "id": 2314850, "type": 2, "pts": 84.48 },
+      { "id": 2374351, "type": 1, "pts": 9.18 },
+      { "id": 2374480, "type": 2, "pts": 7.71 }
+    ]
+  },
+  {
+    "pilot": 1251,
+    "junior": 0,
+    "score": 101.0,
+    "name": "ANDREJ ERZNOŽNIK",
+    "flights": [{ "id": 2333670, "type": 1, "pts": 101.0 }]
+  },
+  {
+    "pilot": 30091,
+    "junior": 0,
+    "score": 100.524,
+    "name": "SIMON GRIMŠIČ",
+    "flights": [
+      { "id": 2369279, "type": 1, "pts": 48.66 },
+      { "id": 2368504, "type": 1, "pts": 29.97 },
+      { "id": 2358490, "type": 1, "pts": 21.89 }
+    ]
+  },
+  {
+    "pilot": 989,
+    "junior": 0,
+    "score": 98.34552,
+    "name": "ANŽE PRISTOV",
+    "flights": [
+      { "id": 2336956, "type": 2, "pts": 39.12 },
+      { "id": 2313901, "type": 2, "pts": 30.83 },
+      { "id": 2376530, "type": 2, "pts": 28.39 }
+    ]
+  },
+  {
+    "pilot": 51870,
+    "junior": 0,
+    "score": 98.0557,
+    "name": "PRIMOŽ KANTE",
+    "flights": [
+      { "id": 2344198, "type": 1, "pts": 36.82 },
+      { "id": 2320172, "type": 1, "pts": 36.64 },
+      { "id": 2356583, "type": 2, "pts": 24.6 }
+    ]
+  },
+  {
+    "pilot": 1138,
+    "junior": 0,
+    "score": 97.90261,
+    "name": "ZLATKO KOREN",
+    "flights": [{ "id": 2364105, "type": 2, "pts": 97.9 }]
+  },
+  {
+    "pilot": 53448,
+    "junior": 0,
+    "score": 97.51,
+    "name": "JERNEJ OGOREVC",
+    "flights": [
+      { "id": 2351092, "type": 1, "pts": 39.73 },
+      { "id": 2343173, "type": 2, "pts": 30.84 },
+      { "id": 2356999, "type": 1, "pts": 26.94 }
+    ]
+  },
+  {
+    "pilot": 49490,
+    "junior": 0,
+    "score": 96.472,
+    "name": "GREGOR BAHČ",
+    "flights": [
+      { "id": 2333664, "type": 1, "pts": 33.2 },
+      { "id": 2338567, "type": 1, "pts": 32.95 },
+      { "id": 2353643, "type": 1, "pts": 30.32 }
+    ]
+  },
+  {
+    "pilot": 58046,
+    "junior": 0,
+    "score": 96.05562,
+    "name": "JAKOB  KOREN",
+    "flights": [
+      { "id": 2337932, "type": 3, "pts": 46.45 },
+      { "id": 2335842, "type": 2, "pts": 27.25 },
+      { "id": 2355630, "type": 2, "pts": 22.36 }
+    ]
+  },
+  {
+    "pilot": 53945,
+    "junior": 0,
+    "score": 95.7994,
+    "name": "LUCIJAN KOROŠEC",
+    "flights": [
+      { "id": 2353974, "type": 1, "pts": 37.86 },
+      { "id": 2347124, "type": 1, "pts": 30.74 },
+      { "id": 2350863, "type": 2, "pts": 27.2 }
+    ]
+  },
+  {
+    "pilot": 51909,
+    "junior": 0,
+    "score": 95.126884,
+    "name": "NEJC  OKORN",
+    "flights": [
+      { "id": 2337899, "type": 2, "pts": 39.72 },
+      { "id": 2340374, "type": 2, "pts": 29.02 },
+      { "id": 2317446, "type": 2, "pts": 26.39 }
+    ]
+  },
+  {
+    "pilot": 1443,
+    "junior": 0,
+    "score": 94.70399,
+    "name": "ALEŠ LIPUŠČEK",
+    "flights": [
+      { "id": 2368696, "type": 1, "pts": 43.33 },
+      { "id": 2335600, "type": 1, "pts": 29.2 },
+      { "id": 2362469, "type": 2, "pts": 22.17 }
+    ]
+  },
+  {
+    "pilot": 56532,
+    "junior": 0,
+    "score": 94.413704,
+    "name": "ZVONKO SELČAN",
+    "flights": [
+      { "id": 2359762, "type": 1, "pts": 37.47 },
+      { "id": 2353340, "type": 1, "pts": 30.05 },
+      { "id": 2320167, "type": 1, "pts": 26.9 }
+    ]
+  },
+  {
+    "pilot": 1129,
+    "junior": 0,
+    "score": 93.9851,
+    "name": "MATJAŽ KLEMENČIČ",
+    "flights": [
+      { "id": 2313164, "type": 1, "pts": 41.7 },
+      { "id": 2323192, "type": 1, "pts": 32.8 },
+      { "id": 2336606, "type": 1, "pts": 19.49 }
+    ]
+  },
+  {
+    "pilot": 50200,
+    "junior": 0,
+    "score": 93.595406,
+    "name": "MITJA ZAKOTNIK",
+    "flights": [
+      { "id": 2347208, "type": 1, "pts": 48.04 },
+      { "id": 2315263, "type": 1, "pts": 45.55 }
+    ]
+  },
+  {
+    "pilot": 2941,
+    "junior": 0,
+    "score": 93.506905,
+    "name": "UROŠ  OBLAK",
+    "flights": [
+      { "id": 2365319, "type": 2, "pts": 50.74 },
+      { "id": 2362521, "type": 1, "pts": 30.85 },
+      { "id": 2365602, "type": 1, "pts": 11.92 }
+    ]
+  },
+  {
+    "pilot": 52731,
+    "junior": 0,
+    "score": 93.1984,
+    "name": "JOŽE BIRO",
+    "flights": [
+      { "id": 2342844, "type": 1, "pts": 52.82 },
+      { "id": 2320834, "type": 2, "pts": 23.16 },
+      { "id": 2340260, "type": 1, "pts": 17.22 }
+    ]
+  },
+  {
+    "pilot": 45414,
+    "junior": 0,
+    "score": 93.18,
+    "name": "ŽAK KAMNIK",
+    "flights": [
+      { "id": 2355925, "type": 3, "pts": 46.62 },
+      { "id": 2376057, "type": 1, "pts": 24.23 },
+      { "id": 2324805, "type": 1, "pts": 22.33 }
+    ]
+  },
+  {
+    "pilot": 49263,
+    "junior": 0,
+    "score": 92.82996,
+    "name": "BOJAN ŽIŽMOND",
+    "flights": [
+      { "id": 2329944, "type": 2, "pts": 33.98 },
+      { "id": 2350763, "type": 2, "pts": 31.28 },
+      { "id": 2352626, "type": 3, "pts": 27.57 }
+    ]
+  },
+  {
+    "pilot": 3088,
+    "junior": 0,
+    "score": 92.61524,
+    "name": "ŽIGA FAIN",
+    "flights": [
+      { "id": 2362031, "type": 1, "pts": 41.9 },
+      { "id": 2362771, "type": 2, "pts": 29.16 },
+      { "id": 2315145, "type": 2, "pts": 21.55 }
+    ]
+  },
+  {
+    "pilot": 34038,
+    "junior": 0,
+    "score": 92.22282,
+    "name": "TOMAŽ HRIBAR",
+    "flights": [
+      { "id": 2320164, "type": 2, "pts": 37.08 },
+      { "id": 2315169, "type": 1, "pts": 28.64 },
+      { "id": 2317440, "type": 1, "pts": 26.5 }
+    ]
+  },
+  {
+    "pilot": 1186,
+    "junior": 0,
+    "score": 91.12824,
+    "name": "IGOR NEČEMAR",
+    "flights": [
+      { "id": 2344903, "type": 2, "pts": 35.96 },
+      { "id": 2340237, "type": 1, "pts": 32.15 },
+      { "id": 2360869, "type": 1, "pts": 23.02 }
+    ]
+  },
+  {
+    "pilot": 54764,
+    "junior": 0,
+    "score": 90.8774,
+    "name": "ZVONIMIR BORŠIČ",
+    "flights": [
+      { "id": 2350457, "type": 1, "pts": 30.4 },
+      { "id": 2336316, "type": 1, "pts": 30.28 },
+      { "id": 2361778, "type": 1, "pts": 30.2 }
+    ]
+  },
+  {
+    "pilot": 1022,
+    "junior": 0,
+    "score": 90.226585,
+    "name": "IGOR ERŽEN",
+    "flights": [
+      { "id": 2380609, "type": 1, "pts": 69.92 },
+      { "id": 2380608, "type": 3, "pts": 20.31 }
+    ]
+  },
+  {
+    "pilot": 54219,
+    "junior": 0,
+    "score": 89.5703,
+    "name": "TINA ČERVAN ",
+    "flights": [
+      { "id": 2333699, "type": 1, "pts": 52.5 },
+      { "id": 2368631, "type": 1, "pts": 21.47 },
+      { "id": 2362394, "type": 1, "pts": 15.6 }
+    ]
+  },
+  {
+    "pilot": 52758,
+    "junior": 0,
+    "score": 88.72789,
+    "name": "BOŠTJAN KAVČIČ",
+    "flights": [
+      { "id": 2333666, "type": 1, "pts": 64.28 },
+      { "id": 2320111, "type": 1, "pts": 15.26 },
+      { "id": 2335789, "type": 1, "pts": 9.19 }
+    ]
+  },
+  {
+    "pilot": 1013,
+    "junior": 0,
+    "score": 88.08,
+    "name": "ROBI DOLNIČAR",
+    "flights": [{ "id": 2333793, "type": 2, "pts": 88.08 }]
+  },
+  {
+    "pilot": 30223,
+    "junior": 0,
+    "score": 85.36448,
+    "name": "MATEJ LOMBAR",
+    "flights": [
+      { "id": 2354191, "type": 1, "pts": 35.2 },
+      { "id": 2345106, "type": 1, "pts": 29.69 },
+      { "id": 2368156, "type": 2, "pts": 20.47 }
+    ]
+  },
+  {
+    "pilot": 54030,
+    "junior": 0,
+    "score": 84.9,
+    "name": "ARNOLD LEŠNIK",
+    "flights": [
+      { "id": 2333746, "type": 1, "pts": 39.3 },
+      { "id": 2359405, "type": 1, "pts": 23.7 },
+      { "id": 2370265, "type": 1, "pts": 21.9 }
+    ]
+  },
+  {
+    "pilot": 1676,
+    "junior": 0,
+    "score": 84.7573,
+    "name": "PRIMOŽ KOSTANJEVEC",
+    "flights": [
+      { "id": 2333382, "type": 2, "pts": 32.04 },
+      { "id": 2370175, "type": 1, "pts": 27.62 },
+      { "id": 2343562, "type": 1, "pts": 25.1 }
+    ]
+  },
+  {
+    "pilot": 50049,
+    "junior": 0,
+    "score": 83.966385,
+    "name": "BORUT SEKNE",
+    "flights": [
+      { "id": 2345084, "type": 2, "pts": 31.32 },
+      { "id": 2373808, "type": 2, "pts": 26.41 },
+      { "id": 2337737, "type": 1, "pts": 26.24 }
+    ]
+  },
+  {
+    "pilot": 1228,
+    "junior": 0,
+    "score": 83.72,
+    "name": "MARKO MILANOVIČ",
+    "flights": [
+      { "id": 2334753, "type": 2, "pts": 43.32 },
+      { "id": 2373848, "type": 1, "pts": 21.9 },
+      { "id": 2356984, "type": 1, "pts": 18.5 }
+    ]
+  },
+  {
+    "pilot": 50489,
+    "junior": 0,
+    "score": 83.685295,
+    "name": "BOJAN PEČAR",
+    "flights": [
+      { "id": 2365792, "type": 1, "pts": 30.42 },
+      { "id": 2361601, "type": 1, "pts": 26.89 },
+      { "id": 2365791, "type": 1, "pts": 26.37 }
+    ]
+  },
+  {
+    "pilot": 55696,
+    "junior": 0,
+    "score": 82.91522,
+    "name": "URH HUDOKLIN",
+    "flights": [
+      { "id": 2353739, "type": 2, "pts": 38.37 },
+      { "id": 2365753, "type": 1, "pts": 24.15 },
+      { "id": 2355424, "type": 2, "pts": 20.4 }
+    ]
+  },
+  {
+    "pilot": 1378,
+    "junior": 0,
+    "score": 82.7892,
+    "name": "IGOR KREMSAR",
+    "flights": [
+      { "id": 2345207, "type": 1, "pts": 35.89 },
+      { "id": 2317514, "type": 1, "pts": 24.96 },
+      { "id": 2329764, "type": 1, "pts": 21.94 }
+    ]
+  },
+  {
+    "pilot": 52293,
+    "junior": 0,
+    "score": 81.702965,
+    "name": "JURE JELOVČAN",
+    "flights": [
+      { "id": 2373762, "type": 2, "pts": 29.17 },
+      { "id": 2353503, "type": 2, "pts": 26.6 },
+      { "id": 2342975, "type": 2, "pts": 25.94 }
+    ]
+  },
+  {
+    "pilot": 57921,
+    "junior": 0,
+    "score": 79.67694,
+    "name": "URŠA HROVAT",
+    "flights": [
+      { "id": 2337929, "type": 1, "pts": 33.9 },
+      { "id": 2335833, "type": 2, "pts": 25.05 },
+      { "id": 2360955, "type": 3, "pts": 20.73 }
+    ]
+  },
+  {
+    "pilot": 54419,
+    "junior": 0,
+    "score": 79.579994,
+    "name": "ALENKA MAUSAR",
+    "flights": [
+      { "id": 2365967, "type": 1, "pts": 36.1 },
+      { "id": 2365966, "type": 1, "pts": 22.0 },
+      { "id": 2333534, "type": 2, "pts": 21.48 }
+    ]
+  },
+  {
+    "pilot": 2205,
+    "junior": 0,
+    "score": 79.51998,
+    "name": "ALJOŠA PRETNAR",
+    "flights": [
+      { "id": 2320097, "type": 1, "pts": 32.56 },
+      { "id": 2324682, "type": 1, "pts": 25.6 },
+      { "id": 2363550, "type": 2, "pts": 21.35 }
+    ]
+  },
+  {
+    "pilot": 1008,
+    "junior": 0,
+    "score": 78.8618,
+    "name": "MIHA RAZINGER",
+    "flights": [{ "id": 2372016, "type": 1, "pts": 78.86 }]
+  },
+  {
+    "pilot": 56238,
+    "junior": 0,
+    "score": 78.215706,
+    "name": "NEJC PRIMC",
+    "flights": [
+      { "id": 2345069, "type": 2, "pts": 30.48 },
+      { "id": 2334070, "type": 1, "pts": 24.04 },
+      { "id": 2367430, "type": 1, "pts": 23.69 }
+    ]
+  },
+  {
+    "pilot": 1367,
+    "junior": 0,
+    "score": 78.18284,
+    "name": "ALEŠ MEGLIČ",
+    "flights": [
+      { "id": 2369937, "type": 1, "pts": 35.04 },
+      { "id": 2339168, "type": 2, "pts": 25.5 },
+      { "id": 2337813, "type": 2, "pts": 17.64 }
+    ]
+  },
+  {
+    "pilot": 1615,
+    "junior": 0,
+    "score": 77.793076,
+    "name": "MARJAN BRUS",
+    "flights": [
+      { "id": 2333500, "type": 1, "pts": 43.17 },
+      { "id": 2322807, "type": 1, "pts": 18.4 },
+      { "id": 2373351, "type": 3, "pts": 16.22 }
+    ]
+  },
+  {
+    "pilot": 57866,
+    "junior": 0,
+    "score": 77.7751,
+    "name": "PRIMOŽ BERGANT",
+    "flights": [
+      { "id": 2351054, "type": 2, "pts": 33.0 },
+      { "id": 2353322, "type": 1, "pts": 23.98 },
+      { "id": 2360817, "type": 1, "pts": 20.79 }
+    ]
+  },
+  {
+    "pilot": 1260,
+    "junior": 0,
+    "score": 77.6111,
+    "name": "ROK FELDIN",
+    "flights": [
+      { "id": 2373760, "type": 1, "pts": 29.03 },
+      { "id": 2324902, "type": 1, "pts": 27.56 },
+      { "id": 2356167, "type": 1, "pts": 21.02 }
+    ]
+  },
+  {
+    "pilot": 55619,
+    "junior": 1,
+    "score": 77.52884,
+    "name": "JERNEJ ZAJEC",
+    "flights": [
+      { "id": 2374420, "type": 2, "pts": 39.98 },
+      { "id": 2373658, "type": 1, "pts": 19.4 },
+      { "id": 2353747, "type": 1, "pts": 18.15 }
+    ]
+  },
+  {
+    "pilot": 55263,
+    "junior": 0,
+    "score": 77.08966,
+    "name": "MARCEL  BOGATIN",
+    "flights": [
+      { "id": 2341715, "type": 2, "pts": 46.29 },
+      { "id": 2341717, "type": 1, "pts": 17.45 },
+      { "id": 2341716, "type": 1, "pts": 13.35 }
+    ]
+  },
+  {
+    "pilot": 45377,
+    "junior": 0,
+    "score": 77.0497,
+    "name": "BRANKO TIŠOV",
+    "flights": [
+      { "id": 2334181, "type": 1, "pts": 30.08 },
+      { "id": 2355467, "type": 3, "pts": 25.03 },
+      { "id": 2358300, "type": 3, "pts": 21.95 }
+    ]
+  },
+  {
+    "pilot": 55069,
+    "junior": 0,
+    "score": 76.15766,
+    "name": "ANDREJ KOLENC",
+    "flights": [
+      { "id": 2357217, "type": 2, "pts": 25.73 },
+      { "id": 2344761, "type": 1, "pts": 25.56 },
+      { "id": 2327870, "type": 1, "pts": 24.87 }
+    ]
+  },
+  {
+    "pilot": 1200,
+    "junior": 0,
+    "score": 76.098625,
+    "name": "KLAVDIJ RAKUŠČEK",
+    "flights": [
+      { "id": 2357149, "type": 1, "pts": 36.54 },
+      { "id": 2324859, "type": 2, "pts": 27.64 },
+      { "id": 2378482, "type": 1, "pts": 11.93 }
+    ]
+  },
+  {
+    "pilot": 51977,
+    "junior": 0,
+    "score": 75.3978,
+    "name": "IRENA KAMPLET",
+    "flights": [
+      { "id": 2333712, "type": 1, "pts": 27.24 },
+      { "id": 2323744, "type": 1, "pts": 24.3 },
+      { "id": 2359419, "type": 1, "pts": 23.85 }
+    ]
+  },
+  {
+    "pilot": 57835,
+    "junior": 0,
+    "score": 75.31999,
+    "name": "MIHA ARH",
+    "flights": [
+      { "id": 2373938, "type": 3, "pts": 35.56 },
+      { "id": 2340946, "type": 3, "pts": 20.86 },
+      { "id": 2342063, "type": 1, "pts": 18.9 }
+    ]
+  },
+  {
+    "pilot": 53296,
+    "junior": 0,
+    "score": 74.6061,
+    "name": "MATIJA ARH",
+    "flights": [
+      { "id": 2353600, "type": 1, "pts": 30.57 },
+      { "id": 2367781, "type": 2, "pts": 28.44 },
+      { "id": 2345094, "type": 2, "pts": 15.6 }
+    ]
+  },
+  {
+    "pilot": 1580,
+    "junior": 0,
+    "score": 74.3656,
+    "name": "DAVID POTOČAR",
+    "flights": [
+      { "id": 2349301, "type": 1, "pts": 33.27 },
+      { "id": 2375569, "type": 2, "pts": 22.75 },
+      { "id": 2333505, "type": 1, "pts": 18.34 }
+    ]
+  },
+  {
+    "pilot": 57912,
+    "junior": 0,
+    "score": 74.35266,
+    "name": "ROK VOLOVLEK",
+    "flights": [
+      { "id": 2374892, "type": 3, "pts": 26.28 },
+      { "id": 2373824, "type": 1, "pts": 24.91 },
+      { "id": 2351026, "type": 1, "pts": 23.16 }
+    ]
+  },
+  {
+    "pilot": 3407,
+    "junior": 0,
+    "score": 73.72884,
+    "name": "DANKO GALIN",
+    "flights": [
+      { "id": 2354056, "type": 1, "pts": 28.77 },
+      { "id": 2363858, "type": 3, "pts": 23.46 },
+      { "id": 2358259, "type": 1, "pts": 21.5 }
+    ]
+  },
+  {
+    "pilot": 2320,
+    "junior": 0,
+    "score": 72.7085,
+    "name": "DANE LUŽNIK",
+    "flights": [
+      { "id": 2345528, "type": 1, "pts": 35.0 },
+      { "id": 2337711, "type": 3, "pts": 20.02 },
+      { "id": 2316168, "type": 1, "pts": 17.69 }
+    ]
+  },
+  {
+    "pilot": 53106,
+    "junior": 0,
+    "score": 70.4808,
+    "name": "TOMAŽ KOKALJ",
+    "flights": [
+      { "id": 2343033, "type": 1, "pts": 26.3 },
+      { "id": 2351287, "type": 1, "pts": 22.92 },
+      { "id": 2372622, "type": 1, "pts": 21.26 }
+    ]
+  },
+  {
+    "pilot": 57924,
+    "junior": 0,
+    "score": 70.405,
+    "name": "JOŽE GRACAR",
+    "flights": [
+      { "id": 2371258, "type": 1, "pts": 39.41 },
+      { "id": 2358178, "type": 1, "pts": 16.22 },
+      { "id": 2345445, "type": 1, "pts": 14.78 }
+    ]
+  },
+  {
+    "pilot": 45999,
+    "junior": 0,
+    "score": 70.2743,
+    "name": "ANDREJ ŠLEGL",
+    "flights": [
+      { "id": 2363544, "type": 1, "pts": 28.89 },
+      { "id": 2375854, "type": 1, "pts": 25.19 },
+      { "id": 2361561, "type": 2, "pts": 16.2 }
+    ]
+  },
+  {
+    "pilot": 2132,
+    "junior": 0,
+    "score": 69.90434,
+    "name": "ROK ŽAGAR",
+    "flights": [
+      { "id": 2373861, "type": 1, "pts": 30.2 },
+      { "id": 2317625, "type": 2, "pts": 21.38 },
+      { "id": 2371403, "type": 2, "pts": 18.33 }
+    ]
+  },
+  {
+    "pilot": 55735,
+    "junior": 1,
+    "score": 68.4304,
+    "name": "DOMEN ŠERGAN",
+    "flights": [
+      { "id": 2320153, "type": 1, "pts": 28.72 },
+      { "id": 2334722, "type": 1, "pts": 20.31 },
+      { "id": 2355799, "type": 1, "pts": 19.4 }
+    ]
+  },
+  {
+    "pilot": 30305,
+    "junior": 0,
+    "score": 67.7832,
+    "name": "SIMON JEVŠENAK",
+    "flights": [
+      { "id": 2364243, "type": 1, "pts": 29.95 },
+      { "id": 2355714, "type": 1, "pts": 20.7 },
+      { "id": 2335770, "type": 2, "pts": 17.14 }
+    ]
+  },
+  {
+    "pilot": 57910,
+    "junior": 0,
+    "score": 67.70304,
+    "name": "NIK ŠALEJ",
+    "flights": [
+      { "id": 2334813, "type": 1, "pts": 39.75 },
+      { "id": 2323636, "type": 1, "pts": 23.2 },
+      { "id": 2318441, "type": 1, "pts": 4.76 }
+    ]
+  },
+  {
+    "pilot": 46149,
+    "junior": 0,
+    "score": 67.4856,
+    "name": "ANDREJ CAFUTA",
+    "flights": [
+      { "id": 2374864, "type": 1, "pts": 25.48 },
+      { "id": 2357406, "type": 1, "pts": 21.28 },
+      { "id": 2374673, "type": 3, "pts": 20.72 }
+    ]
+  },
+  {
+    "pilot": 58115,
+    "junior": 0,
+    "score": 67.374344,
+    "name": "GORAN KOMAC",
+    "flights": [
+      { "id": 2356518, "type": 1, "pts": 25.57 },
+      { "id": 2339539, "type": 2, "pts": 20.99 },
+      { "id": 2342758, "type": 2, "pts": 20.82 }
+    ]
+  },
+  {
+    "pilot": 44558,
+    "junior": 1,
+    "score": 67.2881,
+    "name": "MATIC GREŠAK",
+    "flights": [
+      { "id": 2319290, "type": 2, "pts": 28.9 },
+      { "id": 2358141, "type": 3, "pts": 20.86 },
+      { "id": 2362367, "type": 2, "pts": 17.52 }
+    ]
+  },
+  {
+    "pilot": 49380,
+    "junior": 0,
+    "score": 67.2029,
+    "name": "FRANJO MLAKAR",
+    "flights": [
+      { "id": 2353806, "type": 1, "pts": 27.01 },
+      { "id": 2371984, "type": 1, "pts": 20.98 },
+      { "id": 2320288, "type": 1, "pts": 19.22 }
+    ]
+  },
+  {
+    "pilot": 55249,
+    "junior": 0,
+    "score": 66.934296,
+    "name": "JANUŠ IVANUŠA",
+    "flights": [
+      { "id": 2371682, "type": 1, "pts": 28.43 },
+      { "id": 2320133, "type": 1, "pts": 20.1 },
+      { "id": 2333132, "type": 1, "pts": 18.4 }
+    ]
+  },
+  {
+    "pilot": 2840,
+    "junior": 0,
+    "score": 66.9041,
+    "name": "TOMAŽ KAŠCA",
+    "flights": [
+      { "id": 2314335, "type": 1, "pts": 38.5 },
+      { "id": 2360938, "type": 1, "pts": 14.29 },
+      { "id": 2353893, "type": 1, "pts": 14.12 }
+    ]
+  },
+  {
+    "pilot": 36876,
+    "junior": 0,
+    "score": 66.83904,
+    "name": "GREGOR KLANČNIK",
+    "flights": [
+      { "id": 2350787, "type": 2, "pts": 23.79 },
+      { "id": 2333716, "type": 1, "pts": 23.1 },
+      { "id": 2345116, "type": 2, "pts": 19.95 }
+    ]
+  },
+  {
+    "pilot": 1292,
+    "junior": 0,
+    "score": 66.6947,
+    "name": "MIHA SENICA",
+    "flights": [
+      { "id": 2373091, "type": 1, "pts": 23.95 },
+      { "id": 2338069, "type": 3, "pts": 22.64 },
+      { "id": 2359969, "type": 1, "pts": 20.1 }
+    ]
+  },
+  {
+    "pilot": 52337,
+    "junior": 0,
+    "score": 65.90498,
+    "name": "TINA KASTELIC",
+    "flights": [
+      { "id": 2356937, "type": 2, "pts": 25.65 },
+      { "id": 2356938, "type": 2, "pts": 22.96 },
+      { "id": 2356940, "type": 1, "pts": 17.29 }
+    ]
+  },
+  {
+    "pilot": 38174,
+    "junior": 0,
+    "score": 64.9338,
+    "name": "SIMON RAKOVEC",
+    "flights": [
+      { "id": 2337977, "type": 2, "pts": 28.3 },
+      { "id": 2354143, "type": 1, "pts": 18.65 },
+      { "id": 2345087, "type": 2, "pts": 17.98 }
+    ]
+  },
+  {
+    "pilot": 1283,
+    "junior": 0,
+    "score": 64.66072,
+    "name": "MARTIN MALI",
+    "flights": [
+      { "id": 2358223, "type": 1, "pts": 24.3 },
+      { "id": 2356563, "type": 1, "pts": 23.33 },
+      { "id": 2373619, "type": 3, "pts": 17.03 }
+    ]
+  },
+  {
+    "pilot": 55592,
+    "junior": 0,
+    "score": 64.17329,
+    "name": "URŠA ROJEC",
+    "flights": [
+      { "id": 2363813, "type": 2, "pts": 31.95 },
+      { "id": 2368720, "type": 3, "pts": 19.69 },
+      { "id": 2369039, "type": 3, "pts": 12.53 }
+    ]
+  },
+  {
+    "pilot": 57963,
+    "junior": 0,
+    "score": 63.6721,
+    "name": "TADEJ BOLTA",
+    "flights": [
+      { "id": 2351248, "type": 2, "pts": 38.32 },
+      { "id": 2324704, "type": 1, "pts": 13.63 },
+      { "id": 2343967, "type": 3, "pts": 11.72 }
+    ]
+  },
+  {
+    "pilot": 1312,
+    "junior": 0,
+    "score": 62.4901,
+    "name": "VINKO FERK",
+    "flights": [
+      { "id": 2333185, "type": 1, "pts": 25.65 },
+      { "id": 2376569, "type": 1, "pts": 18.91 },
+      { "id": 2317676, "type": 1, "pts": 17.93 }
+    ]
+  },
+  {
+    "pilot": 2096,
+    "junior": 0,
+    "score": 62.4147,
+    "name": "SAŠO RAZDRIH",
+    "flights": [
+      { "id": 2333550, "type": 1, "pts": 22.3 },
+      { "id": 2324725, "type": 2, "pts": 21.6 },
+      { "id": 2319678, "type": 1, "pts": 18.51 }
+    ]
+  },
+  {
+    "pilot": 29769,
+    "junior": 0,
+    "score": 62.318302,
+    "name": "PETER OČKERL",
+    "flights": [
+      { "id": 2323768, "type": 1, "pts": 26.2 },
+      { "id": 2364769, "type": 1, "pts": 19.7 },
+      { "id": 2353039, "type": 1, "pts": 16.42 }
+    ]
+  },
+  {
+    "pilot": 57182,
+    "junior": 0,
+    "score": 61.66356,
+    "name": "MIHA ZUPAN",
+    "flights": [
+      { "id": 2340111, "type": 2, "pts": 39.22 },
+      { "id": 2334678, "type": 2, "pts": 22.45 }
+    ]
+  },
+  {
+    "pilot": 2054,
+    "junior": 0,
+    "score": 60.6091,
+    "name": "RAFAEL KERIN",
+    "flights": [
+      { "id": 2362735, "type": 1, "pts": 20.51 },
+      { "id": 2324940, "type": 1, "pts": 20.2 },
+      { "id": 2362738, "type": 1, "pts": 19.9 }
+    ]
+  },
+  {
+    "pilot": 2263,
+    "junior": 0,
+    "score": 59.834362,
+    "name": "JANEZ SKOK",
+    "flights": [
+      { "id": 2321840, "type": 2, "pts": 21.94 },
+      { "id": 2324903, "type": 2, "pts": 21.37 },
+      { "id": 2333845, "type": 3, "pts": 16.52 }
+    ]
+  },
+  {
+    "pilot": 3241,
+    "junior": 0,
+    "score": 59.33074,
+    "name": "MIHA GREŠAK",
+    "flights": [
+      { "id": 2344741, "type": 2, "pts": 22.06 },
+      { "id": 2313632, "type": 3, "pts": 20.0 },
+      { "id": 2351007, "type": 2, "pts": 17.27 }
+    ]
+  },
+  {
+    "pilot": 946,
+    "junior": 0,
+    "score": 59.164516,
+    "name": "ALJOŠA ČOH",
+    "flights": [
+      { "id": 2342212, "type": 1, "pts": 33.11 },
+      { "id": 2341544, "type": 1, "pts": 16.2 },
+      { "id": 2347386, "type": 3, "pts": 9.85 }
+    ]
+  },
+  {
+    "pilot": 51816,
+    "junior": 0,
+    "score": 58.9614,
+    "name": "IRENA REBEK",
+    "flights": [
+      { "id": 2345104, "type": 1, "pts": 21.12 },
+      { "id": 2361805, "type": 1, "pts": 20.38 },
+      { "id": 2362086, "type": 2, "pts": 17.46 }
+    ]
+  },
+  {
+    "pilot": 52619,
+    "junior": 1,
+    "score": 58.90358,
+    "name": "MITJA IRMAN ",
+    "flights": [
+      { "id": 2355706, "type": 1, "pts": 26.82 },
+      { "id": 2372157, "type": 2, "pts": 17.19 },
+      { "id": 2339052, "type": 1, "pts": 14.89 }
+    ]
+  },
+  {
+    "pilot": 45074,
+    "junior": 0,
+    "score": 58.77061,
+    "name": "ALJAŽ  HAFNER",
+    "flights": [
+      { "id": 2350847, "type": 1, "pts": 36.07 },
+      { "id": 2351349, "type": 1, "pts": 15.06 },
+      { "id": 2350609, "type": 1, "pts": 7.65 }
+    ]
+  },
+  {
+    "pilot": 1181,
+    "junior": 0,
+    "score": 58.6217,
+    "name": "VINKO VERK",
+    "flights": [
+      { "id": 2336285, "type": 1, "pts": 26.43 },
+      { "id": 2361164, "type": 1, "pts": 16.57 },
+      { "id": 2319334, "type": 1, "pts": 15.62 }
+    ]
+  },
+  {
+    "pilot": 2842,
+    "junior": 0,
+    "score": 58.621,
+    "name": "ZLATKO WEITZER",
+    "flights": [
+      { "id": 2367478, "type": 1, "pts": 24.21 },
+      { "id": 2334010, "type": 3, "pts": 17.86 },
+      { "id": 2349528, "type": 2, "pts": 16.55 }
+    ]
+  },
+  {
+    "pilot": 57389,
+    "junior": 0,
+    "score": 58.4,
+    "name": "ROBERT  ŽMAVC",
+    "flights": [
+      { "id": 2351197, "type": 2, "pts": 25.8 },
+      { "id": 2348726, "type": 1, "pts": 16.7 },
+      { "id": 2334043, "type": 1, "pts": 15.9 }
+    ]
+  },
+  {
+    "pilot": 1905,
+    "junior": 0,
+    "score": 58.31478,
+    "name": "IGOR MIKLOŽIČ",
+    "flights": [
+      { "id": 2368812, "type": 1, "pts": 20.74 },
+      { "id": 2363660, "type": 1, "pts": 19.12 },
+      { "id": 2381345, "type": 2, "pts": 18.45 }
+    ]
+  },
+  {
+    "pilot": 49502,
+    "junior": 0,
+    "score": 57.919502,
+    "name": "DARKO KUČINA",
+    "flights": [
+      { "id": 2354175, "type": 1, "pts": 23.4 },
+      { "id": 2334763, "type": 1, "pts": 17.87 },
+      { "id": 2353663, "type": 1, "pts": 16.65 }
+    ]
+  },
+  {
+    "pilot": 30684,
+    "junior": 0,
+    "score": 57.71451,
+    "name": "LUKA VOLK",
+    "flights": [
+      { "id": 2333543, "type": 2, "pts": 36.0 },
+      { "id": 2318265, "type": 1, "pts": 12.2 },
+      { "id": 2375982, "type": 1, "pts": 9.51 }
+    ]
+  },
+  {
+    "pilot": 58364,
+    "junior": 0,
+    "score": 57.012897,
+    "name": "SERGEJ MLAKAR",
+    "flights": [
+      { "id": 2371678, "type": 1, "pts": 26.85 },
+      { "id": 2370184, "type": 1, "pts": 15.47 },
+      { "id": 2368583, "type": 1, "pts": 14.69 }
+    ]
+  },
+  {
+    "pilot": 35865,
+    "junior": 0,
+    "score": 56.9925,
+    "name": "DUŠAN  RAMŠAK",
+    "flights": [
+      { "id": 2358509, "type": 2, "pts": 20.36 },
+      { "id": 2361443, "type": 1, "pts": 18.36 },
+      { "id": 2369322, "type": 1, "pts": 18.28 }
+    ]
+  },
+  {
+    "pilot": 1188,
+    "junior": 0,
+    "score": 56.582,
+    "name": "NIKOLAJ ZOREC",
+    "flights": [
+      { "id": 2355654, "type": 1, "pts": 34.7 },
+      { "id": 2334282, "type": 1, "pts": 11.6 },
+      { "id": 2369345, "type": 1, "pts": 10.28 }
+    ]
+  },
+  {
+    "pilot": 1528,
+    "junior": 0,
+    "score": 56.2137,
+    "name": "ANTON JUS",
+    "flights": [
+      { "id": 2312803, "type": 1, "pts": 19.8 },
+      { "id": 2356908, "type": 1, "pts": 18.61 },
+      { "id": 2361418, "type": 1, "pts": 17.81 }
+    ]
+  },
+  {
+    "pilot": 54364,
+    "junior": 0,
+    "score": 56.057903,
+    "name": "ALEŠ KUPLJEN",
+    "flights": [
+      { "id": 2334683, "type": 2, "pts": 22.2 },
+      { "id": 2313059, "type": 2, "pts": 21.6 },
+      { "id": 2350978, "type": 1, "pts": 12.26 }
+    ]
+  },
+  {
+    "pilot": 1379,
+    "junior": 0,
+    "score": 55.657803,
+    "name": "PETER REŠETA",
+    "flights": [
+      { "id": 2359775, "type": 2, "pts": 20.03 },
+      { "id": 2353995, "type": 1, "pts": 18.44 },
+      { "id": 2356150, "type": 1, "pts": 17.19 }
+    ]
+  },
+  {
+    "pilot": 44703,
+    "junior": 0,
+    "score": 55.3534,
+    "name": "MIRAN TRATNIK",
+    "flights": [
+      { "id": 2364427, "type": 1, "pts": 24.7 },
+      { "id": 2350883, "type": 1, "pts": 15.66 },
+      { "id": 2334849, "type": 3, "pts": 15.0 }
+    ]
+  },
+  {
+    "pilot": 39334,
+    "junior": 0,
+    "score": 54.992207,
+    "name": "JERNEJ JUVAN",
+    "flights": [
+      { "id": 2355982, "type": 3, "pts": 44.52 },
+      { "id": 2334886, "type": 1, "pts": 5.67 },
+      { "id": 2333556, "type": 1, "pts": 4.8 }
+    ]
+  },
+  {
+    "pilot": 2030,
+    "junior": 0,
+    "score": 54.927883,
+    "name": "SANDI SOTLAR",
+    "flights": [
+      { "id": 2365746, "type": 2, "pts": 19.01 },
+      { "id": 2371871, "type": 1, "pts": 18.52 },
+      { "id": 2362405, "type": 2, "pts": 17.4 }
+    ]
+  },
+  {
+    "pilot": 55801,
+    "junior": 0,
+    "score": 53.708767,
+    "name": "TINA BIZJAK",
+    "flights": [
+      { "id": 2333780, "type": 2, "pts": 19.44 },
+      { "id": 2320270, "type": 2, "pts": 19.15 },
+      { "id": 2318964, "type": 2, "pts": 15.12 }
+    ]
+  },
+  {
+    "pilot": 3381,
+    "junior": 0,
+    "score": 53.4,
+    "name": "ROBERT HREN",
+    "flights": [{ "id": 2334706, "type": 2, "pts": 53.4 }]
+  },
+  {
+    "pilot": 1262,
+    "junior": 0,
+    "score": 52.944096,
+    "name": "ANDREJ SAGADIN",
+    "flights": [
+      { "id": 2348888, "type": 2, "pts": 24.99 },
+      { "id": 2351056, "type": 1, "pts": 16.55 },
+      { "id": 2348684, "type": 3, "pts": 11.41 }
+    ]
+  },
+  {
+    "pilot": 56742,
+    "junior": 0,
+    "score": 52.745102,
+    "name": "IVAN EMERŠIČ",
+    "flights": [
+      { "id": 2350513, "type": 1, "pts": 20.45 },
+      { "id": 2351210, "type": 1, "pts": 17.78 },
+      { "id": 2372227, "type": 1, "pts": 14.52 }
+    ]
+  },
+  {
+    "pilot": 49801,
+    "junior": 0,
+    "score": 52.643997,
+    "name": "ANDREJ RAJTERIČ",
+    "flights": [
+      { "id": 2372932, "type": 1, "pts": 25.8 },
+      { "id": 2361100, "type": 1, "pts": 14.72 },
+      { "id": 2334989, "type": 1, "pts": 12.12 }
+    ]
+  },
+  {
+    "pilot": 55733,
+    "junior": 0,
+    "score": 52.57196,
+    "name": "ROBERT CEGLAR ",
+    "flights": [
+      { "id": 2374855, "type": 3, "pts": 18.2 },
+      { "id": 2375485, "type": 3, "pts": 17.26 },
+      { "id": 2373809, "type": 3, "pts": 17.11 }
+    ]
+  },
+  {
+    "pilot": 1425,
+    "junior": 0,
+    "score": 51.8201,
+    "name": "MOHOR PREVC",
+    "flights": [
+      { "id": 2324712, "type": 1, "pts": 20.37 },
+      { "id": 2318050, "type": 3, "pts": 16.15 },
+      { "id": 2329293, "type": 1, "pts": 15.3 }
+    ]
+  },
+  {
+    "pilot": 43296,
+    "junior": 0,
+    "score": 51.34,
+    "name": "DAMJAN ADAM",
+    "flights": [
+      { "id": 2317471, "type": 1, "pts": 27.0 },
+      { "id": 2362447, "type": 2, "pts": 12.24 },
+      { "id": 2319369, "type": 1, "pts": 12.1 }
+    ]
+  },
+  {
+    "pilot": 29830,
+    "junior": 0,
+    "score": 50.97942,
+    "name": "ALEŠ ROZMAN",
+    "flights": [
+      { "id": 2367755, "type": 1, "pts": 21.42 },
+      { "id": 2357348, "type": 1, "pts": 15.46 },
+      { "id": 2351409, "type": 3, "pts": 14.1 }
+    ]
+  },
+  {
+    "pilot": 3376,
+    "junior": 0,
+    "score": 50.8345,
+    "name": "FRANC ERJAVEC",
+    "flights": [
+      { "id": 2367526, "type": 1, "pts": 23.73 },
+      { "id": 2322882, "type": 1, "pts": 15.1 },
+      { "id": 2317114, "type": 1, "pts": 12.0 }
+    ]
+  },
+  {
+    "pilot": 2138,
+    "junior": 0,
+    "score": 50.53098,
+    "name": "MATEVŽ GRADIŠEK",
+    "flights": [
+      { "id": 2365755, "type": 1, "pts": 30.24 },
+      { "id": 2377315, "type": 2, "pts": 10.98 },
+      { "id": 2365473, "type": 1, "pts": 9.32 }
+    ]
+  },
+  {
+    "pilot": 1240,
+    "junior": 0,
+    "score": 50.44349,
+    "name": "NEJC KOREN",
+    "flights": [
+      { "id": 2377430, "type": 2, "pts": 22.41 },
+      { "id": 2357138, "type": 3, "pts": 16.48 },
+      { "id": 2348304, "type": 3, "pts": 11.55 }
+    ]
+  },
+  {
+    "pilot": 54226,
+    "junior": 0,
+    "score": 50.38711,
+    "name": "ANDREJ HUČ",
+    "flights": [
+      { "id": 2320092, "type": 2, "pts": 25.59 },
+      { "id": 2351190, "type": 1, "pts": 18.23 },
+      { "id": 2364719, "type": 1, "pts": 6.57 }
+    ]
+  },
+  {
+    "pilot": 56940,
+    "junior": 0,
+    "score": 50.297,
+    "name": "JERNEJ PISK",
+    "flights": [
+      { "id": 2337653, "type": 1, "pts": 20.02 },
+      { "id": 2374108, "type": 1, "pts": 15.4 },
+      { "id": 2322947, "type": 2, "pts": 14.88 }
+    ]
+  },
+  {
+    "pilot": 1075,
+    "junior": 0,
+    "score": 50.29438,
+    "name": "ALEKSANDER LUZNIK",
+    "flights": [
+      { "id": 2354161, "type": 2, "pts": 26.61 },
+      { "id": 2354760, "type": 1, "pts": 11.89 },
+      { "id": 2319556, "type": 1, "pts": 11.79 }
+    ]
+  },
+  {
+    "pilot": 3096,
+    "junior": 0,
+    "score": 50.18,
+    "name": "ALJAŽ  PAPEŽ ",
+    "flights": [
+      { "id": 2340006, "type": 2, "pts": 21.72 },
+      { "id": 2329570, "type": 2, "pts": 14.76 },
+      { "id": 2343110, "type": 1, "pts": 13.7 }
+    ]
+  },
+  {
+    "pilot": 30720,
+    "junior": 0,
+    "score": 50.18,
+    "name": "TOMAŽ  ŠKOFIC",
+    "flights": [
+      { "id": 2355747, "type": 1, "pts": 17.7 },
+      { "id": 2362691, "type": 2, "pts": 16.68 },
+      { "id": 2354026, "type": 1, "pts": 15.8 }
+    ]
+  },
+  {
+    "pilot": 33544,
+    "junior": 0,
+    "score": 49.598198,
+    "name": "PETER KUKOVIČ",
+    "flights": [
+      { "id": 2357288, "type": 1, "pts": 17.84 },
+      { "id": 2334827, "type": 1, "pts": 16.16 },
+      { "id": 2353379, "type": 2, "pts": 15.6 }
+    ]
+  },
+  {
+    "pilot": 1291,
+    "junior": 0,
+    "score": 49.20786,
+    "name": "MATEJ ŽUGELJ",
+    "flights": [
+      { "id": 2355713, "type": 3, "pts": 20.3 },
+      { "id": 2343159, "type": 1, "pts": 17.5 },
+      { "id": 2373355, "type": 1, "pts": 11.41 }
+    ]
+  },
+  {
+    "pilot": 1994,
+    "junior": 1,
+    "score": 49.132298,
+    "name": "BLAŽ SOKLIČ",
+    "flights": [
+      { "id": 2316906, "type": 3, "pts": 21.14 },
+      { "id": 2337851, "type": 3, "pts": 16.09 },
+      { "id": 2335244, "type": 3, "pts": 11.9 }
+    ]
+  },
+  {
+    "pilot": 1016,
+    "junior": 0,
+    "score": 48.7614,
+    "name": "PRIMOŽ TEPEJ",
+    "flights": [
+      { "id": 2313600, "type": 3, "pts": 22.14 },
+      { "id": 2373807, "type": 1, "pts": 15.04 },
+      { "id": 2346327, "type": 1, "pts": 11.58 }
+    ]
+  },
+  {
+    "pilot": 49434,
+    "junior": 0,
+    "score": 48.67302,
+    "name": "MIHA PŠENIČNIK",
+    "flights": [
+      { "id": 2355464, "type": 2, "pts": 28.06 },
+      { "id": 2353392, "type": 3, "pts": 11.67 },
+      { "id": 2329338, "type": 2, "pts": 8.94 }
+    ]
+  },
+  {
+    "pilot": 56928,
+    "junior": 0,
+    "score": 48.308,
+    "name": "SIMON  GRILC",
+    "flights": [{ "id": 2364282, "type": 1, "pts": 48.31 }]
+  },
+  {
+    "pilot": 49830,
+    "junior": 0,
+    "score": 47.5029,
+    "name": "MARTIN  PETKOVŠEK",
+    "flights": [
+      { "id": 2335973, "type": 1, "pts": 20.4 },
+      { "id": 2369388, "type": 1, "pts": 14.47 },
+      { "id": 2349827, "type": 1, "pts": 12.64 }
+    ]
+  },
+  {
+    "pilot": 40778,
+    "junior": 0,
+    "score": 47.401367,
+    "name": "GAŠPER KRHIN",
+    "flights": [
+      { "id": 2353323, "type": 1, "pts": 27.03 },
+      { "id": 2373729, "type": 1, "pts": 11.42 },
+      { "id": 2319342, "type": 1, "pts": 8.95 }
+    ]
+  },
+  {
+    "pilot": 1613,
+    "junior": 0,
+    "score": 47.2389,
+    "name": "MATJAŽ GORŠEK ",
+    "flights": [
+      { "id": 2329636, "type": 1, "pts": 22.05 },
+      { "id": 2357990, "type": 1, "pts": 14.3 },
+      { "id": 2325225, "type": 1, "pts": 10.89 }
+    ]
+  },
+  {
+    "pilot": 976,
+    "junior": 0,
+    "score": 46.93786,
+    "name": "ZMAGO PLANINC",
+    "flights": [
+      { "id": 2338046, "type": 3, "pts": 19.77 },
+      { "id": 2357486, "type": 1, "pts": 13.73 },
+      { "id": 2357945, "type": 3, "pts": 13.44 }
+    ]
+  },
+  {
+    "pilot": 1942,
+    "junior": 0,
+    "score": 46.4089,
+    "name": "MATEJ KRAMAR",
+    "flights": [
+      { "id": 2334628, "type": 1, "pts": 31.82 },
+      { "id": 2334625, "type": 1, "pts": 8.43 },
+      { "id": 2334624, "type": 1, "pts": 6.16 }
+    ]
+  },
+  {
+    "pilot": 2102,
+    "junior": 0,
+    "score": 45.74666,
+    "name": "MATJAN ŽGAJNER",
+    "flights": [
+      { "id": 2357279, "type": 1, "pts": 23.27 },
+      { "id": 2356077, "type": 1, "pts": 14.58 },
+      { "id": 2363508, "type": 1, "pts": 7.91 }
+    ]
+  },
+  {
+    "pilot": 1218,
+    "junior": 0,
+    "score": 45.6304,
+    "name": "ZORAN VUČKOVIČ",
+    "flights": [
+      { "id": 2357333, "type": 1, "pts": 15.41 },
+      { "id": 2373216, "type": 1, "pts": 15.3 },
+      { "id": 2333498, "type": 1, "pts": 14.93 }
+    ]
+  },
+  {
+    "pilot": 2182,
+    "junior": 0,
+    "score": 45.338,
+    "name": "SINIŠA TRPUTEC",
+    "flights": [
+      { "id": 2358309, "type": 1, "pts": 22.6 },
+      { "id": 2368247, "type": 1, "pts": 11.7 },
+      { "id": 2356657, "type": 1, "pts": 11.04 }
+    ]
+  },
+  {
+    "pilot": 39306,
+    "junior": 0,
+    "score": 45.3353,
+    "name": "ANDREJ FEKONJA",
+    "flights": [
+      { "id": 2351376, "type": 1, "pts": 23.4 },
+      { "id": 2317895, "type": 2, "pts": 12.84 },
+      { "id": 2318350, "type": 1, "pts": 9.1 }
+    ]
+  },
+  {
+    "pilot": 55434,
+    "junior": 0,
+    "score": 45.28941,
+    "name": "VODIŠEK DOMEN",
+    "flights": [
+      { "id": 2353784, "type": 2, "pts": 28.74 },
+      { "id": 2375804, "type": 1, "pts": 9.25 },
+      { "id": 2365263, "type": 1, "pts": 7.3 }
+    ]
+  },
+  {
+    "pilot": 54249,
+    "junior": 0,
+    "score": 44.50789,
+    "name": "ERIK SELIŠNIK PAHOVNIK",
+    "flights": [
+      { "id": 2320079, "type": 2, "pts": 17.07 },
+      { "id": 2349561, "type": 3, "pts": 16.54 },
+      { "id": 2319352, "type": 3, "pts": 10.9 }
+    ]
+  },
+  {
+    "pilot": 52548,
+    "junior": 0,
+    "score": 44.5056,
+    "name": "IGOR RAKUŠA",
+    "flights": [
+      { "id": 2355410, "type": 1, "pts": 15.21 },
+      { "id": 2373119, "type": 1, "pts": 15.19 },
+      { "id": 2357067, "type": 1, "pts": 14.11 }
+    ]
+  },
+  {
+    "pilot": 53126,
+    "junior": 0,
+    "score": 44.474304,
+    "name": "DENIS NOVAK",
+    "flights": [
+      { "id": 2373059, "type": 2, "pts": 16.92 },
+      { "id": 2368272, "type": 1, "pts": 14.86 },
+      { "id": 2359517, "type": 1, "pts": 12.69 }
+    ]
+  },
+  {
+    "pilot": 38108,
+    "junior": 0,
+    "score": 44.295,
+    "name": "BRANKO TOPOLOVEC",
+    "flights": [
+      { "id": 2343607, "type": 1, "pts": 19.9 },
+      { "id": 2358502, "type": 1, "pts": 12.49 },
+      { "id": 2369898, "type": 1, "pts": 11.9 }
+    ]
+  },
+  {
+    "pilot": 949,
+    "junior": 0,
+    "score": 43.430283,
+    "name": "ALJOŠA FERČAK",
+    "flights": [
+      { "id": 2353256, "type": 2, "pts": 22.98 },
+      { "id": 2317372, "type": 2, "pts": 11.4 },
+      { "id": 2314435, "type": 1, "pts": 9.05 }
+    ]
+  },
+  {
+    "pilot": 1702,
+    "junior": 0,
+    "score": 42.5369,
+    "name": "MATIJA ŽUMER",
+    "flights": [{ "id": 2340257, "type": 3, "pts": 42.54 }]
+  },
+  {
+    "pilot": 55145,
+    "junior": 0,
+    "score": 41.7497,
+    "name": "DENIS KUKOVIČ",
+    "flights": [
+      { "id": 2312766, "type": 2, "pts": 39.12 },
+      { "id": 2346667, "type": 1, "pts": 2.63 }
+    ]
+  },
+  {
+    "pilot": 39592,
+    "junior": 0,
+    "score": 41.6461,
+    "name": "ALEKSANDER ZVER",
+    "flights": [
+      { "id": 2365733, "type": 1, "pts": 16.97 },
+      { "id": 2370246, "type": 1, "pts": 13.4 },
+      { "id": 2358242, "type": 1, "pts": 11.28 }
+    ]
+  },
+  {
+    "pilot": 1775,
+    "junior": 0,
+    "score": 41.550022,
+    "name": "RADKO ŠTRITOF",
+    "flights": [
+      { "id": 2348789, "type": 1, "pts": 14.4 },
+      { "id": 2318380, "type": 1, "pts": 13.71 },
+      { "id": 2320295, "type": 2, "pts": 13.44 }
+    ]
+  },
+  {
+    "pilot": 39639,
+    "junior": 0,
+    "score": 41.439262,
+    "name": "KLEMEN JELENC",
+    "flights": [
+      { "id": 2355839, "type": 2, "pts": 25.04 },
+      { "id": 2329079, "type": 1, "pts": 9.05 },
+      { "id": 2329074, "type": 2, "pts": 7.35 }
+    ]
+  },
+  {
+    "pilot": 56660,
+    "junior": 0,
+    "score": 40.7482,
+    "name": "ZLATA LEŠNIK",
+    "flights": [
+      { "id": 2372903, "type": 1, "pts": 16.72 },
+      { "id": 2333138, "type": 2, "pts": 12.38 },
+      { "id": 2350503, "type": 1, "pts": 11.65 }
+    ]
+  },
+  {
+    "pilot": 43257,
+    "junior": 0,
+    "score": 40.712055,
+    "name": "BOŠTJAN KOMARICKI",
+    "flights": [
+      { "id": 2326783, "type": 1, "pts": 15.9 },
+      { "id": 2356847, "type": 3, "pts": 12.6 },
+      { "id": 2316247, "type": 1, "pts": 12.21 }
+    ]
+  },
+  {
+    "pilot": 38199,
+    "junior": 1,
+    "score": 40.53109,
+    "name": "NEJC RIBIČ",
+    "flights": [
+      { "id": 2376857, "type": 3, "pts": 16.53 },
+      { "id": 2376856, "type": 1, "pts": 16.03 },
+      { "id": 2376858, "type": 1, "pts": 7.98 }
+    ]
+  },
+  {
+    "pilot": 1643,
+    "junior": 0,
+    "score": 40.459724,
+    "name": "MILAN VIDOVIČ",
+    "flights": [
+      { "id": 2355868, "type": 3, "pts": 14.06 },
+      { "id": 2374477, "type": 3, "pts": 13.83 },
+      { "id": 2357086, "type": 1, "pts": 12.56 }
+    ]
+  },
+  {
+    "pilot": 54433,
+    "junior": 0,
+    "score": 39.77943,
+    "name": "MIHA UNK",
+    "flights": [
+      { "id": 2357481, "type": 2, "pts": 22.76 },
+      { "id": 2368270, "type": 1, "pts": 8.51 },
+      { "id": 2358369, "type": 1, "pts": 8.51 }
+    ]
+  },
+  {
+    "pilot": 49501,
+    "junior": 0,
+    "score": 39.551914,
+    "name": "SAMO VERBOVŠEK",
+    "flights": [
+      { "id": 2361358, "type": 1, "pts": 13.43 },
+      { "id": 2330490, "type": 3, "pts": 13.28 },
+      { "id": 2331237, "type": 1, "pts": 12.83 }
+    ]
+  },
+  {
+    "pilot": 37922,
+    "junior": 0,
+    "score": 38.9123,
+    "name": "URBAN STRNIŠNIK",
+    "flights": [
+      { "id": 2353926, "type": 3, "pts": 17.91 },
+      { "id": 2313710, "type": 1, "pts": 11.6 },
+      { "id": 2355284, "type": 1, "pts": 9.4 }
+    ]
+  },
+  {
+    "pilot": 1928,
+    "junior": 0,
+    "score": 38.79393,
+    "name": "MAKS HUMAR",
+    "flights": [
+      { "id": 2323051, "type": 3, "pts": 14.0 },
+      { "id": 2355661, "type": 3, "pts": 13.81 },
+      { "id": 2349268, "type": 3, "pts": 10.98 }
+    ]
+  },
+  {
+    "pilot": 30696,
+    "junior": 0,
+    "score": 37.70643,
+    "name": "LENNART WESTERBERG",
+    "flights": [
+      { "id": 2365628, "type": 1, "pts": 16.9 },
+      { "id": 2364010, "type": 1, "pts": 13.06 },
+      { "id": 2368767, "type": 1, "pts": 7.75 }
+    ]
+  },
+  {
+    "pilot": 2444,
+    "junior": 0,
+    "score": 37.51767,
+    "name": "JANKO JOŠT",
+    "flights": [
+      { "id": 2320174, "type": 1, "pts": 20.29 },
+      { "id": 2323690, "type": 1, "pts": 10.63 },
+      { "id": 2321021, "type": 1, "pts": 6.59 }
+    ]
+  },
+  {
+    "pilot": 1073,
+    "junior": 0,
+    "score": 37.34822,
+    "name": "STOJAN KLENOVŠEK",
+    "flights": [
+      { "id": 2375877, "type": 2, "pts": 14.45 },
+      { "id": 2358268, "type": 1, "pts": 12.1 },
+      { "id": 2325279, "type": 3, "pts": 10.8 }
+    ]
+  },
+  {
+    "pilot": 58569,
+    "junior": 1,
+    "score": 36.92348,
+    "name": "ANJA ZALAŠČEK",
+    "flights": [
+      { "id": 2371323, "type": 1, "pts": 16.8 },
+      { "id": 2368104, "type": 1, "pts": 10.48 },
+      { "id": 2363703, "type": 1, "pts": 9.63 }
+    ]
+  },
+  {
+    "pilot": 29492,
+    "junior": 0,
+    "score": 36.8209,
+    "name": "JANEZ ČIMŽAR",
+    "flights": [
+      { "id": 2317647, "type": 2, "pts": 14.9 },
+      { "id": 2322765, "type": 1, "pts": 11.11 },
+      { "id": 2353876, "type": 1, "pts": 10.81 }
+    ]
+  },
+  {
+    "pilot": 3266,
+    "junior": 1,
+    "score": 36.625008,
+    "name": "MARUŠA GREŠAK",
+    "flights": [
+      { "id": 2361259, "type": 1, "pts": 13.17 },
+      { "id": 2366587, "type": 2, "pts": 12.02 },
+      { "id": 2372821, "type": 3, "pts": 11.43 }
+    ]
+  },
+  {
+    "pilot": 58179,
+    "junior": 0,
+    "score": 36.2466,
+    "name": "TOMAŽ KORPAR",
+    "flights": [
+      { "id": 2364871, "type": 1, "pts": 12.57 },
+      { "id": 2357023, "type": 1, "pts": 11.98 },
+      { "id": 2373048, "type": 1, "pts": 11.7 }
+    ]
+  },
+  {
+    "pilot": 1965,
+    "junior": 0,
+    "score": 35.570717,
+    "name": "PETER MURAUS",
+    "flights": [
+      { "id": 2361386, "type": 1, "pts": 12.71 },
+      { "id": 2348376, "type": 3, "pts": 12.1 },
+      { "id": 2348679, "type": 1, "pts": 10.76 }
+    ]
+  },
+  {
+    "pilot": 58470,
+    "junior": 0,
+    "score": 35.512398,
+    "name": "MATEJ KOSTANJEVEC",
+    "flights": [
+      { "id": 2367964, "type": 1, "pts": 12.67 },
+      { "id": 2357011, "type": 1, "pts": 12.33 },
+      { "id": 2373016, "type": 1, "pts": 10.51 }
+    ]
+  },
+  {
+    "pilot": 55583,
+    "junior": 0,
+    "score": 35.400448,
+    "name": "NIK KOŽELJ",
+    "flights": [
+      { "id": 2361036, "type": 2, "pts": 13.83 },
+      { "id": 2335769, "type": 2, "pts": 13.13 },
+      { "id": 2368564, "type": 3, "pts": 8.43 }
+    ]
+  },
+  {
+    "pilot": 58421,
+    "junior": 0,
+    "score": 35.2316,
+    "name": "BORIS JANŽEKOVIČ",
+    "flights": [
+      { "id": 2361022, "type": 1, "pts": 13.99 },
+      { "id": 2364888, "type": 1, "pts": 10.66 },
+      { "id": 2373085, "type": 1, "pts": 10.58 }
+    ]
+  },
+  {
+    "pilot": 1455,
+    "junior": 0,
+    "score": 35.045216,
+    "name": "ANTON SVOLJŠAK",
+    "flights": [
+      { "id": 2340975, "type": 2, "pts": 17.81 },
+      { "id": 2373637, "type": 3, "pts": 9.18 },
+      { "id": 2368161, "type": 3, "pts": 8.05 }
+    ]
+  },
+  {
+    "pilot": 53859,
+    "junior": 0,
+    "score": 34.944572,
+    "name": "ANDREJA BEZJAK",
+    "flights": [
+      { "id": 2350788, "type": 2, "pts": 18.96 },
+      { "id": 2373568, "type": 1, "pts": 8.14 },
+      { "id": 2356566, "type": 1, "pts": 7.84 }
+    ]
+  },
+  {
+    "pilot": 52573,
+    "junior": 0,
+    "score": 34.40059,
+    "name": "DAVID MURŠIČ",
+    "flights": [
+      { "id": 2359741, "type": 1, "pts": 12.7 },
+      { "id": 2318244, "type": 1, "pts": 12.07 },
+      { "id": 2333572, "type": 1, "pts": 9.64 }
+    ]
+  },
+  {
+    "pilot": 1015,
+    "junior": 0,
+    "score": 34.16,
+    "name": "KLEMEN PUKL",
+    "flights": [
+      { "id": 2345217, "type": 1, "pts": 17.2 },
+      { "id": 2362554, "type": 1, "pts": 11.2 },
+      { "id": 2356502, "type": 2, "pts": 5.76 }
+    ]
+  },
+  {
+    "pilot": 1469,
+    "junior": 0,
+    "score": 33.07345,
+    "name": "TADEJ BEGUŠ",
+    "flights": [
+      { "id": 2368861, "type": 1, "pts": 24.88 },
+      { "id": 2368860, "type": 1, "pts": 4.11 },
+      { "id": 2368859, "type": 1, "pts": 4.08 }
+    ]
+  },
+  {
+    "pilot": 50601,
+    "junior": 0,
+    "score": 32.899998,
+    "name": "ANDREJ PRIMC",
+    "flights": [
+      { "id": 2323404, "type": 1, "pts": 11.7 },
+      { "id": 2373734, "type": 1, "pts": 11.3 },
+      { "id": 2344634, "type": 1, "pts": 9.9 }
+    ]
+  },
+  {
+    "pilot": 2295,
+    "junior": 0,
+    "score": 32.8162,
+    "name": "MILAN KRAMBERGER",
+    "flights": [
+      { "id": 2317645, "type": 1, "pts": 12.0 },
+      { "id": 2373032, "type": 1, "pts": 11.22 },
+      { "id": 2335566, "type": 1, "pts": 9.6 }
+    ]
+  },
+  {
+    "pilot": 55709,
+    "junior": 1,
+    "score": 32.691093,
+    "name": "FABIJAN ŠTRUBELJ",
+    "flights": [
+      { "id": 2372799, "type": 1, "pts": 11.8 },
+      { "id": 2357874, "type": 3, "pts": 10.46 },
+      { "id": 2374747, "type": 2, "pts": 10.43 }
+    ]
+  },
+  {
+    "pilot": 30583,
+    "junior": 0,
+    "score": 32.52282,
+    "name": "ROMAN LOTRIČ",
+    "flights": [
+      { "id": 2323455, "type": 2, "pts": 13.38 },
+      { "id": 2324890, "type": 1, "pts": 10.6 },
+      { "id": 2324896, "type": 1, "pts": 8.54 }
+    ]
+  },
+  {
+    "pilot": 57200,
+    "junior": 0,
+    "score": 32.165318,
+    "name": "DOMINIK RIBIČ",
+    "flights": [
+      { "id": 2323651, "type": 1, "pts": 13.7 },
+      { "id": 2313724, "type": 1, "pts": 9.41 },
+      { "id": 2368597, "type": 3, "pts": 9.06 }
+    ]
+  },
+  {
+    "pilot": 55311,
+    "junior": 0,
+    "score": 31.85666,
+    "name": "ALEŠ SMAJIĆ",
+    "flights": [
+      { "id": 2353492, "type": 1, "pts": 14.54 },
+      { "id": 2375801, "type": 1, "pts": 8.72 },
+      { "id": 2356766, "type": 1, "pts": 8.6 }
+    ]
+  },
+  {
+    "pilot": 53865,
+    "junior": 0,
+    "score": 31.852291,
+    "name": "ALENKA ČEPURAN",
+    "flights": [
+      { "id": 2375466, "type": 1, "pts": 11.9 },
+      { "id": 2363623, "type": 1, "pts": 10.08 },
+      { "id": 2361460, "type": 1, "pts": 9.87 }
+    ]
+  },
+  {
+    "pilot": 1927,
+    "junior": 0,
+    "score": 31.599998,
+    "name": "ŽARKO LESKOVEC ",
+    "flights": [
+      { "id": 2348628, "type": 1, "pts": 15.2 },
+      { "id": 2356722, "type": 1, "pts": 10.9 },
+      { "id": 2356721, "type": 1, "pts": 5.5 }
+    ]
+  },
+  {
+    "pilot": 2394,
+    "junior": 0,
+    "score": 31.45637,
+    "name": "JOŽE ISKRA",
+    "flights": [
+      { "id": 2346376, "type": 1, "pts": 16.4 },
+      { "id": 2326359, "type": 1, "pts": 9.94 },
+      { "id": 2361886, "type": 1, "pts": 5.12 }
+    ]
+  },
+  {
+    "pilot": 45618,
+    "junior": 0,
+    "score": 31.349102,
+    "name": "MARIO KRAPEŽ",
+    "flights": [
+      { "id": 2333119, "type": 2, "pts": 14.45 },
+      { "id": 2333419, "type": 2, "pts": 11.8 },
+      { "id": 2328759, "type": 1, "pts": 5.1 }
+    ]
+  },
+  {
+    "pilot": 33587,
+    "junior": 0,
+    "score": 31.12732,
+    "name": "JURE BIZJAK",
+    "flights": [
+      { "id": 2334631, "type": 1, "pts": 11.03 },
+      { "id": 2358378, "type": 1, "pts": 10.72 },
+      { "id": 2345944, "type": 1, "pts": 9.38 }
+    ]
+  },
+  {
+    "pilot": 1779,
+    "junior": 0,
+    "score": 30.9249,
+    "name": "LADISLAV LESKOVŠEK",
+    "flights": [
+      { "id": 2354121, "type": 1, "pts": 16.42 },
+      { "id": 2348890, "type": 1, "pts": 7.6 },
+      { "id": 2367975, "type": 1, "pts": 6.9 }
+    ]
+  },
+  {
+    "pilot": 30302,
+    "junior": 0,
+    "score": 30.593035,
+    "name": "ANŽE KREK",
+    "flights": [
+      { "id": 2317437, "type": 1, "pts": 18.72 },
+      { "id": 2337675, "type": 1, "pts": 7.75 },
+      { "id": 2337674, "type": 2, "pts": 4.13 }
+    ]
+  },
+  {
+    "pilot": 3273,
+    "junior": 0,
+    "score": 30.56867,
+    "name": "TADEJ HRIBERŠEK",
+    "flights": [
+      { "id": 2368634, "type": 1, "pts": 12.52 },
+      { "id": 2337806, "type": 1, "pts": 9.79 },
+      { "id": 2352921, "type": 3, "pts": 8.26 }
+    ]
+  },
+  {
+    "pilot": 52695,
+    "junior": 0,
+    "score": 30.27157,
+    "name": "ANDRAŽ LEBAN",
+    "flights": [
+      { "id": 2357846, "type": 1, "pts": 17.98 },
+      { "id": 2315323, "type": 1, "pts": 6.3 },
+      { "id": 2333074, "type": 1, "pts": 5.99 }
+    ]
+  },
+  {
+    "pilot": 788,
+    "junior": 0,
+    "score": 30.21191,
+    "name": "JASMINA JOŠT",
+    "flights": [
+      { "id": 2324441, "type": 1, "pts": 10.4 },
+      { "id": 2363687, "type": 1, "pts": 9.91 },
+      { "id": 2363410, "type": 1, "pts": 9.9 }
+    ]
+  },
+  {
+    "pilot": 3167,
+    "junior": 0,
+    "score": 29.8976,
+    "name": "DAMJAN ČIBEJ",
+    "flights": [
+      { "id": 2374945, "type": 1, "pts": 16.1 },
+      { "id": 2372731, "type": 1, "pts": 7.85 },
+      { "id": 2373326, "type": 1, "pts": 5.95 }
+    ]
+  },
+  {
+    "pilot": 29511,
+    "junior": 0,
+    "score": 29.717634,
+    "name": "TADEJ FERK",
+    "flights": [
+      { "id": 2318532, "type": 1, "pts": 14.4 },
+      { "id": 2340380, "type": 3, "pts": 9.36 },
+      { "id": 2333414, "type": 1, "pts": 5.96 }
+    ]
+  },
+  {
+    "pilot": 56624,
+    "junior": 0,
+    "score": 29.48836,
+    "name": "JURE ŠAFARIČ",
+    "flights": [
+      { "id": 2323674, "type": 1, "pts": 12.1 },
+      { "id": 2356332, "type": 1, "pts": 9.77 },
+      { "id": 2369392, "type": 1, "pts": 7.61 }
+    ]
+  },
+  {
+    "pilot": 54455,
+    "junior": 0,
+    "score": 29.14294,
+    "name": "UROŠ POLJANEC",
+    "flights": [
+      { "id": 2351247, "type": 1, "pts": 11.8 },
+      { "id": 2325403, "type": 1, "pts": 10.18 },
+      { "id": 2376146, "type": 1, "pts": 7.16 }
+    ]
+  },
+  {
+    "pilot": 57550,
+    "junior": 0,
+    "score": 28.7,
+    "name": "MARJAN HREN",
+    "flights": [
+      { "id": 2318756, "type": 1, "pts": 16.6 },
+      { "id": 2318208, "type": 1, "pts": 12.1 }
+    ]
+  },
+  {
+    "pilot": 48258,
+    "junior": 0,
+    "score": 28.25922,
+    "name": "ANDREJ  PUŠNIK",
+    "flights": [
+      { "id": 2369350, "type": 1, "pts": 9.8 },
+      { "id": 2355597, "type": 1, "pts": 9.76 },
+      { "id": 2356917, "type": 1, "pts": 8.7 }
+    ]
+  },
+  {
+    "pilot": 57404,
+    "junior": 0,
+    "score": 27.93912,
+    "name": "ANDREJ FON",
+    "flights": [
+      { "id": 2368805, "type": 1, "pts": 12.72 },
+      { "id": 2356643, "type": 1, "pts": 7.65 },
+      { "id": 2357325, "type": 1, "pts": 7.57 }
+    ]
+  },
+  {
+    "pilot": 29488,
+    "junior": 0,
+    "score": 27.786581,
+    "name": "MIRAN DRAČ",
+    "flights": [
+      { "id": 2361209, "type": 1, "pts": 10.05 },
+      { "id": 2369473, "type": 1, "pts": 9.23 },
+      { "id": 2346484, "type": 1, "pts": 8.5 }
+    ]
+  },
+  {
+    "pilot": 1777,
+    "junior": 0,
+    "score": 27.7373,
+    "name": "MATJAŽ HABJANIČ",
+    "flights": [{ "id": 2333268, "type": 1, "pts": 27.74 }]
+  },
+  {
+    "pilot": 55604,
+    "junior": 0,
+    "score": 27.682217,
+    "name": "LEONIDA SELIŠEK",
+    "flights": [
+      { "id": 2358323, "type": 2, "pts": 10.86 },
+      { "id": 2324656, "type": 1, "pts": 9.95 },
+      { "id": 2335111, "type": 1, "pts": 6.88 }
+    ]
+  },
+  {
+    "pilot": 58403,
+    "junior": 0,
+    "score": 27.21992,
+    "name": "MIŠEL ŠKERBIŠ",
+    "flights": [
+      { "id": 2368537, "type": 1, "pts": 9.8 },
+      { "id": 2368673, "type": 2, "pts": 9.69 },
+      { "id": 2370186, "type": 1, "pts": 7.73 }
+    ]
+  },
+  {
+    "pilot": 2960,
+    "junior": 0,
+    "score": 26.98225,
+    "name": "STANE PLEMENITAŠ",
+    "flights": [
+      { "id": 2355397, "type": 1, "pts": 11.07 },
+      { "id": 2362606, "type": 1, "pts": 8.8 },
+      { "id": 2361482, "type": 1, "pts": 7.11 }
+    ]
+  },
+  {
+    "pilot": 56619,
+    "junior": 0,
+    "score": 26.396872,
+    "name": "MARJAN ŠUMNIK",
+    "flights": [
+      { "id": 2355250, "type": 1, "pts": 9.08 },
+      { "id": 2314782, "type": 1, "pts": 8.88 },
+      { "id": 2358169, "type": 1, "pts": 8.43 }
+    ]
+  },
+  {
+    "pilot": 53310,
+    "junior": 0,
+    "score": 26.39135,
+    "name": "JANA PAHOVNIK",
+    "flights": [
+      { "id": 2346653, "type": 1, "pts": 10.0 },
+      { "id": 2313898, "type": 1, "pts": 8.5 },
+      { "id": 2315268, "type": 1, "pts": 7.9 }
+    ]
+  },
+  {
+    "pilot": 55184,
+    "junior": 0,
+    "score": 26.3059,
+    "name": "BLAŽ LUŽAR",
+    "flights": [
+      { "id": 2313882, "type": 1, "pts": 13.51 },
+      { "id": 2314854, "type": 1, "pts": 6.4 },
+      { "id": 2369854, "type": 1, "pts": 6.4 }
+    ]
+  },
+  {
+    "pilot": 55269,
+    "junior": 0,
+    "score": 26.24521,
+    "name": "BLAŽ LONČARIČ",
+    "flights": [
+      { "id": 2334797, "type": 2, "pts": 16.86 },
+      { "id": 2333114, "type": 1, "pts": 6.64 },
+      { "id": 2334612, "type": 1, "pts": 2.75 }
+    ]
+  },
+  {
+    "pilot": 57956,
+    "junior": 0,
+    "score": 26.20937,
+    "name": "RADOMIR BERLAK",
+    "flights": [
+      { "id": 2375044, "type": 1, "pts": 8.94 },
+      { "id": 2323695, "type": 1, "pts": 8.9 },
+      { "id": 2373342, "type": 1, "pts": 8.36 }
+    ]
+  },
+  {
+    "pilot": 57823,
+    "junior": 0,
+    "score": 26.201601,
+    "name": "JAKOB DAMIJAN",
+    "flights": [
+      { "id": 2371794, "type": 1, "pts": 11.82 },
+      { "id": 2323718, "type": 1, "pts": 7.4 },
+      { "id": 2375910, "type": 1, "pts": 6.98 }
+    ]
+  },
+  {
+    "pilot": 1045,
+    "junior": 0,
+    "score": 26.0939,
+    "name": "GAŠPER PREVC",
+    "flights": [
+      { "id": 2317823, "type": 1, "pts": 10.32 },
+      { "id": 2335771, "type": 1, "pts": 7.9 },
+      { "id": 2321903, "type": 1, "pts": 7.88 }
+    ]
+  },
+  {
+    "pilot": 2836,
+    "junior": 0,
+    "score": 25.8983,
+    "name": "JADRANKA DRLIČ",
+    "flights": [
+      { "id": 2355563, "type": 1, "pts": 10.03 },
+      { "id": 2342737, "type": 1, "pts": 8.0 },
+      { "id": 2319275, "type": 1, "pts": 7.87 }
+    ]
+  },
+  {
+    "pilot": 45475,
+    "junior": 1,
+    "score": 25.6665,
+    "name": "KARMEN KRAPEŽ",
+    "flights": [{ "id": 2353656, "type": 1, "pts": 25.67 }]
+  },
+  {
+    "pilot": 58452,
+    "junior": 1,
+    "score": 25.623962,
+    "name": "ŽAN FRIDAU",
+    "flights": [
+      { "id": 2355421, "type": 1, "pts": 8.91 },
+      { "id": 2363280, "type": 1, "pts": 8.87 },
+      { "id": 2359795, "type": 3, "pts": 7.85 }
+    ]
+  },
+  {
+    "pilot": 35246,
+    "junior": 0,
+    "score": 25.07989,
+    "name": "IGOR KOKALJ",
+    "flights": [
+      { "id": 2313654, "type": 1, "pts": 9.8 },
+      { "id": 2317754, "type": 1, "pts": 7.65 },
+      { "id": 2368340, "type": 1, "pts": 7.63 }
+    ]
+  },
+  {
+    "pilot": 57896,
+    "junior": 0,
+    "score": 25.05101,
+    "name": "BERNARD ŠTIGLIC",
+    "flights": [
+      { "id": 2375072, "type": 1, "pts": 9.55 },
+      { "id": 2372310, "type": 1, "pts": 8.3 },
+      { "id": 2368215, "type": 1, "pts": 7.2 }
+    ]
+  },
+  {
+    "pilot": 47370,
+    "junior": 0,
+    "score": 24.774992,
+    "name": "RENATO HEREGA",
+    "flights": [
+      { "id": 2368633, "type": 1, "pts": 9.86 },
+      { "id": 2363745, "type": 2, "pts": 7.54 },
+      { "id": 2369484, "type": 1, "pts": 7.37 }
+    ]
+  },
+  {
+    "pilot": 45098,
+    "junior": 0,
+    "score": 24.76581,
+    "name": "SANDRA FABJAN",
+    "flights": [
+      { "id": 2369467, "type": 1, "pts": 8.5 },
+      { "id": 2369969, "type": 1, "pts": 8.23 },
+      { "id": 2368265, "type": 1, "pts": 8.03 }
+    ]
+  },
+  {
+    "pilot": 55156,
+    "junior": 0,
+    "score": 24.67885,
+    "name": "MIA ZUPANČIČ",
+    "flights": [
+      { "id": 2324119, "type": 1, "pts": 8.98 },
+      { "id": 2324120, "type": 1, "pts": 7.9 },
+      { "id": 2315444, "type": 1, "pts": 7.8 }
+    ]
+  },
+  {
+    "pilot": 53929,
+    "junior": 0,
+    "score": 24.58455,
+    "name": "LEA ČERVAN ",
+    "flights": [
+      { "id": 2356191, "type": 1, "pts": 9.17 },
+      { "id": 2357038, "type": 1, "pts": 8.3 },
+      { "id": 2344568, "type": 1, "pts": 7.12 }
+    ]
+  },
+  {
+    "pilot": 45216,
+    "junior": 0,
+    "score": 24.575861,
+    "name": "FRIDAU KRISTIJAN",
+    "flights": [
+      { "id": 2371715, "type": 1, "pts": 10.93 },
+      { "id": 2352765, "type": 1, "pts": 7.89 },
+      { "id": 2373904, "type": 2, "pts": 5.76 }
+    ]
+  },
+  {
+    "pilot": 56871,
+    "junior": 0,
+    "score": 24.50178,
+    "name": "DUŠAN RUTNIK",
+    "flights": [
+      { "id": 2323770, "type": 1, "pts": 9.2 },
+      { "id": 2333282, "type": 1, "pts": 7.92 },
+      { "id": 2369601, "type": 1, "pts": 7.39 }
+    ]
+  },
+  {
+    "pilot": 56508,
+    "junior": 0,
+    "score": 24.352509,
+    "name": "SERGEJ PUKŠIČ",
+    "flights": [
+      { "id": 2357022, "type": 1, "pts": 8.57 },
+      { "id": 2361029, "type": 1, "pts": 8.08 },
+      { "id": 2348270, "type": 1, "pts": 7.7 }
+    ]
+  },
+  {
+    "pilot": 30853,
+    "junior": 0,
+    "score": 24.31439,
+    "name": "ANŽE MOŽEK",
+    "flights": [
+      { "id": 2356351, "type": 1, "pts": 8.4 },
+      { "id": 2369082, "type": 1, "pts": 8.07 },
+      { "id": 2369078, "type": 1, "pts": 7.84 }
+    ]
+  },
+  {
+    "pilot": 58402,
+    "junior": 0,
+    "score": 24.21746,
+    "name": "KARMEN ŽOHAR",
+    "flights": [
+      { "id": 2374424, "type": 1, "pts": 9.6 },
+      { "id": 2374804, "type": 1, "pts": 7.4 },
+      { "id": 2374421, "type": 1, "pts": 7.21 }
+    ]
+  },
+  {
+    "pilot": 38970,
+    "junior": 0,
+    "score": 24.19788,
+    "name": "MARTIN PETERNEL",
+    "flights": [
+      { "id": 2350643, "type": 1, "pts": 10.2 },
+      { "id": 2325823, "type": 1, "pts": 9.5 },
+      { "id": 2321366, "type": 1, "pts": 4.5 }
+    ]
+  },
+  {
+    "pilot": 47709,
+    "junior": 0,
+    "score": 24.115679,
+    "name": "LUKA ZWITTER",
+    "flights": [
+      { "id": 2357077, "type": 2, "pts": 13.26 },
+      { "id": 2357076, "type": 1, "pts": 10.86 }
+    ]
+  },
+  {
+    "pilot": 56335,
+    "junior": 0,
+    "score": 24.09513,
+    "name": "ALJAŽ ČERNE",
+    "flights": [
+      { "id": 2317822, "type": 1, "pts": 9.2 },
+      { "id": 2329823, "type": 1, "pts": 7.5 },
+      { "id": 2318011, "type": 1, "pts": 7.4 }
+    ]
+  },
+  {
+    "pilot": 40638,
+    "junior": 0,
+    "score": 23.820597,
+    "name": "MARKO GRM",
+    "flights": [
+      { "id": 2339935, "type": 3, "pts": 8.38 },
+      { "id": 2332403, "type": 1, "pts": 8.08 },
+      { "id": 2337400, "type": 1, "pts": 7.36 }
+    ]
+  },
+  {
+    "pilot": 1108,
+    "junior": 0,
+    "score": 23.64781,
+    "name": "BRIGITA PLEMENITAŠ",
+    "flights": [
+      { "id": 2376934, "type": 1, "pts": 8.69 },
+      { "id": 2355556, "type": 1, "pts": 7.8 },
+      { "id": 2376935, "type": 1, "pts": 7.16 }
+    ]
+  },
+  {
+    "pilot": 40841,
+    "junior": 0,
+    "score": 22.891018,
+    "name": "ANDREJA LORENČAK ",
+    "flights": [
+      { "id": 2358225, "type": 3, "pts": 9.95 },
+      { "id": 2357070, "type": 1, "pts": 6.48 },
+      { "id": 2356323, "type": 2, "pts": 6.46 }
+    ]
+  },
+  {
+    "pilot": 30678,
+    "junior": 0,
+    "score": 22.6,
+    "name": "DUŠAN PREŽELJ",
+    "flights": [{ "id": 2318099, "type": 1, "pts": 22.6 }]
+  },
+  {
+    "pilot": 1412,
+    "junior": 0,
+    "score": 22.47814,
+    "name": "CIRIL OVSENIK",
+    "flights": [
+      { "id": 2326328, "type": 1, "pts": 8.1 },
+      { "id": 2337797, "type": 1, "pts": 7.22 },
+      { "id": 2319688, "type": 1, "pts": 7.16 }
+    ]
+  },
+  {
+    "pilot": 55063,
+    "junior": 1,
+    "score": 22.30617,
+    "name": "URŠKA ČERVAN ",
+    "flights": [
+      { "id": 2356958, "type": 1, "pts": 7.89 },
+      { "id": 2356197, "type": 1, "pts": 7.68 },
+      { "id": 2361113, "type": 1, "pts": 6.74 }
+    ]
+  },
+  {
+    "pilot": 3136,
+    "junior": 0,
+    "score": 22.131048,
+    "name": "MIRAN KRUŠIČ",
+    "flights": [
+      { "id": 2368685, "type": 3, "pts": 11.79 },
+      { "id": 2377078, "type": 1, "pts": 7.3 },
+      { "id": 2374322, "type": 1, "pts": 3.05 }
+    ]
+  },
+  {
+    "pilot": 56457,
+    "junior": 0,
+    "score": 22.115389,
+    "name": "PRIMOŽ BODLAJ",
+    "flights": [
+      { "id": 2351934, "type": 1, "pts": 8.08 },
+      { "id": 2322737, "type": 1, "pts": 7.28 },
+      { "id": 2329506, "type": 1, "pts": 6.75 }
+    ]
+  },
+  {
+    "pilot": 45474,
+    "junior": 0,
+    "score": 21.8926,
+    "name": "GREGOR GORIŠEK",
+    "flights": [
+      { "id": 2334548, "type": 1, "pts": 11.29 },
+      { "id": 2334547, "type": 1, "pts": 10.6 }
+    ]
+  },
+  {
+    "pilot": 1011,
+    "junior": 0,
+    "score": 21.6,
+    "name": "STANE ŠMERC",
+    "flights": [
+      { "id": 2352847, "type": 1, "pts": 8.4 },
+      { "id": 2333376, "type": 1, "pts": 6.8 },
+      { "id": 2329518, "type": 1, "pts": 6.4 }
+    ]
+  },
+  {
+    "pilot": 2402,
+    "junior": 0,
+    "score": 21.56089,
+    "name": "BORUT  POLOVŠAK",
+    "flights": [
+      { "id": 2376893, "type": 3, "pts": 15.53 },
+      { "id": 2376894, "type": 1, "pts": 6.03 }
+    ]
+  },
+  {
+    "pilot": 58153,
+    "junior": 0,
+    "score": 21.156149,
+    "name": "TOMAŽ KOGEJ",
+    "flights": [
+      { "id": 2369478, "type": 1, "pts": 7.93 },
+      { "id": 2371797, "type": 1, "pts": 7.12 },
+      { "id": 2369977, "type": 1, "pts": 6.11 }
+    ]
+  },
+  {
+    "pilot": 49375,
+    "junior": 0,
+    "score": 20.30738,
+    "name": "ROK LIPAR",
+    "flights": [
+      { "id": 2376292, "type": 1, "pts": 8.93 },
+      { "id": 2360937, "type": 1, "pts": 6.43 },
+      { "id": 2331206, "type": 1, "pts": 4.94 }
+    ]
+  },
+  {
+    "pilot": 56902,
+    "junior": 0,
+    "score": 20.10014,
+    "name": "ALJAŽ  MALI",
+    "flights": [
+      { "id": 2345169, "type": 1, "pts": 6.82 },
+      { "id": 2375398, "type": 1, "pts": 6.82 },
+      { "id": 2373745, "type": 1, "pts": 6.46 }
+    ]
+  },
+  {
+    "pilot": 56638,
+    "junior": 0,
+    "score": 20.05954,
+    "name": "ROK KRULEC",
+    "flights": [
+      { "id": 2313742, "type": 1, "pts": 7.33 },
+      { "id": 2312763, "type": 1, "pts": 6.99 },
+      { "id": 2312856, "type": 1, "pts": 5.74 }
+    ]
+  },
+  {
+    "pilot": 57971,
+    "junior": 1,
+    "score": 19.868391,
+    "name": "UROŠ JAZBEC",
+    "flights": [
+      { "id": 2356186, "type": 1, "pts": 6.8 },
+      { "id": 2369834, "type": 1, "pts": 6.57 },
+      { "id": 2356185, "type": 1, "pts": 6.5 }
+    ]
+  },
+  {
+    "pilot": 56774,
+    "junior": 0,
+    "score": 19.778841,
+    "name": "SIMON POPLATNIK",
+    "flights": [
+      { "id": 2318292, "type": 1, "pts": 8.7 },
+      { "id": 2333526, "type": 1, "pts": 8.01 },
+      { "id": 2315533, "type": 1, "pts": 3.08 }
+    ]
+  },
+  {
+    "pilot": 45105,
+    "junior": 0,
+    "score": 19.77468,
+    "name": "SIMON MONFARDINI",
+    "flights": [
+      { "id": 2367824, "type": 1, "pts": 7.65 },
+      { "id": 2320260, "type": 1, "pts": 7.02 },
+      { "id": 2347678, "type": 1, "pts": 5.1 }
+    ]
+  },
+  {
+    "pilot": 2338,
+    "junior": 0,
+    "score": 19.20141,
+    "name": "SAŠO MAVRI",
+    "flights": [
+      { "id": 2343515, "type": 1, "pts": 6.66 },
+      { "id": 2342721, "type": 1, "pts": 6.6 },
+      { "id": 2343556, "type": 1, "pts": 5.94 }
+    ]
+  },
+  {
+    "pilot": 3347,
+    "junior": 0,
+    "score": 19.0407,
+    "name": "DOMEN KASTNER",
+    "flights": [
+      { "id": 2376259, "type": 1, "pts": 6.81 },
+      { "id": 2375751, "type": 1, "pts": 6.43 },
+      { "id": 2348920, "type": 1, "pts": 5.8 }
+    ]
+  },
+  {
+    "pilot": 54833,
+    "junior": 0,
+    "score": 18.89548,
+    "name": "ZDRAVKO POLAK",
+    "flights": [
+      { "id": 2369339, "type": 1, "pts": 6.84 },
+      { "id": 2357950, "type": 1, "pts": 6.76 },
+      { "id": 2354576, "type": 1, "pts": 5.3 }
+    ]
+  },
+  {
+    "pilot": 1452,
+    "junior": 0,
+    "score": 18.89021,
+    "name": "JANEZ KANIŽAR",
+    "flights": [
+      { "id": 2318633, "type": 1, "pts": 7.35 },
+      { "id": 2326444, "type": 1, "pts": 6.14 },
+      { "id": 2318717, "type": 1, "pts": 5.4 }
+    ]
+  },
+  {
+    "pilot": 57426,
+    "junior": 0,
+    "score": 18.826065,
+    "name": "SAŠO ZADRAVEC",
+    "flights": [
+      { "id": 2368549, "type": 1, "pts": 6.89 },
+      { "id": 2333115, "type": 1, "pts": 6.48 },
+      { "id": 2359902, "type": 2, "pts": 5.45 }
+    ]
+  },
+  {
+    "pilot": 58072,
+    "junior": 0,
+    "score": 18.110111,
+    "name": "MATEJA MLINAR",
+    "flights": [
+      { "id": 2363908, "type": 1, "pts": 6.95 },
+      { "id": 2334653, "type": 1, "pts": 5.86 },
+      { "id": 2329524, "type": 1, "pts": 5.3 }
+    ]
+  },
+  {
+    "pilot": 57951,
+    "junior": 0,
+    "score": 17.52115,
+    "name": "MATJAŽ ČREŠNAR",
+    "flights": [
+      { "id": 2363918, "type": 1, "pts": 6.8 },
+      { "id": 2334698, "type": 1, "pts": 5.42 },
+      { "id": 2329523, "type": 1, "pts": 5.3 }
+    ]
+  },
+  {
+    "pilot": 54941,
+    "junior": 0,
+    "score": 17.104748,
+    "name": "UROŠ POLOVŠAK",
+    "flights": [
+      { "id": 2376898, "type": 3, "pts": 6.65 },
+      { "id": 2376896, "type": 1, "pts": 5.82 },
+      { "id": 2376900, "type": 1, "pts": 4.63 }
+    ]
+  },
+  {
+    "pilot": 1827,
+    "junior": 0,
+    "score": 17.07094,
+    "name": "JAKOB  SPORN",
+    "flights": [
+      { "id": 2324660, "type": 1, "pts": 6.14 },
+      { "id": 2325765, "type": 1, "pts": 5.59 },
+      { "id": 2336280, "type": 1, "pts": 5.34 }
+    ]
+  },
+  {
+    "pilot": 53406,
+    "junior": 1,
+    "score": 16.94012,
+    "name": "ŠPELA  KRNC",
+    "flights": [
+      { "id": 2349845, "type": 1, "pts": 6.72 },
+      { "id": 2356625, "type": 1, "pts": 5.81 },
+      { "id": 2318934, "type": 1, "pts": 4.41 }
+    ]
+  },
+  {
+    "pilot": 36137,
+    "junior": 0,
+    "score": 16.80821,
+    "name": "MARJAN TOVORNIK",
+    "flights": [
+      { "id": 2327964, "type": 1, "pts": 7.54 },
+      { "id": 2326170, "type": 1, "pts": 4.95 },
+      { "id": 2327164, "type": 1, "pts": 4.32 }
+    ]
+  },
+  {
+    "pilot": 55290,
+    "junior": 0,
+    "score": 16.47139,
+    "name": "SAŠO MIKLAVČIČ",
+    "flights": [
+      { "id": 2313886, "type": 1, "pts": 5.77 },
+      { "id": 2326921, "type": 1, "pts": 5.6 },
+      { "id": 2313884, "type": 1, "pts": 5.1 }
+    ]
+  },
+  {
+    "pilot": 34264,
+    "junior": 0,
+    "score": 16.28953,
+    "name": "JAKA  GORENC",
+    "flights": [
+      { "id": 2323172, "type": 1, "pts": 5.56 },
+      { "id": 2323176, "type": 1, "pts": 5.5 },
+      { "id": 2323180, "type": 1, "pts": 5.24 }
+    ]
+  },
+  {
+    "pilot": 55654,
+    "junior": 0,
+    "score": 15.982584,
+    "name": "ANDREJ SKUŠEK",
+    "flights": [
+      { "id": 2318196, "type": 1, "pts": 9.7 },
+      { "id": 2323588, "type": 1, "pts": 4.4 },
+      { "id": 2377185, "type": 2, "pts": 1.88 }
+    ]
+  },
+  {
+    "pilot": 1293,
+    "junior": 0,
+    "score": 15.90675,
+    "name": "BERNARD ČAKS",
+    "flights": [
+      { "id": 2317680, "type": 1, "pts": 10.33 },
+      { "id": 2317434, "type": 1, "pts": 5.58 }
+    ]
+  },
+  {
+    "pilot": 48650,
+    "junior": 0,
+    "score": 15.45986,
+    "name": "STANE TRUPI",
+    "flights": [
+      { "id": 2371378, "type": 1, "pts": 7.12 },
+      { "id": 2364285, "type": 1, "pts": 4.44 },
+      { "id": 2355739, "type": 1, "pts": 3.9 }
+    ]
+  },
+  {
+    "pilot": 57150,
+    "junior": 0,
+    "score": 15.4227,
+    "name": "ROMAN KAUČEVIČ",
+    "flights": [{ "id": 2359218, "type": 1, "pts": 15.42 }]
+  },
+  {
+    "pilot": 34153,
+    "junior": 0,
+    "score": 15.323461,
+    "name": "MATJAŽ SLUGA",
+    "flights": [
+      { "id": 2328496, "type": 1, "pts": 5.47 },
+      { "id": 2317461, "type": 1, "pts": 5.02 },
+      { "id": 2326158, "type": 1, "pts": 4.83 }
+    ]
+  },
+  {
+    "pilot": 57731,
+    "junior": 0,
+    "score": 15.08598,
+    "name": "ROK MULEJ",
+    "flights": [
+      { "id": 2330937, "type": 1, "pts": 5.46 },
+      { "id": 2330935, "type": 1, "pts": 4.83 },
+      { "id": 2330936, "type": 1, "pts": 4.8 }
+    ]
+  },
+  {
+    "pilot": 1460,
+    "junior": 0,
+    "score": 14.65586,
+    "name": "STANKO GOLIČNIK",
+    "flights": [
+      { "id": 2329166, "type": 1, "pts": 6.2 },
+      { "id": 2325703, "type": 1, "pts": 4.3 },
+      { "id": 2314010, "type": 1, "pts": 4.16 }
+    ]
+  },
+  {
+    "pilot": 55004,
+    "junior": 0,
+    "score": 14.38503,
+    "name": "ALJAŽ  ZEMLJIČ",
+    "flights": [
+      { "id": 2363954, "type": 1, "pts": 7.0 },
+      { "id": 2350012, "type": 1, "pts": 4.47 },
+      { "id": 2321898, "type": 1, "pts": 2.91 }
+    ]
+  },
+  {
+    "pilot": 55056,
+    "junior": 0,
+    "score": 14.33909,
+    "name": "ABAZ BEŠIČ",
+    "flights": [
+      { "id": 2368665, "type": 1, "pts": 6.08 },
+      { "id": 2376568, "type": 1, "pts": 5.71 },
+      { "id": 2326177, "type": 1, "pts": 2.54 }
+    ]
+  },
+  {
+    "pilot": 56837,
+    "junior": 0,
+    "score": 14.27644,
+    "name": "SABINA OSREDKAR",
+    "flights": [
+      { "id": 2372492, "type": 1, "pts": 6.11 },
+      { "id": 2369093, "type": 1, "pts": 5.99 },
+      { "id": 2369091, "type": 1, "pts": 2.17 }
+    ]
+  },
+  {
+    "pilot": 56202,
+    "junior": 0,
+    "score": 14.03901,
+    "name": "MIHA PUČNIK",
+    "flights": [
+      { "id": 2326937, "type": 1, "pts": 6.07 },
+      { "id": 2322030, "type": 1, "pts": 4.02 },
+      { "id": 2346250, "type": 1, "pts": 3.94 }
+    ]
+  },
+  {
+    "pilot": 54989,
+    "junior": 0,
+    "score": 13.70066,
+    "name": "MATIC FRIDRIH",
+    "flights": [
+      { "id": 2357866, "type": 1, "pts": 8.25 },
+      { "id": 2361480, "type": 1, "pts": 5.45 }
+    ]
+  },
+  {
+    "pilot": 55295,
+    "junior": 0,
+    "score": 13.618569,
+    "name": "UROŠ POLC",
+    "flights": [
+      { "id": 2372025, "type": 1, "pts": 5.89 },
+      { "id": 2355910, "type": 1, "pts": 3.93 },
+      { "id": 2333560, "type": 1, "pts": 3.8 }
+    ]
+  },
+  {
+    "pilot": 953,
+    "junior": 0,
+    "score": 13.516528,
+    "name": "MARKO BEZLAJ",
+    "flights": [
+      { "id": 2319479, "type": 1, "pts": 6.4 },
+      { "id": 2333315, "type": 3, "pts": 3.92 },
+      { "id": 2325224, "type": 1, "pts": 3.2 }
+    ]
+  },
+  {
+    "pilot": 47758,
+    "junior": 0,
+    "score": 13.33823,
+    "name": "BORIS SVETLIK",
+    "flights": [
+      { "id": 2376722, "type": 1, "pts": 4.84 },
+      { "id": 2367853, "type": 1, "pts": 4.4 },
+      { "id": 2376730, "type": 1, "pts": 4.1 }
+    ]
+  },
+  {
+    "pilot": 58611,
+    "junior": 0,
+    "score": 13.07861,
+    "name": "ZDRAVKO KOCJANČIČ",
+    "flights": [
+      { "id": 2364919, "type": 1, "pts": 4.87 },
+      { "id": 2364541, "type": 1, "pts": 4.54 },
+      { "id": 2369440, "type": 1, "pts": 3.68 }
+    ]
+  },
+  {
+    "pilot": 52929,
+    "junior": 0,
+    "score": 12.82014,
+    "name": "IZTOK FOŠNARIČ",
+    "flights": [
+      { "id": 2332570, "type": 1, "pts": 5.0 },
+      { "id": 2324988, "type": 1, "pts": 3.92 },
+      { "id": 2322351, "type": 1, "pts": 3.9 }
+    ]
+  },
+  {
+    "pilot": 2146,
+    "junior": 0,
+    "score": 12.527821,
+    "name": "ANŽE GRILC",
+    "flights": [
+      { "id": 2374730, "type": 1, "pts": 7.6 },
+      { "id": 2377391, "type": 1, "pts": 4.93 }
+    ]
+  },
+  {
+    "pilot": 51703,
+    "junior": 0,
+    "score": 12.3446,
+    "name": "PETER TROGAR",
+    "flights": [{ "id": 2340295, "type": 1, "pts": 12.34 }]
+  },
+  {
+    "pilot": 35852,
+    "junior": 0,
+    "score": 12.19062,
+    "name": "LUKA ČUK ",
+    "flights": [
+      { "id": 2326351, "type": 1, "pts": 5.14 },
+      { "id": 2357419, "type": 1, "pts": 4.0 },
+      { "id": 2324527, "type": 1, "pts": 3.05 }
+    ]
+  },
+  {
+    "pilot": 53926,
+    "junior": 0,
+    "score": 11.81207,
+    "name": "DARJAN BRODNIK",
+    "flights": [
+      { "id": 2312823, "type": 1, "pts": 7.0 },
+      { "id": 2313592, "type": 1, "pts": 2.81 },
+      { "id": 2313557, "type": 1, "pts": 2.0 }
+    ]
+  },
+  {
+    "pilot": 2430,
+    "junior": 0,
+    "score": 11.0691,
+    "name": "KATARINA WALLAND",
+    "flights": [
+      { "id": 2362275, "type": 1, "pts": 4.3 },
+      { "id": 2334659, "type": 1, "pts": 3.4 },
+      { "id": 2326794, "type": 1, "pts": 3.37 }
+    ]
+  },
+  {
+    "pilot": 53851,
+    "junior": 0,
+    "score": 10.961149,
+    "name": "KSENIJA PAHOVNIK",
+    "flights": [
+      { "id": 2346566, "type": 1, "pts": 6.54 },
+      { "id": 2350770, "type": 1, "pts": 4.42 }
+    ]
+  },
+  {
+    "pilot": 47311,
+    "junior": 0,
+    "score": 10.78834,
+    "name": "DEJAN PFEIFER",
+    "flights": [
+      { "id": 2369222, "type": 1, "pts": 4.51 },
+      { "id": 2374843, "type": 1, "pts": 4.22 },
+      { "id": 2375035, "type": 1, "pts": 2.06 }
+    ]
+  },
+  {
+    "pilot": 2078,
+    "junior": 0,
+    "score": 10.57189,
+    "name": "TOM SODJA",
+    "flights": [
+      { "id": 2318585, "type": 2, "pts": 4.0 },
+      { "id": 2318037, "type": 1, "pts": 3.86 },
+      { "id": 2325934, "type": 1, "pts": 2.71 }
+    ]
+  },
+  {
+    "pilot": 56306,
+    "junior": 0,
+    "score": 10.186141,
+    "name": "TIBOR LEVAČIČ",
+    "flights": [
+      { "id": 2312861, "type": 2, "pts": 5.09 },
+      { "id": 2314890, "type": 1, "pts": 2.87 },
+      { "id": 2317643, "type": 1, "pts": 2.23 }
+    ]
+  },
+  {
+    "pilot": 29563,
+    "junior": 0,
+    "score": 10.1047,
+    "name": "ALEŠ ŠAVER",
+    "flights": [{ "id": 2339348, "type": 1, "pts": 10.1 }]
+  },
+  {
+    "pilot": 52646,
+    "junior": 0,
+    "score": 10.09472,
+    "name": "MATJAŽ FERARIČ",
+    "flights": [
+      { "id": 2375802, "type": 1, "pts": 6.73 },
+      { "id": 2365513, "type": 1, "pts": 3.37 }
+    ]
+  },
+  {
+    "pilot": 41626,
+    "junior": 0,
+    "score": 9.7586,
+    "name": "JAKOB KOVAČ",
+    "flights": [
+      { "id": 2331521, "type": 1, "pts": 3.39 },
+      { "id": 2330747, "type": 1, "pts": 3.22 },
+      { "id": 2326122, "type": 1, "pts": 3.14 }
+    ]
+  },
+  {
+    "pilot": 50233,
+    "junior": 0,
+    "score": 9.63899,
+    "name": "STANKO KOVAČ",
+    "flights": [
+      { "id": 2358236, "type": 1, "pts": 5.05 },
+      { "id": 2358316, "type": 1, "pts": 2.53 },
+      { "id": 2358315, "type": 1, "pts": 2.07 }
+    ]
+  },
+  {
+    "pilot": 58155,
+    "junior": 0,
+    "score": 9.6,
+    "name": "MARTIN SOPOTNIK",
+    "flights": [{ "id": 2334742, "type": 1, "pts": 9.6 }]
+  },
+  {
+    "pilot": 2414,
+    "junior": 0,
+    "score": 9.28005,
+    "name": "KRISTJAN  KUŠČER",
+    "flights": [{ "id": 2353607, "type": 1, "pts": 9.28 }]
+  },
+  {
+    "pilot": 3179,
+    "junior": 0,
+    "score": 8.96,
+    "name": "BORUT GUMILAR",
+    "flights": [{ "id": 2374474, "type": 3, "pts": 8.96 }]
+  },
+  {
+    "pilot": 1036,
+    "junior": 0,
+    "score": 8.811,
+    "name": "SLAVKO KOLAR",
+    "flights": [
+      { "id": 2325373, "type": 1, "pts": 5.65 },
+      { "id": 2326226, "type": 1, "pts": 3.17 }
+    ]
+  },
+  {
+    "pilot": 55182,
+    "junior": 0,
+    "score": 8.748651,
+    "name": "BOŠTJAN VOGRINEC",
+    "flights": [
+      { "id": 2358143, "type": 1, "pts": 4.87 },
+      { "id": 2359048, "type": 1, "pts": 3.88 }
+    ]
+  },
+  {
+    "pilot": 58050,
+    "junior": 1,
+    "score": 8.09384,
+    "name": "NEŽKA ČERVAN ",
+    "flights": [
+      { "id": 2375589, "type": 1, "pts": 2.94 },
+      { "id": 2348622, "type": 1, "pts": 2.93 },
+      { "id": 2373718, "type": 1, "pts": 2.22 }
+    ]
+  },
+  {
+    "pilot": 29978,
+    "junior": 0,
+    "score": 7.88336,
+    "name": "MATEJ GOŠTE",
+    "flights": [
+      { "id": 2325928, "type": 1, "pts": 5.9 },
+      { "id": 2325926, "type": 1, "pts": 1.98 }
+    ]
+  },
+  {
+    "pilot": 30457,
+    "junior": 0,
+    "score": 7.6,
+    "name": "DAVID SLUGA",
+    "flights": [{ "id": 2326075, "type": 1, "pts": 7.6 }]
+  },
+  {
+    "pilot": 58371,
+    "junior": 0,
+    "score": 7.3695583,
+    "name": "DAMIR BELČIČ",
+    "flights": [
+      { "id": 2376524, "type": 2, "pts": 3.29 },
+      { "id": 2348233, "type": 1, "pts": 2.53 },
+      { "id": 2376518, "type": 1, "pts": 1.54 }
+    ]
+  },
+  {
+    "pilot": 974,
+    "junior": 0,
+    "score": 6.94118,
+    "name": "ANDREJ ČERČEK",
+    "flights": [
+      { "id": 2369228, "type": 1, "pts": 2.39 },
+      { "id": 2327126, "type": 1, "pts": 2.29 },
+      { "id": 2367963, "type": 1, "pts": 2.26 }
+    ]
+  },
+  {
+    "pilot": 2424,
+    "junior": 0,
+    "score": 6.67604,
+    "name": "SAŠO GRČAR",
+    "flights": [
+      { "id": 2318015, "type": 1, "pts": 2.84 },
+      { "id": 2324983, "type": 1, "pts": 2.01 },
+      { "id": 2324761, "type": 1, "pts": 1.82 }
+    ]
+  },
+  {
+    "pilot": 58023,
+    "junior": 1,
+    "score": 6.61259,
+    "name": "GAŠPER ČOPI",
+    "flights": [{ "id": 2324597, "type": 1, "pts": 6.61 }]
+  },
+  {
+    "pilot": 55284,
+    "junior": 0,
+    "score": 6.0981584,
+    "name": "ZDENKO ČUŠ",
+    "flights": [
+      { "id": 2346238, "type": 1, "pts": 2.23 },
+      { "id": 2343776, "type": 2, "pts": 2.06 },
+      { "id": 2346237, "type": 1, "pts": 1.8 }
+    ]
+  },
+  {
+    "pilot": 29565,
+    "junior": 0,
+    "score": 5.8219,
+    "name": "ALEŠ ŠUSTER",
+    "flights": [
+      { "id": 2322800, "type": 1, "pts": 4.3 },
+      { "id": 2323012, "type": 1, "pts": 1.52 }
+    ]
+  },
+  {
+    "pilot": 1906,
+    "junior": 0,
+    "score": 5.12237,
+    "name": "IGOR VIDRIH",
+    "flights": [{ "id": 2317333, "type": 1, "pts": 5.12 }]
+  },
+  {
+    "pilot": 53069,
+    "junior": 0,
+    "score": 4.86305,
+    "name": "JOŠT LAZNIK",
+    "flights": [
+      { "id": 2319821, "type": 1, "pts": 3.16 },
+      { "id": 2331161, "type": 1, "pts": 1.7 }
+    ]
+  },
+  {
+    "pilot": 45231,
+    "junior": 0,
+    "score": 4.8351297,
+    "name": "ŠPELA SELAN",
+    "flights": [
+      { "id": 2374741, "type": 1, "pts": 2.6 },
+      { "id": 2328902, "type": 1, "pts": 2.24 }
+    ]
+  },
+  {
+    "pilot": 1315,
+    "junior": 0,
+    "score": 3.7,
+    "name": "BRANKO PETERLIN",
+    "flights": [{ "id": 2326485, "type": 1, "pts": 3.7 }]
+  },
+  {
+    "pilot": 3378,
+    "junior": 0,
+    "score": 3.26838,
+    "name": "JOŽE REVEN",
+    "flights": [{ "id": 2325764, "type": 1, "pts": 3.27 }]
+  },
+  {
+    "pilot": 1400,
+    "junior": 0,
+    "score": 2.929939,
+    "name": "FRANC PRELOVŠEK ",
+    "flights": [
+      { "id": 2361203, "type": 1, "pts": 1.08 },
+      { "id": 2361202, "type": 1, "pts": 0.97 },
+      { "id": 2361207, "type": 1, "pts": 0.88 }
+    ]
+  },
+  {
+    "pilot": 30371,
+    "junior": 0,
+    "score": 2.86337,
+    "name": "JURE PISNIK",
+    "flights": [{ "id": 2317176, "type": 1, "pts": 2.86 }]
+  },
+  {
+    "pilot": 2150,
+    "junior": 0,
+    "score": 2.780361,
+    "name": "UROŠ KOSTANJŠEK",
+    "flights": [
+      { "id": 2365162, "type": 1, "pts": 2.3 },
+      { "id": 2365163, "type": 1, "pts": 0.48 }
+    ]
+  },
+  {
+    "pilot": 55659,
+    "junior": 0,
+    "score": 2.7012,
+    "name": "DAVOR KUKOVIČ",
+    "flights": [{ "id": 2346601, "type": 1, "pts": 2.7 }]
+  },
+  {
+    "pilot": 2353,
+    "junior": 0,
+    "score": 1.3011,
+    "name": "ANDREJ SAMSA",
+    "flights": [{ "id": 2324610, "type": 1, "pts": 1.3 }]
+  },
+  {
+    "pilot": 1784,
+    "junior": 0,
+    "score": 0.829141,
+    "name": "MARKO ŠKRUBA ",
+    "flights": [{ "id": 2335711, "type": 1, "pts": 0.83 }]
+  }
+]

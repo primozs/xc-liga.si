@@ -121,3 +121,4 @@ material/
 docker_prod/seccomp
 docker_prod/config
 dump.sql
+scripts
