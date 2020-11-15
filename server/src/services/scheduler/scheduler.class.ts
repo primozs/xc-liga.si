@@ -75,6 +75,20 @@ const updateScore2020 = async (app: Application) => {
       ...rest
     });
   }
+
+  // cleanup
+  const scores = await app
+    .service('scores')
+    .find({ query: { season: '2019-2020' }, paginate: false });
+
+  for (const score of scores) {
+    const found = resultsData.results.find(result => {
+      return result.pilot === score.pilotId;
+    });
+    if (!found) {
+      app.service('scores').remove(score._id);
+    }
+  }
 };
 
 const updateScore = async (app: Application) => {
@@ -104,6 +118,20 @@ const updateScore = async (app: Application) => {
       pilotId: pilot,
       ...rest
     });
+  }
+
+  // cleanup
+  const scores = await app
+    .service('scores')
+    .find({ query: { season }, paginate: false });
+
+  for (const score of scores) {
+    const found = resultsData.results.find(result => {
+      return result.pilot === score.pilotId;
+    });
+    if (!found) {
+      app.service('scores').remove(score._id);
+    }
   }
 };
 
