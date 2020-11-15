@@ -23,5 +23,6 @@ export default function (app: Application): void {
 
   const service = app.service('scores');
 
+  // @ts-ignore
   service.hooks(hooks);
 }

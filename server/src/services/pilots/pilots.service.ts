@@ -22,5 +22,6 @@ export default function (app: Application): void {
 
   const service = app.service('pilots');
 
+  // @ts-ignore
   service.hooks(hooks);
 }

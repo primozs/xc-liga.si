@@ -21,5 +21,6 @@ export default function (app: Application): void {
 
   const service = app.service('seasons');
 
+  // @ts-ignore
   service.hooks(hooks);
 }
