@@ -48,9 +48,12 @@ const updatePilots = async (app: Application) => {
   const pilots = await apiGetPilots(apiPilotsUrl);
   if (!pilots) return;
 
+  const promises = [];
   for (const { id, ...rest } of pilots) {
-    app.service('pilots').create({ _id: id, ...rest });
+    const promise = app.service('pilots').create({ _id: id, ...rest });
+    promises.push(promise);
   }
+  return Promise.all(promises);
 };
 
 const updateScore2020 = async (app: Application) => {
@@ -130,6 +133,10 @@ const updateScore = async (app: Application) => {
       return result.pilot === score.pilotId;
     });
     if (!found) {
+      app.service('scores').remove(score._id);
+    }
+
+    if (score.name === '') {
       app.service('scores').remove(score._id);
     }
   }

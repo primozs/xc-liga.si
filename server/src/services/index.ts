@@ -7,8 +7,8 @@ import scores from './scores/scores.service';
 
 export default function (app: Application): void {
   app.configure(users);
-  app.configure(seasons);
   app.configure(pilots);
+  app.configure(seasons);
   app.configure(scores);
   app.configure(scheduler);
 }
