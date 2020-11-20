@@ -1,21 +1,14 @@
 import React from 'react';
-import lzs from 'assets/ha.png';
+import HaSvg from 'assets/ha.svg';
 
 type Props = React.DetailedHTMLProps<
-  React.ImgHTMLAttributes<HTMLImageElement>,
-  HTMLImageElement
+  React.ImgHTMLAttributes<SVGElement>,
+  SVGElement
 >;
 
-const HaLogo = (props: Props) => {
-  return (
-    <img
-      src={lzs}
-      alt="High Adventure"
-      // width="198"
-      // height="87"
-      {...props}
-    />
-  );
+const HaLogo = ({ width = '100%', ...rest }: Props) => {
+  // @ts-ignore
+  return <HaSvg width={width} {...rest} />;
 };
 
 export default HaLogo;

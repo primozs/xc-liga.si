@@ -45,3 +45,7 @@ Leti preko treh točk se vrednotijo s faktorjem 1.0, leti v trikotniku s
 1.2 in leti v FAI trikotniku s 1.4. Štejejo samo leti s veljavno
 G-record oznako. Leti, pri nalaganju na strežnik, ne smejo biti starejši
 od desetih dni.
+
+## Sponzorji
+
+Zahvaljujemo se sponzorjem za praktične nagrade tekmovalcem.

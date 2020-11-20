@@ -1,21 +1,14 @@
 import React from 'react';
-import lzs from 'assets/naviter.png';
+import NaviterSvg from 'assets/naviter.svg';
 
 type Props = React.DetailedHTMLProps<
-  React.ImgHTMLAttributes<HTMLImageElement>,
-  HTMLImageElement
+  React.ImgHTMLAttributes<SVGElement>,
+  SVGElement
 >;
 
-const NaviterLogo = (props: Props) => {
-  return (
-    <img
-      src={lzs}
-      alt="Naviter"
-      // width="198"
-      // height="87"
-      {...props}
-    />
-  );
+const NaviterLogo = ({ width = '100%', ...rest }: Props) => {
+  // @ts-ignore
+  return <NaviterSvg width={width} {...rest} />;
 };
 
 export default NaviterLogo;
