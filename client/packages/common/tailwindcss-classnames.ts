@@ -2,25 +2,19 @@
 /* tslint:disable */
 import classnamesLib from 'classnames';
 
-export type TScreenReaders = 
-  | 'sr-only'
-  | 'not-sr-only';
+export type TScreenReaders = 'sr-only' | 'not-sr-only';
 
-export type TAccessibility =
-  | TScreenReaders
+export type TAccessibility = TScreenReaders;
 
-export type TBackgroundAttachment = 
-  | 'bg-fixed'
-  | 'bg-local'
-  | 'bg-scroll';
+export type TBackgroundAttachment = 'bg-fixed' | 'bg-local' | 'bg-scroll';
 
-export type TBackgroundClip = 
+export type TBackgroundClip =
   | 'bg-clip-border'
   | 'bg-clip-padding'
   | 'bg-clip-content'
   | 'bg-clip-text';
 
-export type TBackgroundColor = 
+export type TBackgroundColor =
   | 'bg-primary'
   | 'bg-primary1'
   | 'bg-primary2'
@@ -143,7 +137,7 @@ export type TBackgroundColor =
   | 'bg-pink-800'
   | 'bg-pink-900';
 
-export type TBackgroundOpacity = 
+export type TBackgroundOpacity =
   | 'bg-opacity-0'
   | 'bg-opacity-10'
   | 'bg-opacity-25'
@@ -151,7 +145,7 @@ export type TBackgroundOpacity =
   | 'bg-opacity-75'
   | 'bg-opacity-100';
 
-export type TBackgroundPosition = 
+export type TBackgroundPosition =
   | 'bg-bottom'
   | 'bg-center'
   | 'bg-left'
@@ -162,7 +156,7 @@ export type TBackgroundPosition =
   | 'bg-right-top'
   | 'bg-top';
 
-export type TBackgroundRepeat = 
+export type TBackgroundRepeat =
   | 'bg-repeat'
   | 'bg-no-repeat'
   | 'bg-repeat-x'
@@ -170,12 +164,9 @@ export type TBackgroundRepeat =
   | 'bg-repeat-round'
   | 'bg-repeat-space';
 
-export type TBackgroundSize = 
-  | 'bg-auto'
-  | 'bg-cover'
-  | 'bg-contain';
+export type TBackgroundSize = 'bg-auto' | 'bg-cover' | 'bg-contain';
 
-export type TBackgroundImage = 
+export type TBackgroundImage =
   | 'bg-none'
   | 'bg-gradient-to-t'
   | 'bg-gradient-to-tr'
@@ -186,7 +177,7 @@ export type TBackgroundImage =
   | 'bg-gradient-to-l'
   | 'bg-gradient-to-tl';
 
-export type TGradientColorStops = 
+export type TGradientColorStops =
   | 'from-primary'
   | 'via-primary'
   | 'to-primary'
@@ -560,9 +551,9 @@ export type TBackgrounds =
   | TBackgroundRepeat
   | TBackgroundSize
   | TBackgroundImage
-  | TGradientColorStops
+  | TGradientColorStops;
 
-export type TBorderColor = 
+export type TBorderColor =
   | 'border-primary'
   | 'border-primary1'
   | 'border-primary2'
@@ -685,21 +676,21 @@ export type TBorderColor =
   | 'border-pink-800'
   | 'border-pink-900';
 
-export type TBorderOpacity = 
+export type TBorderOpacity =
   | 'border-opacity-0'
   | 'border-opacity-25'
   | 'border-opacity-50'
   | 'border-opacity-75'
   | 'border-opacity-100';
 
-export type TBorderStyle = 
+export type TBorderStyle =
   | 'border-solid'
   | 'border-dashed'
   | 'border-dotted'
   | 'border-double'
   | 'border-none';
 
-export type TBorderWidth = 
+export type TBorderWidth =
   | 'border-t-0'
   | 'border-r-0'
   | 'border-b-0'
@@ -726,7 +717,7 @@ export type TBorderWidth =
   | 'border-l'
   | 'border';
 
-export type TBorderRadius = 
+export type TBorderRadius =
   | 'rounded-t-none'
   | 'rounded-r-none'
   | 'rounded-b-none'
@@ -809,7 +800,7 @@ export type TBorderRadius =
   | 'rounded-bl-full'
   | 'rounded-full';
 
-export type TDivideWidth = 
+export type TDivideWidth =
   | 'divide-x-0'
   | 'divide-y-0'
   | 'divide-x-2'
@@ -823,14 +814,14 @@ export type TDivideWidth =
   | 'divide-x-reverse'
   | 'divide-y-reverse';
 
-export type TDivideOpacity = 
+export type TDivideOpacity =
   | 'divide-opacity-0'
   | 'divide-opacity-25'
   | 'divide-opacity-50'
   | 'divide-opacity-75'
   | 'divide-opacity-100';
 
-export type TDivideColor = 
+export type TDivideColor =
   | 'divide-primary'
   | 'divide-primary1'
   | 'divide-primary2'
@@ -953,7 +944,7 @@ export type TDivideColor =
   | 'divide-pink-800'
   | 'divide-pink-900';
 
-export type TDivideStyle = 
+export type TDivideStyle =
   | 'divide-solid'
   | 'divide-dashed'
   | 'divide-dotted'
@@ -969,21 +960,15 @@ export type TBorders =
   | TDivideWidth
   | TDivideOpacity
   | TDivideColor
-  | TDivideStyle
+  | TDivideStyle;
 
-export type TBorderCollapse = 
-  | 'border-collapse'
-  | 'border-separate';
+export type TBorderCollapse = 'border-collapse' | 'border-separate';
 
-export type TTableLayout = 
-  | 'table-auto'
-  | 'table-fixed';
+export type TTableLayout = 'table-auto' | 'table-fixed';
 
-export type TTables =
-  | TBorderCollapse
-  | TTableLayout
+export type TTables = TBorderCollapse | TTableLayout;
 
-export type TBoxShadow = 
+export type TBoxShadow =
   | 'shadow-xs'
   | 'shadow-sm'
   | 'shadow'
@@ -992,21 +977,19 @@ export type TBoxShadow =
   | 'shadow-xl'
   | 'shadow-2xl'
   | 'shadow-inner'
-  | 'shadow-outline'
+  | 'ring'
   | 'shadow-none';
 
-export type TOpacity = 
+export type TOpacity =
   | 'opacity-0'
   | 'opacity-25'
   | 'opacity-50'
   | 'opacity-75'
   | 'opacity-100';
 
-export type TEffects =
-  | TBoxShadow
-  | TOpacity
+export type TEffects = TBoxShadow | TOpacity;
 
-export type TTransitionProperty = 
+export type TTransitionProperty =
   | 'transition-none'
   | 'transition-all'
   | 'transition'
@@ -1015,7 +998,7 @@ export type TTransitionProperty =
   | 'transition-shadow'
   | 'transition-transform';
 
-export type TTransitionDuration = 
+export type TTransitionDuration =
   | 'duration-75'
   | 'duration-100'
   | 'duration-150'
@@ -1025,13 +1008,13 @@ export type TTransitionDuration =
   | 'duration-700'
   | 'duration-1000';
 
-export type TTransitionTimingFunction = 
+export type TTransitionTimingFunction =
   | 'ease-linear'
   | 'ease-in'
   | 'ease-out'
   | 'ease-in-out';
 
-export type TTransitionDelay = 
+export type TTransitionDelay =
   | 'delay-75'
   | 'delay-100'
   | 'delay-150'
@@ -1041,7 +1024,7 @@ export type TTransitionDelay =
   | 'delay-700'
   | 'delay-1000';
 
-export type TAnimation = 
+export type TAnimation =
   | 'animate-none'
   | 'animate-spin'
   | 'animate-ping'
@@ -1053,41 +1036,38 @@ export type TTransitionsAndAnimations =
   | TTransitionDuration
   | TTransitionTimingFunction
   | TTransitionDelay
-  | TAnimation
+  | TAnimation;
 
-export type TFlexDirection = 
+export type TFlexDirection =
   | 'flex-row'
   | 'flex-row-reverse'
   | 'flex-col'
   | 'flex-col-reverse';
 
-export type TFlexWrap = 
-  | 'flex-no-wrap'
-  | 'flex-wrap'
-  | 'flex-wrap-reverse';
+export type TFlexWrap = 'flex-nowrap' | 'flex-wrap' | 'flex-wrap-reverse';
 
-export type TAlignItems = 
+export type TAlignItems =
   | 'items-stretch'
   | 'items-start'
   | 'items-center'
   | 'items-end'
   | 'items-baseline';
 
-export type TAlignContent = 
+export type TAlignContent =
   | 'content-start'
   | 'content-center'
   | 'content-end'
   | 'content-between'
   | 'content-around';
 
-export type TAlignSelf = 
+export type TAlignSelf =
   | 'self-auto'
   | 'self-start'
   | 'self-center'
   | 'self-end'
   | 'self-stretch';
 
-export type TPlaceContent = 
+export type TPlaceContent =
   | 'place-content-start'
   | 'place-content-center'
   | 'place-content-end'
@@ -1096,56 +1076,48 @@ export type TPlaceContent =
   | 'place-content-evenly'
   | 'place-content-stretch';
 
-export type TPlaceItems = 
+export type TPlaceItems =
   | 'place-items-auto'
   | 'place-items-start'
   | 'place-items-center'
   | 'place-items-end'
   | 'place-items-stretch';
 
-export type TPlaceSelf = 
+export type TPlaceSelf =
   | 'place-self-auto'
   | 'place-self-start'
   | 'place-self-center'
   | 'place-self-end'
   | 'place-self-stretch';
 
-export type TJustifyContent = 
+export type TJustifyContent =
   | 'justify-start'
   | 'justify-center'
   | 'justify-end'
   | 'justify-between'
   | 'justify-around';
 
-export type TJustifyItems = 
+export type TJustifyItems =
   | 'justify-items-auto'
   | 'justify-items-start'
   | 'justify-items-center'
   | 'justify-items-end'
   | 'justify-items-stretch';
 
-export type TJustifySelf = 
+export type TJustifySelf =
   | 'justify-self-auto'
   | 'justify-self-start'
   | 'justify-self-center'
   | 'justify-self-end'
   | 'justify-self-stretch';
 
-export type TFlex = 
-  | 'flex-initial'
-  | 'flex-1'
-  | 'flex-auto'
-  | 'flex-none';
+export type TFlex = 'flex-initial' | 'flex-1' | 'flex-auto' | 'flex-none';
 
-export type TFlexGrow = 
-  | 'flex-grow-0'
-  | 'flex-grow';
+export type TFlexGrow = 'flex-grow-0' | 'flex-grow';
 
-export type TFlexShrink = 
-  | 'flex-shrink-0'
-  | 'flex-shrink';
+export type TFlexShrink = 'flex-shrink-0' | 'flex-shrink';
 
-export type TOrder = 
+export type TOrder =
   | 'order-1'
   | 'order-2'
   | 'order-3'
@@ -1177,9 +1149,9 @@ export type TFlexBox =
   | TFlex
   | TFlexGrow
   | TFlexShrink
-  | TOrder
+  | TOrder;
 
-export type TGridTemplateColumns = 
+export type TGridTemplateColumns =
   | 'grid-cols-1'
   | 'grid-cols-2'
   | 'grid-cols-3'
@@ -1194,13 +1166,13 @@ export type TGridTemplateColumns =
   | 'grid-cols-12'
   | 'grid-cols-none';
 
-export type TGridAutoColumns = 
+export type TGridAutoColumns =
   | 'auto-cols-auto'
   | 'auto-cols-min'
   | 'auto-cols-max'
   | 'auto-cols-fr';
 
-export type TGridColumn = 
+export type TGridColumn =
   | 'col-auto'
   | 'col-span-1'
   | 'col-span-2'
@@ -1216,7 +1188,7 @@ export type TGridColumn =
   | 'col-span-12'
   | 'col-span-full';
 
-export type TGridColumnStart = 
+export type TGridColumnStart =
   | 'col-start-1'
   | 'col-start-2'
   | 'col-start-3'
@@ -1232,7 +1204,7 @@ export type TGridColumnStart =
   | 'col-start-13'
   | 'col-start-auto';
 
-export type TGridColumnEnd = 
+export type TGridColumnEnd =
   | 'col-end-1'
   | 'col-end-2'
   | 'col-end-3'
@@ -1248,7 +1220,7 @@ export type TGridColumnEnd =
   | 'col-end-13'
   | 'col-end-auto';
 
-export type TGridTemplateRows = 
+export type TGridTemplateRows =
   | 'grid-rows-1'
   | 'grid-rows-2'
   | 'grid-rows-3'
@@ -1257,13 +1229,13 @@ export type TGridTemplateRows =
   | 'grid-rows-6'
   | 'grid-rows-none';
 
-export type TGridAutoRows = 
+export type TGridAutoRows =
   | 'auto-rows-auto'
   | 'auto-rows-min'
   | 'auto-rows-max'
   | 'auto-rows-fr';
 
-export type TGridRow = 
+export type TGridRow =
   | 'row-auto'
   | 'row-span-1'
   | 'row-span-2'
@@ -1273,7 +1245,7 @@ export type TGridRow =
   | 'row-span-6'
   | 'row-span-full';
 
-export type TGridRowStart = 
+export type TGridRowStart =
   | 'row-start-1'
   | 'row-start-2'
   | 'row-start-3'
@@ -1283,7 +1255,7 @@ export type TGridRowStart =
   | 'row-start-7'
   | 'row-start-auto';
 
-export type TGridRowEnd = 
+export type TGridRowEnd =
   | 'row-end-1'
   | 'row-end-2'
   | 'row-end-3'
@@ -1293,7 +1265,7 @@ export type TGridRowEnd =
   | 'row-end-7'
   | 'row-end-auto';
 
-export type TGap = 
+export type TGap =
   | 'gap-0'
   | 'gap-1'
   | 'gap-2'
@@ -1352,7 +1324,7 @@ export type TGap =
   | 'gap-x-64'
   | 'gap-x-px';
 
-export type TGridAutoFlow = 
+export type TGridAutoFlow =
   | 'grid-flow-row'
   | 'grid-flow-col'
   | 'grid-flow-row-dense'
@@ -1370,9 +1342,9 @@ export type TGrid =
   | TGridRowStart
   | TGridRowEnd
   | TGap
-  | TGridAutoFlow
+  | TGridAutoFlow;
 
-export type TPadding = 
+export type TPadding =
   | 'p-0'
   | 'p-1'
   | 'p-2'
@@ -1507,7 +1479,7 @@ export type TPadding =
   | 'pl-64'
   | 'pl-px';
 
-export type TMargin = 
+export type TMargin =
   | 'm-0'
   | 'm-1'
   | 'm-2'
@@ -1782,7 +1754,7 @@ export type TMargin =
   | '-ml-64'
   | '-ml-px';
 
-export type TSpace = 
+export type TSpace =
   | 'space-x-0'
   | 'space-x-1'
   | 'space-x-2'
@@ -1862,15 +1834,11 @@ export type TSpace =
   | '-space-y-px'
   | 'space-y-reverse';
 
-export type TSpacing =
-  | TPadding
-  | TMargin
-  | TSpace
+export type TSpacing = TPadding | TMargin | TSpace;
 
-export type TAppearance = 
-  | 'appearance-none';
+export type TAppearance = 'appearance-none';
 
-export type TCursor = 
+export type TCursor =
   | 'cursor-auto'
   | 'cursor-default'
   | 'cursor-pointer'
@@ -1879,22 +1847,13 @@ export type TCursor =
   | 'cursor-move'
   | 'cursor-not-allowed';
 
-export type TOutline = 
-  | 'outline-none'
-  | 'outline-white'
-  | 'outline-black';
+export type TOutline = 'outline-none' | 'outline-white' | 'outline-black';
 
-export type TPointerEvents = 
-  | 'pointer-events-none'
-  | 'pointer-events-auto';
+export type TPointerEvents = 'pointer-events-none' | 'pointer-events-auto';
 
-export type TResize = 
-  | 'resize-none'
-  | 'resize'
-  | 'resize-y'
-  | 'resize-x';
+export type TResize = 'resize-none' | 'resize' | 'resize-y' | 'resize-x';
 
-export type TUserSelect = 
+export type TUserSelect =
   | 'select-none'
   | 'select-text'
   | 'select-all'
@@ -1906,9 +1865,9 @@ export type TInteractivity =
   | TOutline
   | TPointerEvents
   | TResize
-  | TUserSelect
+  | TUserSelect;
 
-export type TDisplay = 
+export type TDisplay =
   | 'block'
   | 'inline-block'
   | 'inline'
@@ -1922,33 +1881,22 @@ export type TDisplay =
   | 'contents'
   | 'hidden';
 
-export type TBoxSizing = 
-  | 'box-border'
-  | 'box-content';
+export type TBoxSizing = 'box-border' | 'box-content';
 
-export type TContainer = 
-  | 'container';
+export type TContainer = 'container';
 
-export type TFloat = 
-  | 'float-right'
-  | 'float-left'
-  | 'float-none'
-  | 'clearfix';
+export type TFloat = 'float-right' | 'float-left' | 'float-none' | 'flow-root';
 
-export type TClear = 
-  | 'clear-left'
-  | 'clear-right'
-  | 'clear-both'
-  | 'clear-none';
+export type TClear = 'clear-left' | 'clear-right' | 'clear-both' | 'clear-none';
 
-export type TObjectFit = 
+export type TObjectFit =
   | 'object-contain'
   | 'object-cover'
   | 'object-fill'
   | 'object-none'
   | 'object-scale-down';
 
-export type TObjectPosition = 
+export type TObjectPosition =
   | 'object-bottom'
   | 'object-center'
   | 'object-left'
@@ -1959,7 +1907,7 @@ export type TObjectPosition =
   | 'object-right-top'
   | 'object-top';
 
-export type TOverflow = 
+export type TOverflow =
   | 'overflow-auto'
   | 'overflow-hidden'
   | 'overflow-visible'
@@ -1975,7 +1923,7 @@ export type TOverflow =
   | 'scrolling-touch'
   | 'scrolling-auto';
 
-export type TOverscrollBehavior = 
+export type TOverscrollBehavior =
   | 'overscroll-auto'
   | 'overscroll-contain'
   | 'overscroll-none'
@@ -1986,14 +1934,9 @@ export type TOverscrollBehavior =
   | 'overscroll-x-contain'
   | 'overscroll-x-none';
 
-export type TPosition = 
-  | 'static'
-  | 'fixed'
-  | 'absolute'
-  | 'relative'
-  | 'sticky';
+export type TPosition = 'static' | 'fixed' | 'absolute' | 'relative' | 'sticky';
 
-export type TInset = 
+export type TInset =
   | 'inset-0'
   | 'inset-x-0'
   | 'inset-y-0'
@@ -2009,11 +1952,9 @@ export type TInset =
   | 'bottom-auto'
   | 'left-auto';
 
-export type TVisibility = 
-  | 'visible'
-  | 'invisible';
+export type TVisibility = 'visible' | 'invisible';
 
-export type TZIndex = 
+export type TZIndex =
   | 'z-0'
   | 'z-10'
   | 'z-20'
@@ -2035,9 +1976,9 @@ export type TLayout =
   | TPosition
   | TInset
   | TVisibility
-  | TZIndex
+  | TZIndex;
 
-export type TWidth = 
+export type TWidth =
   | 'w-0'
   | 'w-1'
   | 'w-2'
@@ -2087,7 +2028,7 @@ export type TWidth =
   | 'w-full'
   | 'w-screen';
 
-export type TMinWidth = 
+export type TMinWidth =
   | 'min-w-0'
   | 'min-w-1'
   | 'min-w-2'
@@ -2109,7 +2050,7 @@ export type TMinWidth =
   | 'min-w-max-content'
   | 'min-w-px';
 
-export type TMaxWidth = 
+export type TMaxWidth =
   | 'max-w-none'
   | 'max-w-xs'
   | 'max-w-sm'
@@ -2127,7 +2068,7 @@ export type TMaxWidth =
   | 'max-w-screen-lg'
   | 'max-w-screen-xl';
 
-export type THeight = 
+export type THeight =
   | 'h-0'
   | 'h-1'
   | 'h-2'
@@ -2151,12 +2092,9 @@ export type THeight =
   | 'h-full'
   | 'h-screen';
 
-export type TMinHeight = 
-  | 'min-h-0'
-  | 'min-h-full'
-  | 'min-h-screen';
+export type TMinHeight = 'min-h-0' | 'min-h-full' | 'min-h-screen';
 
-export type TMaxHeight = 
+export type TMaxHeight =
   | 'max-h-0'
   | 'max-h-1'
   | 'max-h-2'
@@ -2184,25 +2122,17 @@ export type TSizing =
   | TMaxWidth
   | THeight
   | TMinHeight
-  | TMaxHeight
+  | TMaxHeight;
 
-export type TFill = 
-  | 'fill-current';
+export type TFill = 'fill-current';
 
-export type TStroke = 
-  | 'stroke-current';
+export type TStroke = 'stroke-current';
 
-export type TStrokeWidth = 
-  | 'stroke-0'
-  | 'stroke-1'
-  | 'stroke-2';
+export type TStrokeWidth = 'stroke-0' | 'stroke-1' | 'stroke-2';
 
-export type TSVG =
-  | TFill
-  | TStroke
-  | TStrokeWidth
+export type TSVG = TFill | TStroke | TStrokeWidth;
 
-export type TScale = 
+export type TScale =
   | 'scale-0'
   | 'scale-50'
   | 'scale-75'
@@ -2234,7 +2164,7 @@ export type TScale =
   | 'scale-y-125'
   | 'scale-y-150';
 
-export type TRotate = 
+export type TRotate =
   | 'rotate-0'
   | 'rotate-1'
   | 'rotate-2'
@@ -2253,7 +2183,7 @@ export type TRotate =
   | '-rotate-2'
   | '-rotate-1';
 
-export type TTranslate = 
+export type TTranslate =
   | 'translate-x-0'
   | 'translate-x-1'
   | 'translate-x-2'
@@ -2339,7 +2269,7 @@ export type TTranslate =
   | 'translate-y-1/2'
   | 'translate-y-full';
 
-export type TSkew = 
+export type TSkew =
   | 'skew-x-0'
   | 'skew-x-1'
   | 'skew-x-2'
@@ -2363,7 +2293,7 @@ export type TSkew =
   | '-skew-y-2'
   | '-skew-y-1';
 
-export type TTransformOrigin = 
+export type TTransformOrigin =
   | 'origin-center'
   | 'origin-top'
   | 'origin-top-right'
@@ -2379,14 +2309,11 @@ export type TTransforms =
   | TRotate
   | TTranslate
   | TSkew
-  | TTransformOrigin
+  | TTransformOrigin;
 
-export type TFontFamily = 
-  | 'font-sans'
-  | 'font-serif'
-  | 'font-mono';
+export type TFontFamily = 'font-sans' | 'font-serif' | 'font-mono';
 
-export type TFontSize = 
+export type TFontSize =
   | 'text-xs'
   | 'text-sm'
   | 'text-base'
@@ -2398,15 +2325,11 @@ export type TFontSize =
   | 'text-5xl'
   | 'text-6xl';
 
-export type TFontSmoothing = 
-  | 'antialiased'
-  | 'subpixel-antialiased';
+export type TFontSmoothing = 'antialiased' | 'subpixel-antialiased';
 
-export type TFontStyle = 
-  | 'italic'
-  | 'non-italic';
+export type TFontStyle = 'italic' | 'non-italic';
 
-export type TFontWeight = 
+export type TFontWeight =
   | 'font-hairline'
   | 'font-thin'
   | 'font-light'
@@ -2417,7 +2340,7 @@ export type TFontWeight =
   | 'font-extrabold'
   | 'font-black';
 
-export type TFontVariantNumeric = 
+export type TFontVariantNumeric =
   | 'normal-nums'
   | 'ordinal'
   | 'slashed-zero'
@@ -2428,7 +2351,7 @@ export type TFontVariantNumeric =
   | 'diagonal-fractions'
   | 'stacked-fractions';
 
-export type TLetterSpacing = 
+export type TLetterSpacing =
   | 'tracking-tighter'
   | 'tracking-tight'
   | 'tracking-normal'
@@ -2436,7 +2359,7 @@ export type TLetterSpacing =
   | 'tracking-wider'
   | 'tracking-widest';
 
-export type TLineHeight = 
+export type TLineHeight =
   | 'leading-3'
   | 'leading-4'
   | 'leading-5'
@@ -2452,16 +2375,11 @@ export type TLineHeight =
   | 'leading-relaxed'
   | 'leading-loose';
 
-export type TListStyleType = 
-  | 'list-none'
-  | 'list-disc'
-  | 'list-decimal';
+export type TListStyleType = 'list-none' | 'list-disc' | 'list-decimal';
 
-export type TListStylePosition = 
-  | 'list-inside'
-  | 'list-outside';
+export type TListStylePosition = 'list-inside' | 'list-outside';
 
-export type TPlaceholderColor = 
+export type TPlaceholderColor =
   | 'placeholder-primary'
   | 'placeholder-primary1'
   | 'placeholder-primary2'
@@ -2584,20 +2502,20 @@ export type TPlaceholderColor =
   | 'placeholder-pink-800'
   | 'placeholder-pink-900';
 
-export type TPlaceholderOpacity = 
+export type TPlaceholderOpacity =
   | 'placeholder-opacity-0'
   | 'placeholder-opacity-25'
   | 'placeholder-opacity-50'
   | 'placeholder-opacity-75'
   | 'placeholder-opacity-100';
 
-export type TTextAlign = 
+export type TTextAlign =
   | 'text-left'
   | 'text-center'
   | 'text-right'
   | 'text-justify';
 
-export type TTextColor = 
+export type TTextColor =
   | 'text-primary'
   | 'text-primary1'
   | 'text-primary2'
@@ -2720,25 +2638,22 @@ export type TTextColor =
   | 'text-pink-800'
   | 'text-pink-900';
 
-export type TTextDecoration = 
-  | 'underline'
-  | 'line-through'
-  | 'no-underline';
+export type TTextDecoration = 'underline' | 'line-through' | 'no-underline';
 
-export type TTextOpacity = 
+export type TTextOpacity =
   | 'text-opacity-0'
   | 'text-opacity-25'
   | 'text-opacity-50'
   | 'text-opacity-75'
   | 'text-opacity-100';
 
-export type TTextTransform = 
+export type TTextTransform =
   | 'uppercase'
   | 'lowercase'
   | 'capitalize'
   | 'normal-case';
 
-export type TVerticalAlign = 
+export type TVerticalAlign =
   | 'align-baseline'
   | 'align-top'
   | 'align-middle'
@@ -2746,14 +2661,14 @@ export type TVerticalAlign =
   | 'align-text-top'
   | 'align-text-bottom';
 
-export type TWhitespace = 
+export type TWhitespace =
   | 'whitespace-normal'
-  | 'whitespace-no-wrap'
+  | 'whitespace-nowrap'
   | 'whitespace-pre'
   | 'whitespace-pre-line'
   | 'whitespace-pre-wrap';
 
-export type TWordBreak = 
+export type TWordBreak =
   | 'break-normal'
   | 'break-words'
   | 'break-all'
@@ -2779,8 +2694,7 @@ export type TTypography =
   | TTextTransform
   | TVerticalAlign
   | TWhitespace
-  | TWordBreak
-
+  | TWordBreak;
 
 export type TPseudoClasses =
   | 'sm:content-start'
@@ -8403,13 +8317,13 @@ export type TPseudoClasses =
   | 'hover:shadow-inner'
   | 'focus:shadow-inner'
   | 'dark:focus:shadow-inner'
-  | 'sm:shadow-outline'
-  | 'md:shadow-outline'
-  | 'lg:shadow-outline'
-  | 'xl:shadow-outline'
-  | 'hover:shadow-outline'
-  | 'focus:shadow-outline'
-  | 'dark:focus:shadow-outline'
+  | 'sm:ring'
+  | 'md:ring'
+  | 'lg:ring'
+  | 'xl:ring'
+  | 'hover:ring'
+  | 'focus:ring'
+  | 'dark:focus:ring'
   | 'sm:shadow-none'
   | 'md:shadow-none'
   | 'lg:shadow-none'
@@ -9262,10 +9176,10 @@ export type TPseudoClasses =
   | 'md:flex-shrink'
   | 'lg:flex-shrink'
   | 'xl:flex-shrink'
-  | 'sm:flex-no-wrap'
-  | 'md:flex-no-wrap'
-  | 'lg:flex-no-wrap'
-  | 'xl:flex-no-wrap'
+  | 'sm:flex-nowrap'
+  | 'md:flex-nowrap'
+  | 'lg:flex-nowrap'
+  | 'xl:flex-nowrap'
   | 'sm:flex-wrap'
   | 'md:flex-wrap'
   | 'lg:flex-wrap'
@@ -9286,10 +9200,10 @@ export type TPseudoClasses =
   | 'md:float-none'
   | 'lg:float-none'
   | 'xl:float-none'
-  | 'sm:clearfix'
-  | 'md:clearfix'
-  | 'lg:clearfix'
-  | 'xl:clearfix'
+  | 'sm:flow-root'
+  | 'md:flow-root'
+  | 'lg:flow-root'
+  | 'xl:flow-root'
   | 'sm:clear-left'
   | 'md:clear-left'
   | 'lg:clear-left'
@@ -15058,10 +14972,10 @@ export type TPseudoClasses =
   | 'md:whitespace-normal'
   | 'lg:whitespace-normal'
   | 'xl:whitespace-normal'
-  | 'sm:whitespace-no-wrap'
-  | 'md:whitespace-no-wrap'
-  | 'lg:whitespace-no-wrap'
-  | 'xl:whitespace-no-wrap'
+  | 'sm:whitespace-nowrap'
+  | 'md:whitespace-nowrap'
+  | 'lg:whitespace-nowrap'
+  | 'xl:whitespace-nowrap'
   | 'sm:whitespace-pre'
   | 'md:whitespace-pre'
   | 'lg:whitespace-pre'
@@ -17021,7 +16935,7 @@ export type TPseudoClasses =
   | 'md:not-sr-only'
   | 'lg:not-sr-only'
   | 'xl:not-sr-only'
-  | 'focus:not-sr-only'
+  | 'focus:not-sr-only';
 
 export type TCustomFormsPluginClasses =
   | 'form-input'
@@ -17029,14 +16943,14 @@ export type TCustomFormsPluginClasses =
   | 'form-select'
   | 'form-multiselect'
   | 'form-checkbox'
-  | 'form-radio'
+  | 'form-radio';
 
 export type TTypographyPluginClasses =
   | 'prose'
   | 'prose-sm'
   | 'prose-lg'
   | 'prose-xl'
-  | 'prose-2xl'
+  | 'prose-2xl';
 
 export type TClasses =
   | TLayout
@@ -17053,25 +16967,24 @@ export type TClasses =
   | TTransitionsAndAnimations
   | TInteractivity
   | TSVG
-  | TAccessibility   
+  | TAccessibility
   | TPseudoClasses;
 
+export type TTailwindString = 'TAILWIND_STRING';
 
-export type TTailwindString = "TAILWIND_STRING"
-
-export type TKey = TClasses | TTailwindString
+export type TKey = TClasses | TTailwindString;
 
 export type TArg =
   | TClasses
   | null
   | undefined
-  | {[key in TKey]?: boolean}
-  | TTailwindString
+  | { [key in TKey]?: boolean }
+  | TTailwindString;
 
-export type TTailwind = (...args: TArg[]) => TTailwindString
+export type TTailwind = (...args: TArg[]) => TTailwindString;
 
-export const classnames: TTailwind = classnamesLib as any
+export const classnames: TTailwind = classnamesLib as any;
 
-export const tw = classnames
+export const tw = classnames;
 
-export default tw
+export default tw;

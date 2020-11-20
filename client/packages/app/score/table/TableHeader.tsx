@@ -15,7 +15,7 @@ const TableHeader = (props: TableHeaderProps) => {
     'left-0'
   );
   return (
-    <THead className="text-xs sm:text-sm font-light uppercase text-white bg-primary1 whitespace-no-wrap">
+    <THead className="text-xs sm:text-sm font-light uppercase text-white bg-primary1 whitespace-nowrap">
       <tr>
         <Th className={pilotClasses}>Pilot</Th>
         <Th className={thClasses}>Točke</Th>

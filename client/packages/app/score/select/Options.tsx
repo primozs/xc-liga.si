@@ -9,7 +9,7 @@ const Options = ({ options = [] }: Props) => {
   return (
     <Listbox.Options
       static
-      className="max-h-60 py-1 text-base font-bold leading-6 shadow-xs overflow-auto focus:outline-none"
+      className="max-h-60 py-1 text-base font-bold leading-6 ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none"
     >
       {options.map((option) => (
         <Listbox.Option

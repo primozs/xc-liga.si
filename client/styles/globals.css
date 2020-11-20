@@ -26,9 +26,7 @@
 @media (min-width: 640px) {
   .gridcol-text-2 {
     display: grid;
-    grid-template-columns:
-      1fr
-      min(55ch, 100%);
+    grid-template-columns: 1fr min(51ch, 100%) 1fr;
   }
 
   .gridcol-text-2 > * {

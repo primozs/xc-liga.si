@@ -16,7 +16,7 @@ module.exports = {
             './pages/**/*.{js,ts,jsx,tsx}',
           ],
           options: {
-            whitelist: [],
+            safelist: [],
           },
         }
       : false,
@@ -56,7 +56,7 @@ module.exports = {
       },
     },
     typography: {
-      default: {
+      DEFAULT: {
         css: {
           h1: {
             fontWeight: '500',

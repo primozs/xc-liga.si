@@ -15,7 +15,7 @@ const SelectOptions = dynamic(() => import('./SelectOptions'), {
   loading: () => (
     <Listbox.Options
       static
-      className="max-h-60 py-1 text-base font-bold leading-6 shadow-xs overflow-auto focus:outline-none text-white"
+      className="max-h-60 py-1 text-base font-bold leading-6 ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none text-white"
     >
       Loading
     </Listbox.Options>
