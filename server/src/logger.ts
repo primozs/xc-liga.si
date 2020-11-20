@@ -10,7 +10,7 @@ const logger = createLogger({
     new transports.File({
       level: 'info',
       dirname: 'logs',
-      filename: 'scrappers.log',
+      filename: 'logs.log',
       options: { flags: 'w' },
       handleExceptions: true,
       tailable: true,

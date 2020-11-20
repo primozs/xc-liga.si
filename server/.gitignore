@@ -115,7 +115,6 @@ config/production.json
 config/test.json
 db/
 docker-compose.override.yml
-scrappers.session.sql
 .env
 material/
 docker_prod/seccomp
