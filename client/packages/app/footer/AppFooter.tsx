@@ -29,7 +29,7 @@ function AppFooter() {
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <Naviter width="180" />
+              <Naviter />
             </a>
           </Box>
           <Box pad="medium">
@@ -38,7 +38,7 @@ function AppFooter() {
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <HaLogo width="130" />
+              <HaLogo />
             </a>
           </Box>
         </Box>

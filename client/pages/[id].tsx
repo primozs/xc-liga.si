@@ -15,7 +15,7 @@ const RulesPage = ({ postData }: Props) => (
     </Head>
     <RulesHero />
     <article
-      className="px-5 py-5 mx-auto prose prose-sm sm:prose lg:prose-lg xl:prose-lg gridcol-text-2 sm:gap-4"
+      className="px-5 py-5 mx-auto sm:gap-4 prose prose-sm sm:prose lg:prose-lg xl:prose-lg gridcol-text-2"
       dangerouslySetInnerHTML={{ __html: postData?.contentHtml || '' }}
     />
   </>

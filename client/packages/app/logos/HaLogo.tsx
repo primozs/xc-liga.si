@@ -6,9 +6,11 @@ type Props = React.DetailedHTMLProps<
   SVGElement
 >;
 
+const style = { maxWidth: 130 };
+
 const HaLogo = ({ width = '100%', ...rest }: Props) => {
   // @ts-ignore
-  return <HaSvg width={width} {...rest} />;
+  return <HaSvg width={width} style={style} {...rest} />;
 };
 
 export default HaLogo;

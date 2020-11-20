@@ -6,9 +6,11 @@ type Props = React.DetailedHTMLProps<
   SVGElement
 >;
 
+const style = { maxWidth: 180 };
+
 const NaviterLogo = ({ width = '100%', ...rest }: Props) => {
   // @ts-ignore
-  return <NaviterSvg width={width} {...rest} />;
+  return <NaviterSvg width={width} style={style} {...rest} />;
 };
 
 export default NaviterLogo;

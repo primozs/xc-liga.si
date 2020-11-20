@@ -41,6 +41,7 @@
     grid-column: 1;
     text-align: right;
     font-size: 24px !important;
+    margin: 0 !important;
   }
 }
 
@@ -61,5 +62,4 @@
 .gridcol-text-2 > p,
 .gridcol-text-2 > ul {
   color: #004a69 !important;
-  margin: 0 !important;
 }
