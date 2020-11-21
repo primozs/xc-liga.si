@@ -28,8 +28,9 @@ function AppFooter() {
               href="http://naviter.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
+              aria-label="Naviter"
             >
-              <Naviter />
+              <Naviter title="Naviter" />
             </a>
           </Box>
           <Box pad="medium">
@@ -37,8 +38,9 @@ function AppFooter() {
               href="https://www.highadventure.ch/en/"
               target="_blank"
               rel="noopener noreferrer nofollow"
+              aria-label="highadventure"
             >
-              <HaLogo />
+              <HaLogo title="highadventure" />
             </a>
           </Box>
         </Box>
