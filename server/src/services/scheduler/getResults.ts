@@ -1,5 +1,7 @@
 import axios from 'axios';
 import results2020 from './lzs2019-2020.json';
+import pilots2021 from './xcliga2021/pilots.json';
+import results2021 from './xcliga2021/results.json';
 
 const transformFlight = (flight: ApiFlight): Flight => {
   switch (flight.type) {
@@ -73,6 +75,14 @@ const transformResults = (
 
 export const getResults2020 = (pilots: DbPilot[]): TransformedResults => {
   const resultsData = transformResults(results2020 as ApiResult[], pilots);
+  return resultsData;
+};
+
+export const getResults2021 = (): TransformedResults => {
+  const resultsData = transformResults(
+    results2021 as ApiResult[],
+    (pilots2021 as unknown) as DbPilot[]
+  );
   return resultsData;
 };
 

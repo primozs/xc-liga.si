@@ -4,7 +4,12 @@ import { Application } from '../../declarations';
 import logger from '../../logger';
 import { Moment } from 'moment';
 import { set5minAfterHJob } from './jobs/jobs';
-import { apiGetResults, apiGetPilots, getResults2020 } from './getResults';
+import {
+  apiGetResults,
+  apiGetPilots,
+  getResults2020,
+  getResults2021
+} from './getResults';
 
 type Status = {
   name: string;
@@ -94,6 +99,43 @@ const updateScore2020 = async (app: Application) => {
   }
 };
 
+const updateScore2021 = async (app: Application) => {
+  const lastUpdate = new Date('2021-09-30T23:59:59Z').getTime();
+  const resultsData = getResults2021();
+  const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
+
+  await app.service('seasons').create({
+    _id: '2020-2021',
+    season: '2020-2021',
+    noPilots,
+    totalNoFlights,
+    totalSeasonDist,
+    lastUpdate
+  });
+
+  for (const { pilot, ...rest } of results) {
+    await app.service('scores').create({
+      season: '2020-2021',
+      pilotId: pilot,
+      ...rest
+    });
+  }
+
+  // cleanup
+  const scores = await app
+    .service('scores')
+    .find({ query: { season: '2020-2021' }, paginate: false });
+
+  for (const score of scores) {
+    const found = resultsData.results.find(result => {
+      return result.pilot === score.pilotId;
+    });
+    if (!found) {
+      app.service('scores').remove(score._id);
+    }
+  }
+};
+
 const updateScore = async (app: Application) => {
   const apiConf = app.get('api');
   const apiResultsUrl = apiConf.results || '';
@@ -145,6 +187,7 @@ const updateScore = async (app: Application) => {
 const getDataJob = (app: Application) => async (): Promise<void> => {
   await updatePilots(app);
   await updateScore2020(app);
+  await updateScore2021(app);
   await updateScore(app);
 };
 
