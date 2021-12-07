@@ -79,10 +79,11 @@ export const getResults2020 = (pilots: DbPilot[]): TransformedResults => {
 };
 
 export const getResults2021 = (): TransformedResults => {
-  const resultsData = transformResults(
-    results2021 as ApiResult[],
-    (pilots2021 as unknown) as DbPilot[]
-  );
+  const list = (pilots2021 as unknown) as ApiPilot[];
+  const pilots: DbPilot[] = list.map(pilot => {
+    return { ...pilot, _id: pilot.id };
+  });
+  const resultsData = transformResults(results2021 as ApiResult[], pilots);
   return resultsData;
 };
 
