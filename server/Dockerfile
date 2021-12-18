@@ -1,24 +1,28 @@
-FROM node:12.19.0-alpine3.12 AS node
-RUN mkdir /app && chown node:node /app
+FROM node:16.13.1-alpine3.13 AS node
+RUN mkdir /app && chown -R node:node /app
 
-
-FROM node AS builder
+FROM node as deps
 WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn install
-COPY . .
-RUN yarn compile && rm -rf node_modules
-RUN yarn install --production && \
-  mkdir prod && \
-  cp -r node_modules prod/node_modules && \
-  cp -r lib prod/lib && \
-  cp -r public prod/public
 
+FROM node AS proddeps
+WORKDIR /app
+COPY package.json yarn.lock ./
+RUN yarn install --production --frozen-lockfile
+
+FROM node AS builder
+WORKDIR /app
+COPY . .
+COPY --from=deps /app/node_modules ./node_modules
+RUN yarn compile
 
 FROM node AS release
 WORKDIR /app
+COPY --from=builder /app/lib ./lib
+COPY --from=builder /app/public ./public
+COPY --from=proddeps /app/node_modules ./node_modules
 USER node
-COPY --from=builder /app/prod ./
 EXPOSE 3030
 ENV NODE_ENV=production
 CMD ["node", "lib", "index.js"]
