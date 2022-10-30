@@ -20,9 +20,9 @@ import authentication from './authentication';
 
 const app: Application = express(feathers());
 
-export type HookContext<T = any> = { app: Application } & FeathersHookContext<
-  T
->;
+export type HookContext<T = any> = {
+  app: Application;
+} & FeathersHookContext<T>;
 
 app.configure(configuration());
 
@@ -31,7 +31,16 @@ app.use(
     contentSecurityPolicy: false
   })
 );
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      'https://xc-liga.si',
+      'https://api.xc-liga.si',
+      'http://localhost:3000',
+      'http://localhost:3030'
+    ]
+  })
+);
 app.use(compress());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
