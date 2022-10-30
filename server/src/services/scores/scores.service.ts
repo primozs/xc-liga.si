@@ -15,7 +15,11 @@ declare module '../../declarations' {
 export default function (app: Application): void {
   const options = {
     Model: createModel(app),
-    paginate: app.get('paginate'),
+    // paginate: app.get('paginate'),
+    paginate: {
+      default: 2000,
+      max: 2000
+    },
     whitelist: ['$where', '$search']
   };
 
