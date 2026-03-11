@@ -59,6 +59,10 @@ const transformResults = (
     }, 0);
     totalSeasonDist += totalDist;
 
+    let gender = pilot ? pilot.gender : 'M';
+    // @ts-expect-error
+    if (gender === 'Ž') gender = 'F';
+
     return {
       ...result,
       junior: junior === 1 ? 'T' : 'F',
@@ -66,7 +70,7 @@ const transformResults = (
       noFlights,
       totalDist,
       flights: nFlights,
-      gender: pilot ? pilot.gender : 'M'
+      gender
     };
   });
 

@@ -1,7 +1,7 @@
 {
   "name": "xcliga-server",
   "description": "",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "homepage": "",
   "private": true,
   "main": "src",
