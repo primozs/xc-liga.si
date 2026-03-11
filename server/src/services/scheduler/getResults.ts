@@ -97,6 +97,16 @@ export const getResults2022 = async (
   return resultsData;
 };
 
+export const getResults2025 = async (
+  pilots: DbPilot[]
+): Promise<TransformedResults> => {
+  const res = await axios.get(
+    'https://xcglobe.com/admin/comp/lzsGetResults?year=2025'
+  );
+  const resultsData = transformResults(res.data as ApiResult[], pilots);
+  return resultsData;
+};
+
 export const apiGetResults = async (
   url: string,
   pilots: DbPilot[]

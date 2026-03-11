@@ -9,7 +9,8 @@ import {
   apiGetPilots,
   getResults2020,
   getResults2021,
-  getResults2022
+  getResults2022,
+  getResults2025
 } from './getResults';
 
 type Status = {
@@ -175,6 +176,44 @@ const updateScore2022 = async (app: Application) => {
   }
 };
 
+const updateScore2025 = async (app: Application) => {
+  const pilots = await app.service('pilots').find({ paginate: false });
+  const lastUpdate = new Date('2025-09-30T23:59:59Z').getTime();
+  const resultsData = await getResults2025(pilots);
+  const { results, noPilots, totalNoFlights, totalSeasonDist } = resultsData;
+
+  await app.service('seasons').create({
+    _id: '2024-2025',
+    season: '2024-2025',
+    noPilots,
+    totalNoFlights,
+    totalSeasonDist,
+    lastUpdate
+  });
+
+  for (const { pilot, ...rest } of results) {
+    await app.service('scores').create({
+      season: '2024-2025',
+      pilotId: pilot,
+      ...rest
+    });
+  }
+
+  // cleanup
+  const scores = await app
+    .service('scores')
+    .find({ query: { season: '2024-2025' }, paginate: false });
+
+  for (const score of scores) {
+    const found = resultsData.results.find(result => {
+      return result.pilot === score.pilotId;
+    });
+    if (!found) {
+      app.service('scores').remove(score._id);
+    }
+  }
+};
+
 const updateScore = async (app: Application) => {
   const apiConf = app.get('api');
   const apiResultsUrl = apiConf.results || '';
@@ -228,6 +267,7 @@ const getDataJob = (app: Application) => async (): Promise<void> => {
   await updateScore2020(app);
   await updateScore2021(app);
   await updateScore2022(app);
+  await updateScore2025(app);
   await updateScore(app);
 };
 
